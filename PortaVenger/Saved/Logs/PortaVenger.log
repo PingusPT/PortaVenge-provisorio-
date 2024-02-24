@@ -3068,3 +3068,130 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.24-12.08.08:935][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 707 ms)
 [2024.02.24-12.08.08:936][310]AssetCheck: New page: Asset Save: CaixaDeAreiaParaVFXs
 [2024.02.24-12.08.08:937][310]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/CaixaDeAreiaVFXs/CaixaDeAreiaParaVFXs.CaixaDeAreiaParaVFXs
+[2024.02.24-12.09.21:154][863]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2024.02.24-12.09.23:356][980]LogUdpMessaging: Display: Added local interface '192.168.1.67' to multicast group '230.0.0.1:6666'
+[2024.02.24-12.09.28:461][274]LogViewport: Scene viewport resized to 984x560, mode Windowed.
+[2024.02.24-12.09.28:486][275]LogViewport: Scene viewport resized to 984x540, mode Windowed.
+[2024.02.24-12.09.28:515][276]LogViewport: Scene viewport resized to 984x499, mode Windowed.
+[2024.02.24-12.09.28:551][277]LogViewport: Scene viewport resized to 984x467, mode Windowed.
+[2024.02.24-12.09.28:573][278]LogViewport: Scene viewport resized to 984x459, mode Windowed.
+[2024.02.24-12.09.28:607][279]LogViewport: Scene viewport resized to 984x445, mode Windowed.
+[2024.02.24-12.09.28:628][280]LogViewport: Scene viewport resized to 984x436, mode Windowed.
+[2024.02.24-12.09.28:655][281]LogViewport: Scene viewport resized to 984x426, mode Windowed.
+[2024.02.24-12.09.28:676][282]LogViewport: Scene viewport resized to 984x417, mode Windowed.
+[2024.02.24-12.09.28:701][283]LogViewport: Scene viewport resized to 984x405, mode Windowed.
+[2024.02.24-12.09.28:731][284]LogViewport: Scene viewport resized to 984x401, mode Windowed.
+[2024.02.24-12.09.28:753][285]LogViewport: Scene viewport resized to 984x400, mode Windowed.
+[2024.02.24-12.09.28:842][290]LogViewport: Scene viewport resized to 984x397, mode Windowed.
+[2024.02.24-12.09.28:860][291]LogViewport: Scene viewport resized to 984x396, mode Windowed.
+[2024.02.24-12.09.28:890][292]LogViewport: Scene viewport resized to 984x390, mode Windowed.
+[2024.02.24-12.09.28:917][293]LogViewport: Scene viewport resized to 984x383, mode Windowed.
+[2024.02.24-12.09.28:940][294]LogViewport: Scene viewport resized to 984x382, mode Windowed.
+[2024.02.24-12.09.55:225][734]LogViewport: Scene viewport resized to 984x384, mode Windowed.
+[2024.02.24-12.09.55:245][735]LogViewport: Scene viewport resized to 984x389, mode Windowed.
+[2024.02.24-12.09.55:282][736]LogViewport: Scene viewport resized to 984x402, mode Windowed.
+[2024.02.24-12.09.55:309][737]LogViewport: Scene viewport resized to 984x410, mode Windowed.
+[2024.02.24-12.09.55:337][738]LogViewport: Scene viewport resized to 984x417, mode Windowed.
+[2024.02.24-12.09.55:361][739]LogViewport: Scene viewport resized to 984x423, mode Windowed.
+[2024.02.24-12.09.55:390][740]LogViewport: Scene viewport resized to 984x428, mode Windowed.
+[2024.02.24-12.09.55:416][741]LogViewport: Scene viewport resized to 984x430, mode Windowed.
+[2024.02.24-12.09.55:442][742]LogViewport: Scene viewport resized to 984x433, mode Windowed.
+[2024.02.24-12.09.55:470][743]LogViewport: Scene viewport resized to 984x437, mode Windowed.
+[2024.02.24-12.09.55:495][744]LogViewport: Scene viewport resized to 984x445, mode Windowed.
+[2024.02.24-12.09.55:520][745]LogViewport: Scene viewport resized to 984x452, mode Windowed.
+[2024.02.24-12.09.55:546][746]LogViewport: Scene viewport resized to 984x461, mode Windowed.
+[2024.02.24-12.09.55:572][747]LogViewport: Scene viewport resized to 984x471, mode Windowed.
+[2024.02.24-12.09.55:598][748]LogViewport: Scene viewport resized to 984x477, mode Windowed.
+[2024.02.24-12.09.55:627][749]LogViewport: Scene viewport resized to 984x481, mode Windowed.
+[2024.02.24-12.09.55:654][750]LogViewport: Scene viewport resized to 984x483, mode Windowed.
+[2024.02.24-12.09.55:680][751]LogViewport: Scene viewport resized to 984x485, mode Windowed.
+[2024.02.24-12.09.55:705][752]LogViewport: Scene viewport resized to 984x489, mode Windowed.
+[2024.02.24-12.09.55:729][753]LogViewport: Scene viewport resized to 984x492, mode Windowed.
+[2024.02.24-12.09.55:754][754]LogViewport: Scene viewport resized to 984x494, mode Windowed.
+[2024.02.24-12.09.55:781][755]LogViewport: Scene viewport resized to 984x497, mode Windowed.
+[2024.02.24-12.09.55:810][756]LogViewport: Scene viewport resized to 984x502, mode Windowed.
+[2024.02.24-12.09.55:832][757]LogViewport: Scene viewport resized to 984x504, mode Windowed.
+[2024.02.24-12.09.55:857][758]LogViewport: Scene viewport resized to 984x505, mode Windowed.
+[2024.02.24-12.09.55:901][760]LogViewport: Scene viewport resized to 984x507, mode Windowed.
+[2024.02.24-12.09.55:921][761]LogViewport: Scene viewport resized to 984x508, mode Windowed.
+[2024.02.24-12.09.55:994][765]LogViewport: Scene viewport resized to 984x510, mode Windowed.
+[2024.02.24-12.09.56:013][766]LogViewport: Scene viewport resized to 984x511, mode Windowed.
+[2024.02.24-12.09.57:469][852]LogViewport: Scene viewport resized to 984x510, mode Windowed.
+[2024.02.24-12.09.57:487][853]LogViewport: Scene viewport resized to 984x503, mode Windowed.
+[2024.02.24-12.09.57:523][854]LogViewport: Scene viewport resized to 984x476, mode Windowed.
+[2024.02.24-12.09.57:548][855]LogViewport: Scene viewport resized to 984x465, mode Windowed.
+[2024.02.24-12.09.57:576][856]LogViewport: Scene viewport resized to 984x457, mode Windowed.
+[2024.02.24-12.09.57:602][857]LogViewport: Scene viewport resized to 984x451, mode Windowed.
+[2024.02.24-12.09.57:628][858]LogViewport: Scene viewport resized to 984x443, mode Windowed.
+[2024.02.24-12.09.57:655][859]LogViewport: Scene viewport resized to 984x434, mode Windowed.
+[2024.02.24-12.09.57:681][860]LogViewport: Scene viewport resized to 984x428, mode Windowed.
+[2024.02.24-12.09.57:709][861]LogViewport: Scene viewport resized to 984x424, mode Windowed.
+[2024.02.24-12.09.57:735][862]LogViewport: Scene viewport resized to 984x414, mode Windowed.
+[2024.02.24-12.09.57:763][863]LogViewport: Scene viewport resized to 984x407, mode Windowed.
+[2024.02.24-12.10.14:556][835]Cmd: DELETE
+[2024.02.24-12.10.14:556][835]Cmd: ACTOR DELETE
+[2024.02.24-12.10.16:616][835]LogSlate: Window 'Message' being destroyed
+[2024.02.24-12.10.16:622][835]Message dialog closed, result: No, title: Message, text: Actor SM_SphereMask2 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+(Soft) Object /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.3DTextPopup
+[2024.02.24-12.10.16:627][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.02.24-12.10.16:629][835]LogEditorActor: Deleted 0 Actors (0.009 secs)
+[2024.02.24-12.10.20:857][ 80]Cmd: DELETE
+[2024.02.24-12.10.20:857][ 80]Cmd: ACTOR DELETE
+[2024.02.24-12.10.21:719][ 80]LogSlate: Window 'Message' being destroyed
+[2024.02.24-12.10.21:725][ 80]Message dialog closed, result: Yes, title: Message, text: Actor SM_SphereMask2 is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+(Soft) Object /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.3DTextPopup
+[2024.02.24-12.10.21:726][ 80]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.24-12.10.21:730][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.02.24-12.10.21:733][ 80]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.02.24-12.10.31:856][677]Cmd: DELETE
+[2024.02.24-12.10.31:856][677]Cmd: ACTOR DELETE
+[2024.02.24-12.10.32:940][677]LogSlate: Window 'Message' being destroyed
+[2024.02.24-12.10.32:946][677]Message dialog closed, result: Yes, title: Message, text: Actor SM_SkySphere is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+(Soft) Object /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.3DTextPopup
+[2024.02.24-12.10.32:946][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.24-12.10.32:951][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.02.24-12.10.32:954][677]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.02.24-12.11.58:378][620]Cmd: TRANSACTION UNDO
+[2024.02.24-12.11.58:378][620]LogEditorTransaction: Undo Set Key Value
+[2024.02.24-12.12.10:160][295]Cmd: TRANSACTION UNDO
+[2024.02.24-12.12.10:160][295]LogEditorTransaction: Undo Set Key Value
+[2024.02.24-12.12.55:519][957]LogEditorViewport: Clicking Background
+[2024.02.24-12.13.06:560][599]LogEditorViewport: Clicking Background
+[2024.02.24-12.13.21:971][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-12.13.22:042][519]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup
+[2024.02.24-12.13.22:042][519]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/3DTextPopupDC4E0C524F9A341A6CD39E863C8B2E11.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.uasset'
+[2024.02.24-12.13.22:051][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 787 ms)
+[2024.02.24-12.13.22:052][519]AssetCheck: New page: Asset Save: 3DTextPopup
+[2024.02.24-12.13.22:052][519]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.3DTextPopup
+[2024.02.24-12.13.23:321][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-12.13.23:401][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.02.24-12.13.23:416][594]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/CaixaDeAreiaVFXs/CaixaDeAreiaParaVFXs
+[2024.02.24-12.13.23:417][594]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/CaixaDeAreiaParaVFXs0492FEBD498BA433131940848AC2C446.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Maps/CaixaDeAreiaVFXs/CaixaDeAreiaParaVFXs.umap'
+[2024.02.24-12.13.23:424][594]LogFileHelpers: Saving map 'CaixaDeAreiaParaVFXs' took 0.049
+[2024.02.24-12.13.23:433][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 899 ms)
+[2024.02.24-12.13.23:435][594]AssetCheck: New page: Asset Save: CaixaDeAreiaParaVFXs
+[2024.02.24-12.13.23:435][594]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/CaixaDeAreiaVFXs/CaixaDeAreiaParaVFXs.CaixaDeAreiaParaVFXs
+[2024.02.24-12.13.24:596][663]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-12.13.24:664][663]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup
+[2024.02.24-12.13.24:664][663]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/3DTextPopup7BCB80474522B67D3ED6559F69B2ADE6.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.uasset'
+[2024.02.24-12.13.24:673][663]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 976 ms)
+[2024.02.24-12.13.24:674][663]AssetCheck: New page: Asset Save: 3DTextPopup
+[2024.02.24-12.13.24:675][663]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.3DTextPopup
+[2024.02.24-12.13.26:013][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.24-12.13.26:081][743]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup
+[2024.02.24-12.13.26:082][743]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/3DTextPopup987D21854A974C2C47768B9D2BF4C09C.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.uasset'
+[2024.02.24-12.13.26:090][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 1.05 sec)
+[2024.02.24-12.13.26:091][743]AssetCheck: New page: Asset Save: 3DTextPopup
+[2024.02.24-12.13.26:091][743]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.3DTextPopup
