@@ -8667,3 +8667,282 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.25-11.32.51:866][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2024.02.25-11.32.51:866][524]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
 [2024.02.25-11.32.51:867][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: ================================================
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Total job queries 8, among them cache hits 1 (12.50%)
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 4 distinct outputs (100.00%)
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: RAM used: 127,10 KiB of 819,20 MiB budget. Usage: 0.02%
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Job execution time: average 1.35 s, max 1.35 s
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Job life time (pending + execution): average 1.45 s, max 1.45
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Shader code size: average 29,711 KiB, min 29,711 KiB, max 29,711 KiB
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.45 s
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Average processing rate: 0.69 jobs/sec
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Total thread time: 0,704 s
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Total thread preprocess time: 0,643 s
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Percentage time preprocessing: 91.39%
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Effective parallelization: 0.49 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2024.02.25-11.35.06:733][242]LogShaderCompilers: Display: ================================================
+[2024.02.25-11.35.07:120][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2024.02.25-11.35.07:121][261]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2024.02.25-11.35.07:121][261]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_0
+[2024.02.25-11.35.08:233][327]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2024.02.25-11.35.08:233][327]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2024.02.25-11.35.08:236][327]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200 as actor: StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_UAID_A8B13B9207F7A9DC01_1835901224
+[2024.02.25-11.35.25:761][343]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.25-11.35.25:768][343]LogContentBundle: [MainMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.25-11.35.25:768][343]LogWorldPartition: Display: GenerateStreaming for 'MainMap' started...
+[2024.02.25-11.35.25:861][343]LogWorldPartition: Display: GenerateStreaming for 'MainMap' took 93 ms (total: 6.27 sec)
+[2024.02.25-11.35.25:861][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.25-11.35.25:861][343]PIE: New page: PIE session: MainMap (25/02/2024, 11:35:25)
+[2024.02.25-11.35.25:862][343]LogPlayLevel: Display: Creating online subsystem for client :Context_71
+[2024.02.25-11.35.25:864][343]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2024.02.25-11.35.25:883][344]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2024.02.25-11.35.25:898][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015198s)
+[2024.02.25-11.35.25:898][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.015241s)
+[2024.02.25-11.35.25:909][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.02.25-11.35.25:921][344]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.25-11.35.25:921][344]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.25-11.35.25:922][344]LogAIModule: Creating AISystem for world MainMap
+[2024.02.25-11.35.25:922][344]LogWorldPartition: ULevel::OnLevelLoaded(MainMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.25-11.35.25:922][344]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.25-11.35.25:922][344]LogWorldPartition: UWorldPartition::Initialize : World = MainMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.02.25-11.35.25:923][344]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.02.25-11.35.25:925][344]LogContentBundle: [MainMap(Standalone)] Creating new contrainer.
+[2024.02.25-11.35.25:925][344]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 916 ms)
+[2024.02.25-11.35.25:925][344]LogPlayLevel: PIE: World Init took: (0.003837s)
+[2024.02.25-11.35.25:925][344]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2024.02.25-11.35.25:925][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.25-11.35.25:925][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.25-11.35.25:925][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.25-11.35.25:925][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.25-11.35.25:925][344]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.25-11.35.25:925][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.25-11.35.25:925][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.25-11.35.25:925][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.25-11.35.25:926][344]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.25-11.35.25:926][344]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.25-11.35.25:926][344]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.25-11.35.25:928][344]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.25-11.35.26:010][344]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.02.25-11.35.26:010][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.25-11.35.26:010][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.25-11.35.26:010][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.25-11.35.26:010][344]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2024.02.25-11.35.26:010][344]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2024.02.25-11.35.26:013][344]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2024.02.25-11.35.26:013][344]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2024.02.25-11.35.26:013][344]LogInit: FAudioDevice initialized with ID 62.
+[2024.02.25-11.35.26:013][344]LogAudio: Display: Audio Device (ID: 62) registered with world 'MainMap'.
+[2024.02.25-11.35.26:013][344]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2024.02.25-11.35.26:016][344]LogLoad: Game class is 'Main_GameMode_C'
+[2024.02.25-11.35.26:018][344]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2024.02.25-11.35.26
+[2024.02.25-11.35.26:018][344]LogWorld: Bringing up level for play took: 0.001386
+[2024.02.25-11.35.26:019][344]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.02.25-11.35.26:019][344]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.02.25-11.35.26:029][344]LogStreaming: Display: FlushAsyncLoading(): 56 QueuedPackages, 0 AsyncPackages
+[2024.02.25-11.35.26:231][344]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.02.25-11.35.26:231][344]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.02.25-11.35.26:231][344]PIE: Server logged in
+[2024.02.25-11.35.26:231][344]PIE: Play in editor total start time 0,464 seconds.
+[2024.02.25-11.35.36:945][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-11.35.36:945][982]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2024.02.25-11.35.36:960][982]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.25-11.35.36:960][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-11.35.36:961][982]LogContentBundle: [MainMap(Standalone)] Deleting container.
+[2024.02.25-11.35.36:964][982]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.25-11.35.36:968][982]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-11.35.36:983][982]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.25-11.35.36:986][982]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2024.02.25-11.35.36:986][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.02.25-11.35.36:988][982]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.02.25-11.35.37:007][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-11.35.37:019][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.02.25-11.35.37:094][983]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2024.02.25-11.36.14:409][196]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.25-11.36.14:416][196]LogContentBundle: [MainMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.25-11.36.14:416][196]LogWorldPartition: Display: GenerateStreaming for 'MainMap' started...
+[2024.02.25-11.36.14:509][196]LogWorldPartition: Display: GenerateStreaming for 'MainMap' took 92 ms (total: 6.37 sec)
+[2024.02.25-11.36.14:509][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.25-11.36.14:509][196]PIE: New page: PIE session: MainMap (25/02/2024, 11:36:14)
+[2024.02.25-11.36.14:509][196]LogPlayLevel: Display: Creating online subsystem for client :Context_72
+[2024.02.25-11.36.14:512][196]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2024.02.25-11.36.14:551][197]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2024.02.25-11.36.14:567][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014770s)
+[2024.02.25-11.36.14:567][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.014812s)
+[2024.02.25-11.36.14:575][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.02.25-11.36.14:581][197]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.25-11.36.14:581][197]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.25-11.36.14:581][197]LogAIModule: Creating AISystem for world MainMap
+[2024.02.25-11.36.14:582][197]LogWorldPartition: ULevel::OnLevelLoaded(MainMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.25-11.36.14:582][197]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.25-11.36.14:582][197]LogWorldPartition: UWorldPartition::Initialize : World = MainMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.02.25-11.36.14:582][197]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.02.25-11.36.14:584][197]LogContentBundle: [MainMap(Standalone)] Creating new contrainer.
+[2024.02.25-11.36.14:584][197]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 918 ms)
+[2024.02.25-11.36.14:584][197]LogPlayLevel: PIE: World Init took: (0.003606s)
+[2024.02.25-11.36.14:584][197]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2024.02.25-11.36.14:584][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.25-11.36.14:584][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.25-11.36.14:584][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.25-11.36.14:584][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.25-11.36.14:584][197]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.25-11.36.14:584][197]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.25-11.36.14:584][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.25-11.36.14:584][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.25-11.36.14:585][197]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.25-11.36.14:585][197]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.25-11.36.14:585][197]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.25-11.36.14:586][197]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.25-11.36.14:665][197]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.02.25-11.36.14:665][197]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.25-11.36.14:665][197]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.25-11.36.14:665][197]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.25-11.36.14:666][197]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2024.02.25-11.36.14:666][197]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2024.02.25-11.36.14:667][197]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2024.02.25-11.36.14:667][197]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2024.02.25-11.36.14:667][197]LogInit: FAudioDevice initialized with ID 63.
+[2024.02.25-11.36.14:667][197]LogAudio: Display: Audio Device (ID: 63) registered with world 'MainMap'.
+[2024.02.25-11.36.14:667][197]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2024.02.25-11.36.14:671][197]LogLoad: Game class is 'Main_GameMode_C'
+[2024.02.25-11.36.14:672][197]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2024.02.25-11.36.14
+[2024.02.25-11.36.14:672][197]LogWorld: Bringing up level for play took: 0.001485
+[2024.02.25-11.36.14:674][197]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.02.25-11.36.14:674][197]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.02.25-11.36.14:682][197]LogStreaming: Display: FlushAsyncLoading(): 56 QueuedPackages, 0 AsyncPackages
+[2024.02.25-11.36.14:878][197]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.02.25-11.36.14:878][197]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.02.25-11.36.14:879][197]PIE: Server logged in
+[2024.02.25-11.36.14:879][197]PIE: Play in editor total start time 0,463 seconds.
+[2024.02.25-11.36.25:999][863]Set new viewmode: Wireframe
+[2024.02.25-11.36.26:832][913]Set new viewmode: Wireframe
+[2024.02.25-11.36.27:665][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-11.36.27:665][961]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2024.02.25-11.36.27:682][961]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.25-11.36.27:682][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-11.36.27:682][961]LogContentBundle: [MainMap(Standalone)] Deleting container.
+[2024.02.25-11.36.27:685][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.25-11.36.27:690][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-11.36.27:705][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-11.36.27:706][961]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2024.02.25-11.36.27:706][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.02.25-11.36.27:708][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.02.25-11.36.27:741][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.02.25-11.36.27:802][962]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2024.02.25-11.37.17:365][889]Cmd: EDIT COPY
+[2024.02.25-11.37.18:394][950]Cmd: EDIT PASTE
+[2024.02.25-11.37.39:865][231]Cmd: EDIT COPY
+[2024.02.25-11.37.40:421][264]Cmd: EDIT PASTE
+[2024.02.25-11.38.05:486][757]Cmd: EDIT COPY
+[2024.02.25-11.38.06:319][807]Cmd: EDIT PASTE
+[2024.02.25-11.38.20:243][635]Cmd: EDIT COPY
+[2024.02.25-11.38.20:704][662]Cmd: EDIT PASTE
+[2024.02.25-11.38.33:163][389]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.25-11.38.33:170][389]LogContentBundle: [MainMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.02.25-11.38.33:170][389]LogWorldPartition: Display: GenerateStreaming for 'MainMap' started...
+[2024.02.25-11.38.33:265][389]LogWorldPartition: Display: GenerateStreaming for 'MainMap' took 94 ms (total: 6.46 sec)
+[2024.02.25-11.38.33:265][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.25-11.38.33:265][389]PIE: New page: PIE session: MainMap (25/02/2024, 11:38:33)
+[2024.02.25-11.38.33:312][389]LogPlayLevel: Display: Creating online subsystem for client :Context_73
+[2024.02.25-11.38.33:317][389]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2024.02.25-11.38.33:365][390]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2024.02.25-11.38.33:381][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014988s)
+[2024.02.25-11.38.33:381][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.015034s)
+[2024.02.25-11.38.33:393][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.02.25-11.38.33:398][390]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.25-11.38.33:398][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.02.25-11.38.33:398][390]LogAIModule: Creating AISystem for world MainMap
+[2024.02.25-11.38.33:399][390]LogWorldPartition: ULevel::OnLevelLoaded(MainMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.02.25-11.38.33:399][390]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.02.25-11.38.33:399][390]LogWorldPartition: UWorldPartition::Initialize : World = MainMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.02.25-11.38.33:399][390]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.02.25-11.38.33:402][390]LogContentBundle: [MainMap(Standalone)] Creating new contrainer.
+[2024.02.25-11.38.33:402][390]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 921 ms)
+[2024.02.25-11.38.33:402][390]LogPlayLevel: PIE: World Init took: (0.003694s)
+[2024.02.25-11.38.33:402][390]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2024.02.25-11.38.33:402][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.25-11.38.33:402][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.25-11.38.33:402][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.25-11.38.33:402][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.25-11.38.33:402][390]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.25-11.38.33:402][390]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.25-11.38.33:402][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.25-11.38.33:402][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.25-11.38.33:402][390]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.25-11.38.33:402][390]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.25-11.38.33:402][390]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.25-11.38.33:404][390]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.25-11.38.33:486][390]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.02.25-11.38.33:486][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.25-11.38.33:486][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.25-11.38.33:486][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.25-11.38.33:486][390]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2024.02.25-11.38.33:486][390]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2024.02.25-11.38.33:488][390]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2024.02.25-11.38.33:488][390]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2024.02.25-11.38.33:488][390]LogInit: FAudioDevice initialized with ID 64.
+[2024.02.25-11.38.33:488][390]LogAudio: Display: Audio Device (ID: 64) registered with world 'MainMap'.
+[2024.02.25-11.38.33:488][390]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2024.02.25-11.38.33:492][390]LogLoad: Game class is 'Main_GameMode_C'
+[2024.02.25-11.38.33:494][390]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 60) at 2024.02.25-11.38.33
+[2024.02.25-11.38.33:494][390]LogWorld: Bringing up level for play took: 0.001490
+[2024.02.25-11.38.33:495][390]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.02.25-11.38.33:495][390]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-200.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.02.25-11.38.33:504][390]LogStreaming: Display: FlushAsyncLoading(): 56 QueuedPackages, 0 AsyncPackages
+[2024.02.25-11.38.33:703][390]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.02.25-11.38.33:703][390]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.02.25-11.38.33:703][390]PIE: Server logged in
+[2024.02.25-11.38.33:704][390]PIE: Play in editor total start time 0,533 seconds.
+[2024.02.25-11.38.46:263][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-11.38.46:263][140]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2024.02.25-11.38.46:278][140]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.02.25-11.38.46:278][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-11.38.46:278][140]LogContentBundle: [MainMap(Standalone)] Deleting container.
+[2024.02.25-11.38.46:281][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.25-11.38.46:285][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.25-11.38.46:301][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.25-11.38.46:301][140]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2024.02.25-11.38.46:301][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.02.25-11.38.46:303][140]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.02.25-11.38.46:338][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.02.25-11.38.46:393][141]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2024.02.25-11.39.40:974][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.02.25-11.39.40:979][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MainMap/D/FJ/2SIMNBSVIYMEQLFAC60S56_Auto5
+[2024.02.25-11.39.40:979][392]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/2SIMNBSVIYMEQLFAC60S56_Auto5200110E343E030A787376A8C721EFFC9.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/MainMap/D/FJ/2SIMNBSVIYMEQLFAC60S56_Auto5.uasset'
+[2024.02.25-11.39.40:981][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MainMap/D/Z4/YSC1OB5UUROPAW9KJLIIBF_Auto5
+[2024.02.25-11.39.40:981][392]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/YSC1OB5UUROPAW9KJLIIBF_Auto596AF93BD42D087A4778EFCAB5377BF4C.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/MainMap/D/Z4/YSC1OB5UUROPAW9KJLIIBF_Auto5.uasset'
+[2024.02.25-11.39.40:984][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MainMap/4/OR/SM5VQ3HW12P8VWSVQNHGPP_Auto5
+[2024.02.25-11.39.40:984][392]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/SM5VQ3HW12P8VWSVQNHGPP_Auto5B169C8BA42BE52A380C5C995C9019AE2.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/MainMap/4/OR/SM5VQ3HW12P8VWSVQNHGPP_Auto5.uasset'
+[2024.02.25-11.39.40:986][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MainMap/2/NR/4YVCI96G3V7SPXT7Z3BFOR_Auto5
+[2024.02.25-11.39.40:986][392]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/4YVCI96G3V7SPXT7Z3BFOR_Auto5BFB3D6494476D666F8C6DA8C929F3E53.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/MainMap/2/NR/4YVCI96G3V7SPXT7Z3BFOR_Auto5.uasset'
+[2024.02.25-11.39.40:988][392]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/MainMap/7/88/ESN55ROUJQ1UMOVE3EZ7LA_Auto5
+[2024.02.25-11.39.40:988][392]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/ESN55ROUJQ1UMOVE3EZ7LA_Auto57276A8ED48CF32F183D1FA849F2FD531.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/MainMap/7/88/ESN55ROUJQ1UMOVE3EZ7LA_Auto5.uasset'
+[2024.02.25-11.39.40:989][392]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainMap' took 0.025
+[2024.02.25-11.39.40:989][392]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.025
+[2024.02.25-11.39.43:352][533]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.25-11.39.43:412][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MainMap/D/FJ/2SIMNBSVIYMEQLFAC60S56
+[2024.02.25-11.39.43:412][533]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/2SIMNBSVIYMEQLFAC60S564C8B27614C52134C6CC42B9A722C127A.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/MainMap/D/FJ/2SIMNBSVIYMEQLFAC60S56.uasset'
+[2024.02.25-11.39.43:423][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MainMap/D/Z4/YSC1OB5UUROPAW9KJLIIBF
+[2024.02.25-11.39.43:423][533]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/YSC1OB5UUROPAW9KJLIIBF4FC0A754498053B5DC5F6B909035B0DD.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/MainMap/D/Z4/YSC1OB5UUROPAW9KJLIIBF.uasset'
+[2024.02.25-11.39.43:426][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MainMap/4/OR/SM5VQ3HW12P8VWSVQNHGPP
+[2024.02.25-11.39.43:426][533]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/SM5VQ3HW12P8VWSVQNHGPPB2B0B20144256B07D032CCA45E166B48.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/MainMap/4/OR/SM5VQ3HW12P8VWSVQNHGPP.uasset'
+[2024.02.25-11.39.43:428][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MainMap/2/NR/4YVCI96G3V7SPXT7Z3BFOR
+[2024.02.25-11.39.43:428][533]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/4YVCI96G3V7SPXT7Z3BFORF066F7C246766907A213EAA0E47CD8A7.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/MainMap/2/NR/4YVCI96G3V7SPXT7Z3BFOR.uasset'
+[2024.02.25-11.39.43:430][533]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/MainMap/7/88/ESN55ROUJQ1UMOVE3EZ7LA
+[2024.02.25-11.39.43:430][533]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/ESN55ROUJQ1UMOVE3EZ7LA00A731C64BC4C24A3E95A79A77E5C54F.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/MainMap/7/88/ESN55ROUJQ1UMOVE3EZ7LA.uasset'
+[2024.02.25-11.39.43:440][533]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 3.35 sec)
+[2024.02.25-11.39.43:443][533]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.25-11.39.43:444][533]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_UAID_A8B13B9207F7A9DC01_1835901224
+[2024.02.25-11.39.43:444][533]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_UAID_A8B13B9207F7A9DC01_1966076225
+[2024.02.25-11.39.43:444][533]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_UAID_A8B13B9207F7A9DC01_1988089226
+[2024.02.25-11.39.43:444][533]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_UAID_A8B13B9207F7A9DC01_2013988227
+[2024.02.25-11.39.43:444][533]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/MainMap.MainMap:PersistentLevel.StaticMeshActor_UAID_A8B13B9207F7A9DC01_2028372228
