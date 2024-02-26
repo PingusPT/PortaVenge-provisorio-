@@ -2546,3 +2546,76 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.02.26-10.14.40:863][518]LogSavePackage: Moving output files for package: /Temp/Autosaves/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat_Auto1
 [2024.02.26-10.14.40:863][518]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/SimplePivotPainterExampleMat_AutCB4240FA4E72889E6A25678CA7EB7F0B.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat_Auto1.uasset'
 [2024.02.26-10.14.40:864][518]LogFileHelpers: Auto-saving content packages took 0.217
+[2024.02.26-10.16.30:812][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-10.16.30:902][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.02.26-10.16.30:917][ 86]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/CaixaDeAreiaVFXs/CaixaDeAreiaParaVFXs
+[2024.02.26-10.16.30:918][ 86]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/CaixaDeAreiaParaVFXs74ADE86E42D20EACE7CE43A0A803DB90.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Maps/CaixaDeAreiaVFXs/CaixaDeAreiaParaVFXs.umap'
+[2024.02.26-10.16.30:925][ 86]LogFileHelpers: Saving map 'CaixaDeAreiaParaVFXs' took 0.050
+[2024.02.26-10.16.30:938][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 17.6 sec)
+[2024.02.26-10.16.30:940][ 86]AssetCheck: New page: Asset Save: CaixaDeAreiaParaVFXs
+[2024.02.26-10.16.30:940][ 86]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/CaixaDeAreiaVFXs/CaixaDeAreiaParaVFXs.CaixaDeAreiaParaVFXs
+[2024.02.26-10.17.03:106][300]LogSlate: Window 'Message' being destroyed
+[2024.02.26-10.17.03:110][300]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/StarterContent/Maps/CaixaDeAreiaVFXs/Spawn/Test.Test
+(Selecting 'No' will cause all changes to be lost!)
+[2024.02.26-10.17.03:116][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.02.26-10.17.07:927][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.02.26-10.17.11:124][555]LogSlate: Window 'Save Content' being destroyed
+[2024.02.26-10.17.11:134][555]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-10.17.11:214][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EditorMaterials/Camera/CineMat" FILE="../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" SILENT=true
+[2024.02.26-10.17.11:215][555]LogSavePackage: Moving output files for package: /Engine/EditorMaterials/Camera/CineMat
+[2024.02.26-10.17.11:216][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/CineMat8C234D20465640FECE07B69F597D456B.tmp' to '../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset'
+[2024.02.26-10.17.11:218][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/VREditor/Devices/Generic/GenericHMDMaterial" FILE="../../../Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset" SILENT=true
+[2024.02.26-10.17.11:219][555]LogSavePackage: Moving output files for package: /Engine/VREditor/Devices/Generic/GenericHMDMaterial
+[2024.02.26-10.17.11:220][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/GenericHMDMaterialD87815724977E32F06A0619B57796F5F.tmp' to '../../../Engine/Content/VREditor/Devices/Generic/GenericHMDMaterial.uasset'
+[2024.02.26-10.17.11:221][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EditorMaterials/HelpFlatColour" FILE="../../../Engine/Content/EditorMaterials/HelpFlatColour.uasset" SILENT=true
+[2024.02.26-10.17.11:223][555]LogSavePackage: Moving output files for package: /Engine/EditorMaterials/HelpFlatColour
+[2024.02.26-10.17.11:224][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/HelpFlatColourE841D41340993BA575FC09AF03DADE6B.tmp' to '../../../Engine/Content/EditorMaterials/HelpFlatColour.uasset'
+[2024.02.26-10.17.11:225][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EditorMaterials/HelpFlatColour_W_Inst" FILE="../../../Engine/Content/EditorMaterials/HelpFlatColour_W_Inst.uasset" SILENT=true
+[2024.02.26-10.17.11:226][555]LogSavePackage: Moving output files for package: /Engine/EditorMaterials/HelpFlatColour_W_Inst
+[2024.02.26-10.17.11:227][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/HelpFlatColour_W_InstADC9590A4CE511C87D264CB00146798C.tmp' to '../../../Engine/Content/EditorMaterials/HelpFlatColour_W_Inst.uasset'
+[2024.02.26-10.17.11:228][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Basic_Wall" FILE="../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Materials/M_Basic_Wall.uasset" SILENT=true
+[2024.02.26-10.17.11:230][555]LogSavePackage: Moving output files for package: /Game/StarterContent/Materials/M_Basic_Wall
+[2024.02.26-10.17.11:231][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/M_Basic_Wall514DAA7C4C138791163F43933D8020BC.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Materials/M_Basic_Wall.uasset'
+[2024.02.26-10.17.11:232][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineDebugMaterials/M_SimpleOpaque" FILE="../../../Engine/Content/EngineDebugMaterials/M_SimpleOpaque.uasset" SILENT=true
+[2024.02.26-10.17.11:234][555]LogSavePackage: Moving output files for package: /Engine/EngineDebugMaterials/M_SimpleOpaque
+[2024.02.26-10.17.11:234][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/M_SimpleOpaqueEA7C95534FC334424C8576BE35BB24F6.tmp' to '../../../Engine/Content/EngineDebugMaterials/M_SimpleOpaque.uasset'
+[2024.02.26-10.17.11:236][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EditorMaterials/Camera/MI_CineMat_CameraBody" FILE="../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_CameraBody.uasset" SILENT=true
+[2024.02.26-10.17.11:237][555]LogSavePackage: Moving output files for package: /Engine/EditorMaterials/Camera/MI_CineMat_CameraBody
+[2024.02.26-10.17.11:238][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/MI_CineMat_CameraBodyD3F9C5BD4EF90E8474484BAD57426BA7.tmp' to '../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_CameraBody.uasset'
+[2024.02.26-10.17.11:239][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EditorMaterials/Camera/MI_CineMat_CamViewFinder" FILE="../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_CamViewFinder.uasset" SILENT=true
+[2024.02.26-10.17.11:240][555]LogSavePackage: Moving output files for package: /Engine/EditorMaterials/Camera/MI_CineMat_CamViewFinder
+[2024.02.26-10.17.11:241][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/MI_CineMat_CamViewFinderC2F30C7B4FE9CD8E22E2F7B420AF86BF.tmp' to '../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_CamViewFinder.uasset'
+[2024.02.26-10.17.11:246][555]LogSavePackage: Moving output files for package: /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat
+[2024.02.26-10.17.11:246][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/SimplePivotPainterExampleMat926283BF481E2EFB1F7C11AECE88A2E0.tmp' to '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat.uasset'
+[2024.02.26-10.17.11:250][555]LogSavePackage: Moving output files for package: /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat_Inst
+[2024.02.26-10.17.11:251][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/SimplePivotPainterExampleMat_Ins7414C7BD49161F659A73EF9ABA36A472.tmp' to '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat_Inst.uasset'
+[2024.02.26-10.17.11:256][555]LogSavePackage: Moving output files for package: /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/TextureBasedMorphDemo
+[2024.02.26-10.17.11:257][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/TextureBasedMorphDemo274775924E11620ABF749583699C969D.tmp' to '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/TextureBasedMorphDemo.uasset'
+[2024.02.26-10.17.11:259][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/VREditor/TransformGizmo/TransformGizmoMaterial" FILE="../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" SILENT=true
+[2024.02.26-10.17.11:262][555]LogSavePackage: Moving output files for package: /Engine/VREditor/TransformGizmo/TransformGizmoMaterial
+[2024.02.26-10.17.11:262][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/TransformGizmoMaterial0A25B18E45CCCEE6FB5A1EB3B5CBA40B.tmp' to '../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset'
+[2024.02.26-10.17.11:264][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial" FILE="../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" SILENT=true
+[2024.02.26-10.17.11:267][555]LogSavePackage: Moving output files for package: /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial
+[2024.02.26-10.17.11:268][555]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/TranslucentTransformGizmoMateria2FA00DB74E5D17C1BB352C9F91E16A26.tmp' to '../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset'
+[2024.02.26-10.17.11:281][555]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 17.7 sec)
+[2024.02.26-10.17.11:285][555]AssetCheck: New page: Asset Save: multiple assets
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/EditorMaterials/Camera/CineMat.CineMat
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/VREditor/Devices/Generic/GenericHMDMaterial.GenericHMDMaterial
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/EditorMaterials/HelpFlatColour.HelpFlatColour
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Engine/EditorMaterials/HelpFlatColour_W_Inst.HelpFlatColour_W_Inst
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Game/StarterContent/Materials/M_Basic_Wall.M_Basic_Wall
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/EngineDebugMaterials/M_SimpleOpaque.M_SimpleOpaque
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Engine/EditorMaterials/Camera/MI_CineMat_CameraBody.MI_CineMat_CameraBody
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Engine/EditorMaterials/Camera/MI_CineMat_CamViewFinder.MI_CineMat_CamViewFinder
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat.SimplePivotPainterExampleMat
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat_Inst.SimplePivotPainterExampleMat_Inst
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/TextureBasedMorphDemo.TextureBasedMorphDemo
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/VREditor/TransformGizmo/TransformGizmoMaterial.TransformGizmoMaterial
+[2024.02.26-10.17.11:285][555]LogContentValidation: Display: Validating /Script/Engine.Material /Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.TranslucentTransformGizmoMaterial
+[2024.02.26-10.17.15:102][773]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.26-10.17.15:178][773]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup
+[2024.02.26-10.17.15:178][773]LogSavePackage: Moving '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Saved/3DTextPopup6B716BF94547952E7D5DBC884F715F53.tmp' to '../../../../New folder/PortaVenge-provisorio-/PortaVenger/Content/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.uasset'
+[2024.02.26-10.17.15:186][773]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 17.8 sec)
+[2024.02.26-10.17.15:187][773]AssetCheck: New page: Asset Save: 3DTextPopup
+[2024.02.26-10.17.15:188][773]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/StarterContent/Maps/CaixaDeAreiaVFXs/3DTextAnimations/3DTextPopup.3DTextPopup
