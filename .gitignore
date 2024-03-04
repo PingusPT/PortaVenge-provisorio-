@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+PortaVenger/Saved/Logs/PortaVenger.log
+PortaVenger/Saved/SourceControl/UncontrolledChangelists.json
+PortaVenger/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
