@@ -1536,3 +1536,41 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.09-10.46.16:260][748]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D24FFE301_1641257751
 [2024.04.09-10.46.16:260][748]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D2401E401_1202053105
 [2024.04.09-10.46.16:260][748]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_1641090440
+[2024.04.09-10.46.50:944][929]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-10.46.50:973][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.04.09-10.46.50:977][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.09-10.46.50:982][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.09-10.46.50:993][929]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 200 ms)
+[2024.04.09-10.47.11:062][130]Cmd: DUPLICATE
+[2024.04.09-10.47.11:062][130]Cmd: ACTOR DUPLICATE
+[2024.04.09-10.48.00:194][965]Cmd: DUPLICATE
+[2024.04.09-10.48.00:198][965]Cmd: ACTOR DUPLICATE
+[2024.04.09-10.48.17:523][974]Cmd: DUPLICATE
+[2024.04.09-10.48.17:523][974]Cmd: ACTOR DUPLICATE
+[2024.04.09-10.49.02:603][649]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-10.49.02:745][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.04.09-10.49.02:764][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.04.09-10.49.02:768][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.09-10.49.02:797][649]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU
+[2024.04.09-10.49.02:798][649]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/2INNLLVP03OZRD338IKXIU13AE72CF456E45E816C9AF8DB1F32BA1.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU.uasset'
+[2024.04.09-10.49.02:808][649]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8
+[2024.04.09-10.49.02:808][649]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/78TTPQOP9ZB8NNHXWMV2Y829D481694DF142A9608AD8AD10DD38A2.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8.uasset'
+[2024.04.09-10.49.02:814][649]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI
+[2024.04.09-10.49.02:814][649]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/3BE3TL14YOQJPOBDU4S1TIFC0A529E4AD0D5B76A82B28AAAB5220F.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI.uasset'
+[2024.04.09-10.49.02:818][649]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A
+[2024.04.09-10.49.02:818][649]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/RS3LWXGDELYN3A256HR42A7BAA49D14AB7936196841BBCBEEB1683.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A.uasset'
+[2024.04.09-10.49.02:827][649]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV
+[2024.04.09-10.49.02:827][649]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/4T787TADI1XMYRMK44NOVVE183259C453ECD7E1E5CD0A3FA9BE310.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV.uasset'
+[2024.04.09-10.49.02:831][649]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J
+[2024.04.09-10.49.02:831][649]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/WDSSCK5XVWUBD4YM6R6E9J3179C9E5409CC7B6F1A5AB91442D0F1D.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J.uasset'
+[2024.04.09-10.49.02:834][649]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY
+[2024.04.09-10.49.02:834][649]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/AU9PDRMUGIU7IH34C0CHAY1138A5674D66171293EB46907E05B40B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY.uasset'
+[2024.04.09-10.49.02:861][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 458 ms)
+[2024.04.09-10.49.02:894][649]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.09-10.49.02:894][649]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D24FFE301_1641257751
+[2024.04.09-10.49.02:896][649]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_1641090440
+[2024.04.09-10.49.02:896][649]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_2038932441
+[2024.04.09-10.49.02:896][649]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_2088140442
+[2024.04.09-10.49.02:896][649]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_2088213443
+[2024.04.09-10.49.02:896][649]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_2088216444
+[2024.04.09-10.49.02:896][649]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_2105393445
