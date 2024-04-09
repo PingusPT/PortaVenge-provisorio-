@@ -1490,3 +1490,49 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.09-10.43.15:967][875]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D24FFE301_1641257751
 [2024.04.09-10.43.15:967][875]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_1527046439
 [2024.04.09-10.43.15:968][875]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_1641090440
+[2024.04.09-10.45.19:034][396]Cmd: POLY SELECT MEMORY UNION
+[2024.04.09-10.45.24:022][686]Cmd: TRANSACTION UNDO
+[2024.04.09-10.45.24:022][686]LogEditorTransaction: Undo Move Elements
+[2024.04.09-10.45.27:316][855]Cmd: DELETE
+[2024.04.09-10.45.27:316][855]Cmd: ACTOR DELETE
+[2024.04.09-10.45.27:332][855]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.09-10.45.27:344][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.04.09-10.45.27:349][855]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2024.04.09-10.45.56:374][  1]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\rocha\OneDrive\Ambiente de Trabalho\VAM\2º ano VAM\2º Semestre\Game Design II\PORTALVENGE\3D Models\Environment\New Corridor\CAMARA\base.fbx)
+[2024.04.09-10.45.56:378][  1]LogFbx: Loading FBX Scene from C:\Users\rocha\OneDrive\Ambiente de Trabalho\VAM\2º ano VAM\2º Semestre\Game Design II\PORTALVENGE\3D Models\Environment\New Corridor\CAMARA\base.fbx
+[2024.04.09-10.45.56:383][  1]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.09-10.45.57:344][  1]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.09-10.45.57:453][  1]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.09-10.45.57:462][  1]LogTexture: Display: Building textures: /Game/Environment/CAMARA_FINAL/Material__6_Base_color.Material__6_Base_color (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.04.09-10.45.57:533][  1]LogStaticMesh: Warning: base has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.04.09-10.45.57:547][  1]FBXImport: Warning: base has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.04.09-10.45.57:576][  1]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\rocha\OneDrive\Ambiente de Trabalho\VAM\2º ano VAM\2º Semestre\Game Design II\PORTALVENGE\3D Models\Environment\New Corridor\CAMARA\camera.fbx)
+[2024.04.09-10.45.57:581][  1]LogFbx: Loading FBX Scene from C:\Users\rocha\OneDrive\Ambiente de Trabalho\VAM\2º ano VAM\2º Semestre\Game Design II\PORTALVENGE\3D Models\Environment\New Corridor\CAMARA\camera.fbx
+[2024.04.09-10.45.57:585][  1]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.09-10.45.57:840][ 12]LogShaderCompilers: Display: ================================================
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: Total job queries 22, among them cache hits 14 (63.64%)
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: Tracking 8 distinct input hashes that result in 6 distinct outputs (75.00%)
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: RAM used: 15,13 KiB of 409,60 MiB budget. Usage: 0.00%
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.09-10.45.57:841][ 12]LogShaderCompilers: Display: ================================================
+[2024.04.09-10.45.59:147][ 91]LogSlate: Window 'Message Log' being destroyed
+[2024.04.09-10.45.59:151][ 91]LogSlate: Window 'Message Log' being destroyed
+[2024.04.09-10.46.16:187][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-10.46.16:229][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.04.09-10.46.16:237][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.09-10.46.16:241][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.04.09-10.46.16:244][748]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU
+[2024.04.09-10.46.16:244][748]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/2INNLLVP03OZRD338IKXIUC00F740B4FA1B5F342213C8C5A5AAD0E.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU.uasset'
+[2024.04.09-10.46.16:246][748]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH
+[2024.04.09-10.46.16:246][748]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/6UOYYTYTPII0TYTEYCWTFH9803B6CA4605C340DADD69909AD58848.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH.uasset'
+[2024.04.09-10.46.16:249][748]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8
+[2024.04.09-10.46.16:249][748]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/78TTPQOP9ZB8NNHXWMV2Y842AF41214905CE3CF1343A9FD3E3A81B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8.uasset'
+[2024.04.09-10.46.16:258][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 150 ms)
+[2024.04.09-10.46.16:260][748]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.09-10.46.16:260][748]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D24FFE301_1641257751
+[2024.04.09-10.46.16:260][748]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D2401E401_1202053105
+[2024.04.09-10.46.16:260][748]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D247EEA01_1641090440
