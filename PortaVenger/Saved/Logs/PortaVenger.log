@@ -1527,3 +1527,628 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.14-16.13.32:677][913]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/TutorialMap/Material_001.Material_001
 [2024.04.14-16.13.32:677][913]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Environment/TutorialMap/DefaultMaterial_Base_color.DefaultMaterial_Base_color
 [2024.04.14-16.13.38:205][975]LogDerivedDataCache: C:/Users/rocha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.373 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4418 files in 5884 folders with total size 191 MiB.
+[2024.04.14-16.21.45:760][358]Cmd: POLY SELECT MEMORY UNION
+[2024.04.14-16.21.46:157][382]Cmd: POLY SELECT ADJACENT WALLS
+[2024.04.14-16.22.17:314][112]Cmd: TRANSACTION UNDO
+[2024.04.14-16.22.17:314][112]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.23.10:864][342]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.14-16.23.10:879][342]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.14-16.23.10:892][343]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.14-16.23.12:766][456]LogContentBrowser: Attempting asset rename: NewFolder -> aquario
+[2024.04.14-16.23.12:766][456]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.14-16.23.15:883][567]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\rocha\OneDrive\Ambiente de Trabalho\VAM\2º ano VAM\2º Semestre\Game Design II\PORTALVENGE\3D Models\Environment\New Corridor\props\aquario.fbx)
+[2024.04.14-16.23.15:889][567]LogFbx: Loading FBX Scene from C:\Users\rocha\OneDrive\Ambiente de Trabalho\VAM\2º ano VAM\2º Semestre\Game Design II\PORTALVENGE\3D Models\Environment\New Corridor\props\aquario.fbx
+[2024.04.14-16.23.15:898][567]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.14-16.23.18:310][567]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.14-16.23.18:428][567]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.14-16.23.18:444][567]LogTexture: Display: Building textures: /Game/Environment/aquario/DefaultMaterial_Base_color.DefaultMaterial_Base_color (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.04.14-16.23.18:498][567]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.04.14-16.23.18:513][567]LogFbx: Display: Triangulating static mesh Cylinder
+[2024.04.14-16.23.18:547][567]LogTexture: Display: Building textures: /Game/Environment/aquario/DefaultMaterial_Roughness.DefaultMaterial_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.04.14-16.23.18:559][567]LogFbx: Display: Triangulating static mesh Cylinder.001
+[2024.04.14-16.23.18:696][567]LogStaticMesh: Display: Building static mesh aquario...
+[2024.04.14-16.23.18:763][567]LogStaticMesh: Built static mesh [0.07s] /Game/Environment/aquario/aquario.aquario
+[2024.04.14-16.23.18:785][567]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: ================================================
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: Total job queries 90, among them cache hits 54 (60.00%)
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: Tracking 36 distinct input hashes that result in 27 distinct outputs (75.00%)
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: RAM used: 91,41 KiB of 409,60 MiB budget. Usage: 0.02%
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.14-16.23.19:228][568]LogShaderCompilers: Display: ================================================
+[2024.04.14-16.23.20:969][666]LogSlate: Window 'Message Log' being destroyed
+[2024.04.14-16.23.20:976][666]LogSlate: Window 'Message Log' being destroyed
+[2024.04.14-16.23.25:515][858]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.14-16.23.25:522][858]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.14-16.23.26:849][933]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/aquario/aquario.aquario
+[2024.04.14-16.23.26:849][933]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/aquario/aquario.aquario
+[2024.04.14-16.23.26:850][933]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/aquario/aquario.aquario as actor: StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_1
+[2024.04.14-16.23.27:582][976]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/aquario/aquario.aquario
+[2024.04.14-16.23.27:582][976]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Environment/aquario/aquario.aquario
+[2024.04.14-16.23.27:584][976]LogActorFactory: Actor Factory spawned StaticMesh /Game/Environment/aquario/aquario.aquario as actor: StaticMeshActor /Game/Maps/EnvironmentTestMap.EnvironmentTestMap:PersistentLevel.StaticMeshActor_UAID_A8B13B818D2424EC01_1096401712
+[2024.04.14-16.23.32:581][269]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Environment/aquario/Material_002.Material_002
+[2024.04.14-16.23.32:626][269]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.14-16.23.32:626][269]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.14-16.23.32:941][269]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.23.32:941][269]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.23.32:941][269]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.23.32:968][269]LogSlate: Took 0.005027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.14-16.23.32:972][269]LogViewport: Scene viewport resized to 506x444, mode Windowed.
+[2024.04.14-16.23.33:107][271]MaterialEditorStats: Base pass shader: 143 instructions
+[2024.04.14-16.23.33:107][271]MaterialEditorStats: Base pass vertex shader: 118 instructions
+[2024.04.14-16.23.33:107][271]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.14-16.23.33:107][271]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.23.33:107][271]MaterialEditorStats: Shader Count: 4
+[2024.04.14-16.23.49:585][580]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speaker (Realtek(R) Audio), InstanceID=1
+[2024.04.14-16.23.49:797][581]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=28368
+[2024.04.14-16.23.51:025][584]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{11403d7e-db87-4809-bd65-2c4a8ecfb8f0}, Name=Speaker (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=1117.03
+[2024.04.14-16.23.51:026][584]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.04.14-16.23.51:032][584]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.04.14-16.24.02:411][751]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2024.04.14-16.24.02:416][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH_Auto1
+[2024.04.14-16.24.02:416][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/6UOYYTYTPII0TYTEYCWTFH_Auto13228744740C5696C46910FA2D3606DE2.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH_Auto1.uasset'
+[2024.04.14-16.24.02:417][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV_Auto1
+[2024.04.14-16.24.02:417][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/4T787TADI1XMYRMK44NOVV_Auto10E51AECE47CC5EEC22E4DDB085400B55.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV_Auto1.uasset'
+[2024.04.14-16.24.02:425][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY_Auto1
+[2024.04.14-16.24.02:425][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/AU9PDRMUGIU7IH34C0CHAY_Auto1B9ADDF8F421895E9467168BA032868B3.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY_Auto1.uasset'
+[2024.04.14-16.24.02:427][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU_Auto1
+[2024.04.14-16.24.02:427][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/2INNLLVP03OZRD338IKXIU_Auto120AB34EC42D8CE935BE5C0B5428B245E.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU_Auto1.uasset'
+[2024.04.14-16.24.02:429][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J_Auto1
+[2024.04.14-16.24.02:429][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/WDSSCK5XVWUBD4YM6R6E9J_Auto1F99F68C94B4B8671A7AAF19899600C93.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J_Auto1.uasset'
+[2024.04.14-16.24.02:433][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A_Auto1
+[2024.04.14-16.24.02:433][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/RS3LWXGDELYN3A256HR42A_Auto11DBE8F95434EB8834D0698A7D8BCD77E.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A_Auto1.uasset'
+[2024.04.14-16.24.02:441][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8_Auto1
+[2024.04.14-16.24.02:441][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/78TTPQOP9ZB8NNHXWMV2Y8_Auto11718788F4544E539120C37BDC9719255.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8_Auto1.uasset'
+[2024.04.14-16.24.02:444][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI_Auto1
+[2024.04.14-16.24.02:444][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/3BE3TL14YOQJPOBDU4S1TI_Auto17CEC40C5464BBECFC2EDE8B616768EBA.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI_Auto1.uasset'
+[2024.04.14-16.24.02:449][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/DA/0C0S3OSNY8ZSK2TJSKZ7W2_Auto1
+[2024.04.14-16.24.02:449][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/0C0S3OSNY8ZSK2TJSKZ7W2_Auto133CBE13C41FB9C6EB0FB0685511B1483.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/DA/0C0S3OSNY8ZSK2TJSKZ7W2_Auto1.uasset'
+[2024.04.14-16.24.02:450][751]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EnvironmentTestMap' took 0.051
+[2024.04.14-16.24.02:450][751]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.051
+[2024.04.14-16.24.02:457][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/aquario/aquario] ([1] browsable assets)...
+[2024.04.14-16.24.02:463][751]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Environment/aquario/aquario.aquario]
+[2024.04.14-16.24.02:463][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/aquario]
+[2024.04.14-16.24.02:469][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/aquario_Auto1
+[2024.04.14-16.24.02:469][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/aquario_Auto15B4909F84AAF96B0008C7D9A894DA7F8.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/aquario_Auto1.uasset'
+[2024.04.14-16.24.02:470][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/aquario/Material_001] ([1] browsable assets)...
+[2024.04.14-16.24.02:487][751]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Environment/aquario/Material_001.Material_001]
+[2024.04.14-16.24.02:487][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/Material_001]
+[2024.04.14-16.24.02:490][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/Material_001_Auto1
+[2024.04.14-16.24.02:490][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Material_001_Auto1D8EF7D7748756A808203CDAA8797E15D.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/Material_001_Auto1.uasset'
+[2024.04.14-16.24.02:491][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/aquario/DefaultMaterial_Base_color] ([1] browsable assets)...
+[2024.04.14-16.24.02:492][751]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Environment/aquario/DefaultMaterial_Base_color.DefaultMaterial_Base_color]
+[2024.04.14-16.24.02:492][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/DefaultMaterial_Base_color]
+[2024.04.14-16.24.02:505][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/DefaultMaterial_Base_color_Auto1
+[2024.04.14-16.24.02:506][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_Base_color_Auto12BF2F3B54C72389763C55381E829E5A9.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/DefaultMaterial_Base_color_Auto1.uasset'
+[2024.04.14-16.24.02:506][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/aquario/DefaultMaterial_Roughness] ([1] browsable assets)...
+[2024.04.14-16.24.02:507][751]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Environment/aquario/DefaultMaterial_Roughness.DefaultMaterial_Roughness]
+[2024.04.14-16.24.02:507][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/DefaultMaterial_Roughness]
+[2024.04.14-16.24.02:511][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/DefaultMaterial_Roughness_Auto1
+[2024.04.14-16.24.02:511][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_Roughness_Auto1408ECED0451C799A8C11D3BC8F42230A.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/DefaultMaterial_Roughness_Auto1.uasset'
+[2024.04.14-16.24.02:512][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/aquario/Material_002] ([1] browsable assets)...
+[2024.04.14-16.24.02:584][751]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Environment/aquario/Material_002.Material_002]
+[2024.04.14-16.24.02:584][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/Material_002]
+[2024.04.14-16.24.02:589][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/Material_002_Auto1
+[2024.04.14-16.24.02:589][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Material_002_Auto174260B7D4700F548605327B5F7D5F86D.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/Material_002_Auto1.uasset'
+[2024.04.14-16.24.02:589][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/aquario/ground_13_06_Mat] ([1] browsable assets)...
+[2024.04.14-16.24.02:607][751]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Environment/aquario/ground_13_06_Mat.ground_13_06_Mat]
+[2024.04.14-16.24.02:607][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/ground_13_06_Mat]
+[2024.04.14-16.24.02:609][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/ground_13_06_Mat_Auto1
+[2024.04.14-16.24.02:609][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/ground_13_06_Mat_Auto1D2F3D80B4E13AB783B9C56A2CDF538A6.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/ground_13_06_Mat_Auto1.uasset'
+[2024.04.14-16.24.02:609][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Environment/aquario/ground_08_02_Mat] ([1] browsable assets)...
+[2024.04.14-16.24.02:626][751]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Environment/aquario/ground_08_02_Mat.ground_08_02_Mat]
+[2024.04.14-16.24.02:626][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/ground_08_02_Mat]
+[2024.04.14-16.24.02:628][751]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/ground_08_02_Mat_Auto1
+[2024.04.14-16.24.02:628][751]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/ground_08_02_Mat_Auto1901AA68E4FE74AE1F60FF1B3D5A0961B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/ground_08_02_Mat_Auto1.uasset'
+[2024.04.14-16.24.02:629][751]LogFileHelpers: Auto-saving content packages took 0.178
+[2024.04.14-16.24.04:341][851]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.24.04:341][851]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.24.04:341][851]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.24.06:774][997]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.24.06:774][997]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.24.06:774][997]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.24.06:774][997]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.24.09:073][132]LogMaterialEditor: Saving and Compiling material Material_002
+[2024.04.14-16.24.09:487][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.04.14-16.24.10:070][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.04.14-16.24.10:084][132]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-16.24.12:144][132]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2024.04.14-16.24.12:598][132]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.455065s
+[2024.04.14-16.24.12:600][132]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.463921s (0.463921s overbudget)
+[2024.04.14-16.24.12:665][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/aquario/Material_002" FILE="C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/Environment/aquario/Material_002.uasset" SILENT=true
+[2024.04.14-16.24.12:697][132]LogSavePackage: Moving output files for package: /Game/Environment/aquario/Material_002
+[2024.04.14-16.24.12:697][132]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Material_00259E58A824FDDCE3969939381AF65C456.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/Environment/aquario/Material_002.uasset'
+[2024.04.14-16.24.12:906][132]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.82 sec (total: 3.33 sec)
+[2024.04.14-16.24.12:918][132]AssetCheck: New page: Asset Save: Material_002
+[2024.04.14-16.24.12:918][132]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/aquario/Material_002.Material_002
+[2024.04.14-16.24.12:934][132]MaterialEditorStats: Base pass shader: 148 instructions
+[2024.04.14-16.24.12:934][132]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.24.12:934][132]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.24.12:934][132]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.24.12:934][132]MaterialEditorStats: Shader Count: 20
+[2024.04.14-16.24.38:184][991]LogTemp: Warning: UI Min (0.0) >= UI Max (0.0) for Ranged Numeric property /Script/Engine.DisplacementScaling:Center
+[2024.04.14-16.24.41:020][159]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.24.41:020][159]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.24.41:020][159]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.24.41:994][217]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.24.41:994][217]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.24.41:994][217]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.24.41:994][217]MaterialEditorStats: Shader Count: 1
+[2024.04.14-16.24.42:894][271]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.24.42:894][271]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.24.42:894][271]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.24.42:894][271]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.25.26:541][549]LogTemp: Warning: UI Min (0.0) >= UI Max (0.0) for Ranged Numeric property /Script/Engine.DisplacementScaling:Center
+[2024.04.14-16.25.40:985][276]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.25.40:985][276]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.25.40:985][276]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.25.41:037][278]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.25.41:037][278]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.25.41:037][278]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.25.41:037][278]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.25.43:031][397]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.25.43:031][397]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.25.43:031][397]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.25.43:079][399]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.25.43:079][399]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.25.43:079][399]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.25.43:079][399]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.07:730][ 95]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.07:730][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.07:730][ 95]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.07:771][ 97]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.07:771][ 97]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.26.07:771][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.07:771][ 97]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.10:367][249]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.10:367][249]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.10:367][249]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.11:248][302]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.11:248][302]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.26.11:248][302]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.11:248][302]MaterialEditorStats: Shader Count: 1
+[2024.04.14-16.26.12:166][357]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.12:166][357]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.26.12:166][357]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.12:166][357]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.14:537][499]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.14:537][499]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.14:537][499]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.15:117][534]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.15:117][534]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.26.15:117][534]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.15:117][534]MaterialEditorStats: Shader Count: 1
+[2024.04.14-16.26.16:117][594]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.16:117][594]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.26.16:117][594]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.16:117][594]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.19:906][666]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.19:906][666]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.19:906][666]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: ================================================
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Total job queries 216, among them cache hits 140 (64.81%)
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Tracking 76 distinct input hashes that result in 52 distinct outputs (68.42%)
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: RAM used: 222,87 KiB of 409,60 MiB budget. Usage: 0.05%
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Average time worker was idle: 13.62 s
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Time job spent in pending queue: average 0.39 s, longest 1.53 s
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Job execution time: average 1.11 s, max 2.33 s
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Job life time (pending + execution): average 1.50 s, max 2.41
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Shader code size: average 11,076 KiB, min 4,574 KiB, max 34,293 KiB
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.32 s
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Average processing rate: 2.52 jobs/sec
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Total thread time: 19,166 s
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Total thread preprocess time: 2,653 s
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Percentage time preprocessing: 13.84%
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Effective parallelization: 1.86 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 1.27 sec, max 1.47 sec, min 0.87 sec)
+[2024.04.14-16.26.19:920][667]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.97 sec, max 0.97 sec, min 0.97 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.89 sec, max 0.89 sec, min 0.89 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 26.41% of total time (compiled    4 times, average 1.27 sec, max 1.47 sec, min 0.87 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.62% of total time (compiled    4 times, average 0.56 sec, max 0.86 sec, min 0.44 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 5.07% of total time (compiled    1 times, average 0.97 sec, max 0.97 sec, min 0.97 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 4.65% of total time (compiled    1 times, average 0.89 sec, max 0.89 sec, min 0.89 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy - 4.30% of total time (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2024.04.14-16.26.19:921][667]LogShaderCompilers: Display: ================================================
+[2024.04.14-16.26.19:935][668]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.19:936][668]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.26.19:936][668]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.19:936][668]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.34:950][960]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.34:950][960]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.34:950][960]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.34:987][962]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.34:987][962]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.26.34:987][962]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.34:987][962]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.42:839][260]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.42:839][260]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.42:839][260]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.43:617][306]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.43:617][306]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.26.43:617][306]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.43:617][306]MaterialEditorStats: Shader Count: 1
+[2024.04.14-16.26.44:825][378]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.44:825][378]MaterialEditorStats: Texture samplers: 5/16
+[2024.04.14-16.26.44:825][378]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.44:825][378]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.51:127][620]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.51:127][620]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.51:127][620]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.51:784][659]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.51:784][659]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.26.51:784][659]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.51:784][659]MaterialEditorStats: Shader Count: 1
+[2024.04.14-16.26.54:338][811]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.54:338][811]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.54:338][811]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.54:377][813]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.54:377][813]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.26.54:377][813]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.54:377][813]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.26.57:580][  4]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.26.57:580][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.57:580][  4]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.26.58:157][ 38]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.26.58:158][ 38]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.26.58:158][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.26.58:158][ 38]MaterialEditorStats: Shader Count: 1
+[2024.04.14-16.27.04:920][196]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.04:920][196]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.04:920][196]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.04:950][198]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.04:950][198]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.04:950][198]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.04:950][198]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.12:164][535]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.12:164][535]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.12:164][535]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.12:205][537]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.12:205][537]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.12:205][537]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.12:205][537]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.15:984][649]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.15:984][649]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.15:984][649]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.16:040][651]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.16:040][651]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.16:040][651]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.16:040][651]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.17:062][712]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.17:062][712]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.17:062][712]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.17:104][714]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.17:105][714]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.17:105][714]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.17:105][714]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.42:954][480]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.42:954][480]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.42:954][480]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.42:988][482]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.42:988][482]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.42:988][482]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.42:988][482]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.46:233][600]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.46:233][600]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.46:233][600]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.46:273][602]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.46:273][602]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.46:273][602]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.46:273][602]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.51:530][858]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.51:530][858]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.51:530][858]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.51:563][860]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.51:563][860]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.51:563][860]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.51:563][860]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.55:742][ 34]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.55:742][ 34]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.55:742][ 34]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.55:782][ 36]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.55:782][ 36]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.55:782][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.55:782][ 36]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.27.58:277][109]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.27.58:277][109]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.58:277][109]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.27.58:332][111]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.27.58:332][111]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.27.58:332][111]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.27.58:332][111]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.28.02:122][186]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.28.02:122][186]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.28.02:122][186]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.28.02:164][188]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.28.02:164][188]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.28.02:164][188]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.28.02:164][188]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.28.04:388][319]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.28.04:388][319]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.28.04:388][319]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.28.04:421][321]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.28.04:421][321]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.28.04:421][321]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.28.04:421][321]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.28.14:341][612]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.28.14:342][612]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.28.14:342][612]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.28.14:371][614]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.28.14:371][614]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.28.14:371][614]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.28.14:371][614]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.28.49:352][398]LogTemp: Warning: UI Min (0.0) >= UI Max (0.0) for Ranged Numeric property /Script/Engine.DisplacementScaling:Center
+[2024.04.14-16.28.55:918][788]LogTemp: Warning: UI Min (0.0) >= UI Max (0.0) for Ranged Numeric property /Script/Engine.DisplacementScaling:Center
+[2024.04.14-16.29.05:269][342]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.29.05:270][342]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.29.05:270][342]MaterialEditorStats: Shader Count: 0
+[2024.04.14-16.29.05:303][344]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.29.05:303][344]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.29.05:303][344]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.29.05:303][344]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.30.01:006][365]LogTemp: Warning: UI Min (0.0) >= UI Max (0.0) for Ranged Numeric property /Script/Engine.DisplacementScaling:Center
+[2024.04.14-16.30.11:919][867]LogMaterialEditor: Applying material Material_002
+[2024.04.14-16.30.12:136][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: ================================================
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Total job queries 294, among them cache hits 208 (70.75%)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Tracking 86 distinct input hashes that result in 57 distinct outputs (66.28%)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: RAM used: 258,58 KiB of 409,60 MiB budget. Usage: 0.06%
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Shaders Compiled: 32
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Jobs assigned 32, completed 32 (100%)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Average time worker was idle: 13.56 s
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Time job spent in pending queue: average 0.33 s, longest 1.53 s
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Job execution time: average 1.06 s, max 2.33 s
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Job life time (pending + execution): average 1.39 s, max 2.41
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Shader code size: average 11,439 KiB, min 4,574 KiB, max 34,293 KiB
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.83 s
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Jobs were issued in 32 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Average processing rate: 2.31 jobs/sec
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Total thread time: 23,44 s
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Total thread preprocess time: 2,86 s
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Percentage time preprocessing: 12.20%
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Effective parallelization: 1.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    7 times, average 1.13 sec, max 1.55 sec, min 0.65 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.97 sec, max 0.97 sec, min 0.97 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.89 sec, max 0.89 sec, min 0.89 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 33.86% of total time (compiled    7 times, average 1.13 sec, max 1.55 sec, min 0.65 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.46% of total time (compiled    7 times, average 0.52 sec, max 0.86 sec, min 0.44 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:                TBasePassVSFCachedPointIndirectLightingPolicy - 4.14% of total time (compiled    1 times, average 0.97 sec, max 0.97 sec, min 0.97 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 3.80% of total time (compiled    1 times, average 0.89 sec, max 0.89 sec, min 0.89 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy - 3.51% of total time (compiled    1 times, average 0.82 sec, max 0.82 sec, min 0.82 sec)
+[2024.04.14-16.30.12:303][867]LogShaderCompilers: Display: ================================================
+[2024.04.14-16.30.12:308][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.04.14-16.30.12:321][867]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.14-16.30.12:321][867]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.30.12:321][867]MaterialEditorStats: Shader Count: 2
+[2024.04.14-16.30.12:331][868]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2024.04.14-16.30.12:331][868]MaterialEditorStats: Texture samplers: 3/16
+[2024.04.14-16.30.12:331][868]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.04.14-16.30.12:331][868]MaterialEditorStats: Shader Count: 4
+[2024.04.14-16.30.35:822][258]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.04.14-16.30.35:828][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.14-16.30.47:684][955]LogContentBrowser: Attempting asset rename: Material_002 -> glass_material
+[2024.04.14-16.30.47:961][955]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.14-16.30.50:018][955]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2024.04.14-16.30.51:876][955]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 3.861403s (1.861403s overbudget)
+[2024.04.14-16.30.51:895][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Environment/aquario/glass_material" FILE="C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/Environment/aquario/glass_material.uasset" SILENT=true
+[2024.04.14-16.30.51:898][955]LogSavePackage: Moving output files for package: /Game/Environment/aquario/glass_material
+[2024.04.14-16.30.51:899][955]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/glass_material3E8D1690411E33F7EA55B89574A6E82D.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/Environment/aquario/glass_material.uasset'
+[2024.04.14-16.30.51:910][955]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.94 sec (total: 7.28 sec)
+[2024.04.14-16.30.51:952][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.14-16.30.51:958][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.04.14-16.30.51:961][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.04.14-16.30.51:964][955]AssetCheck: New page: Asset Save: glass_material
+[2024.04.14-16.30.51:964][955]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/aquario/glass_material.glass_material
+[2024.04.14-16.31.04:265][672]Cmd: TRANSACTION UNDO
+[2024.04.14-16.31.04:265][672]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.31.08:269][886]Cmd: TRANSACTION UNDO
+[2024.04.14-16.31.08:269][886]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.31.09:751][959]Cmd: POLY SELECT ADJACENT WALLS
+[2024.04.14-16.31.15:358][291]Cmd: TRANSACTION UNDO
+[2024.04.14-16.31.15:358][291]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.31.16:701][355]Cmd: TRANSACTION UNDO
+[2024.04.14-16.31.16:701][355]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.34.02:856][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.04.14-16.34.02:860][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH_Auto2
+[2024.04.14-16.34.02:860][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/6UOYYTYTPII0TYTEYCWTFH_Auto2611AD55A434E33730716F0B2867563AC.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH_Auto2.uasset'
+[2024.04.14-16.34.02:862][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV_Auto2
+[2024.04.14-16.34.02:862][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/4T787TADI1XMYRMK44NOVV_Auto28AB927ED41A76510CA87D886F231834D.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV_Auto2.uasset'
+[2024.04.14-16.34.02:864][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY_Auto2
+[2024.04.14-16.34.02:864][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/AU9PDRMUGIU7IH34C0CHAY_Auto2E7585283432ECAA42D546EB4F140D04E.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY_Auto2.uasset'
+[2024.04.14-16.34.02:868][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU_Auto2
+[2024.04.14-16.34.02:868][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/2INNLLVP03OZRD338IKXIU_Auto2FEAD127B48D7D149A97868A0B721E73F.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU_Auto2.uasset'
+[2024.04.14-16.34.02:874][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J_Auto2
+[2024.04.14-16.34.02:874][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/WDSSCK5XVWUBD4YM6R6E9J_Auto2AD6BDE544829DA72F2CC739100EE2042.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J_Auto2.uasset'
+[2024.04.14-16.34.02:876][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A_Auto2
+[2024.04.14-16.34.02:876][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/RS3LWXGDELYN3A256HR42A_Auto2278488B846D16851A5A4C286100AD00D.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A_Auto2.uasset'
+[2024.04.14-16.34.02:878][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8_Auto2
+[2024.04.14-16.34.02:878][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/78TTPQOP9ZB8NNHXWMV2Y8_Auto24B3A135F48B2915F2060AF94E1FFAF06.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8_Auto2.uasset'
+[2024.04.14-16.34.02:880][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI_Auto2
+[2024.04.14-16.34.02:880][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/3BE3TL14YOQJPOBDU4S1TI_Auto2326EA21248656E1B7B758292AFA3510B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI_Auto2.uasset'
+[2024.04.14-16.34.02:883][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/DA/0C0S3OSNY8ZSK2TJSKZ7W2_Auto2
+[2024.04.14-16.34.02:883][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/0C0S3OSNY8ZSK2TJSKZ7W2_Auto23BFA392F49CD176E3BAB23A53D512645.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/DA/0C0S3OSNY8ZSK2TJSKZ7W2_Auto2.uasset'
+[2024.04.14-16.34.02:884][275]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EnvironmentTestMap' took 0.032
+[2024.04.14-16.34.02:884][275]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2024.04.14-16.34.02:884][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/aquario] ([1] browsable assets)...
+[2024.04.14-16.34.02:884][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/aquario]
+[2024.04.14-16.34.02:893][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/aquario_Auto2
+[2024.04.14-16.34.02:893][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/aquario_Auto2F58D79C840B8147F87349F9432764792.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/aquario_Auto2.uasset'
+[2024.04.14-16.34.02:894][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/Material_001] ([1] browsable assets)...
+[2024.04.14-16.34.02:894][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/Material_001]
+[2024.04.14-16.34.02:895][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/Material_001_Auto2
+[2024.04.14-16.34.02:895][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Material_001_Auto26AED1FCA4C276C1B9CF9BDA5CB017D6F.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/Material_001_Auto2.uasset'
+[2024.04.14-16.34.02:896][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/DefaultMaterial_Base_color] ([1] browsable assets)...
+[2024.04.14-16.34.02:896][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/DefaultMaterial_Base_color]
+[2024.04.14-16.34.02:910][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/DefaultMaterial_Base_color_Auto2
+[2024.04.14-16.34.02:910][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_Base_color_Auto2CE9CC31841373E464A44CE82AA6C0131.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/DefaultMaterial_Base_color_Auto2.uasset'
+[2024.04.14-16.34.02:911][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/DefaultMaterial_Roughness] ([1] browsable assets)...
+[2024.04.14-16.34.02:911][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/DefaultMaterial_Roughness]
+[2024.04.14-16.34.02:915][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/DefaultMaterial_Roughness_Auto2
+[2024.04.14-16.34.02:916][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_Roughness_Auto2FDA4105E40703B858AAE8ABA79FFE0BF.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/DefaultMaterial_Roughness_Auto2.uasset'
+[2024.04.14-16.34.02:916][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/ground_13_06_Mat] ([1] browsable assets)...
+[2024.04.14-16.34.02:916][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/ground_13_06_Mat]
+[2024.04.14-16.34.02:919][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/ground_13_06_Mat_Auto2
+[2024.04.14-16.34.02:919][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/ground_13_06_Mat_Auto24EB5101644019A7335E725BB4ACE2812.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/ground_13_06_Mat_Auto2.uasset'
+[2024.04.14-16.34.02:919][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/ground_08_02_Mat] ([1] browsable assets)...
+[2024.04.14-16.34.02:919][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/ground_08_02_Mat]
+[2024.04.14-16.34.02:922][275]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/ground_08_02_Mat_Auto2
+[2024.04.14-16.34.02:922][275]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/ground_08_02_Mat_Auto2042CA58947B284E5E3190EB5332180F9.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/ground_08_02_Mat_Auto2.uasset'
+[2024.04.14-16.34.02:923][275]LogFileHelpers: Auto-saving content packages took 0.039
+[2024.04.14-16.36.55:192][522]Cmd: TRANSACTION UNDO
+[2024.04.14-16.36.55:192][522]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.36.58:070][678]Cmd: TRANSACTION UNDO
+[2024.04.14-16.36.58:070][678]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.36.58:381][695]Cmd: TRANSACTION UNDO
+[2024.04.14-16.36.58:381][695]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.36.59:026][729]Cmd: TRANSACTION UNDO
+[2024.04.14-16.36.59:026][729]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.37.08:245][246]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.08:245][246]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.37.08:476][250]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.08:476][250]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.37.11:292][408]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.11:292][408]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.37.11:503][416]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.11:503][416]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.37.11:698][423]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.11:698][423]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.37.11:860][427]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.11:860][427]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.37.12:033][429]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.12:033][429]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.37.12:242][433]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.12:242][433]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.37.12:391][436]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.12:391][436]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.37.12:569][444]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.12:569][444]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.37.12:778][455]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.12:778][455]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.37.16:941][701]Cmd: TRANSACTION UNDO
+[2024.04.14-16.37.16:941][701]LogEditorTransaction: Undo Move Elements
+[2024.04.14-16.37.19:642][847]Cmd: DUPLICATE
+[2024.04.14-16.37.19:642][847]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.37.25:337][180]Cmd: DUPLICATE
+[2024.04.14-16.37.25:338][180]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.37.34:176][703]Cmd: DUPLICATE
+[2024.04.14-16.37.34:176][703]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.37.35:799][795]Cmd: POLY SELECT MEMORY UNION
+[2024.04.14-16.38.08:504][725]Cmd: DUPLICATE
+[2024.04.14-16.38.08:504][725]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.38.17:391][243]Cmd: DUPLICATE
+[2024.04.14-16.38.17:391][243]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.38.20:791][440]Cmd: DUPLICATE
+[2024.04.14-16.38.20:791][440]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.38.23:984][625]Cmd: DUPLICATE
+[2024.04.14-16.38.23:984][625]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.38.28:789][893]Cmd: DUPLICATE
+[2024.04.14-16.38.28:789][893]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.38.32:977][135]Cmd: DUPLICATE
+[2024.04.14-16.38.32:978][135]Cmd: ACTOR DUPLICATE
+[2024.04.14-16.38.36:866][356]Cmd: TRANSACTION UNDO
+[2024.04.14-16.38.36:866][356]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.14-16.44.03:123][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.04.14-16.44.03:126][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH_Auto3
+[2024.04.14-16.44.03:126][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/6UOYYTYTPII0TYTEYCWTFH_Auto3EBE0902B4CDE186BAF176685168B014B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/KZ/6UOYYTYTPII0TYTEYCWTFH_Auto3.uasset'
+[2024.04.14-16.44.03:128][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV_Auto3
+[2024.04.14-16.44.03:128][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/4T787TADI1XMYRMK44NOVV_Auto385AB32234E08EAA344B3B398945D7E7A.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/W1/4T787TADI1XMYRMK44NOVV_Auto3.uasset'
+[2024.04.14-16.44.03:131][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY_Auto3
+[2024.04.14-16.44.03:131][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/AU9PDRMUGIU7IH34C0CHAY_Auto356D7950947A545AFEDDB48A3F4869015.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/GL/AU9PDRMUGIU7IH34C0CHAY_Auto3.uasset'
+[2024.04.14-16.44.03:133][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU_Auto3
+[2024.04.14-16.44.03:133][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/2INNLLVP03OZRD338IKXIU_Auto3740386364F5A5E47C730A4A3F1B1EB03.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/CG/2INNLLVP03OZRD338IKXIU_Auto3.uasset'
+[2024.04.14-16.44.03:135][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J_Auto3
+[2024.04.14-16.44.03:135][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/WDSSCK5XVWUBD4YM6R6E9J_Auto381AC31CA4801916AD9784BB5F0095C3E.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/D6/WDSSCK5XVWUBD4YM6R6E9J_Auto3.uasset'
+[2024.04.14-16.44.03:137][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A_Auto3
+[2024.04.14-16.44.03:137][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/RS3LWXGDELYN3A256HR42A_Auto300D2B1FD4F379CFEE22B39BD7BBC401B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/0W/RS3LWXGDELYN3A256HR42A_Auto3.uasset'
+[2024.04.14-16.44.03:139][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8_Auto3
+[2024.04.14-16.44.03:139][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/78TTPQOP9ZB8NNHXWMV2Y8_Auto3A811C1334FDB3B35DFBFE98DC005FD1B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/8/OQ/78TTPQOP9ZB8NNHXWMV2Y8_Auto3.uasset'
+[2024.04.14-16.44.03:141][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI_Auto3
+[2024.04.14-16.44.03:141][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/3BE3TL14YOQJPOBDU4S1TI_Auto33614D42F4BCFCE400FFBF9A05A245C36.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/T0/3BE3TL14YOQJPOBDU4S1TI_Auto3.uasset'
+[2024.04.14-16.44.03:143][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/DA/0C0S3OSNY8ZSK2TJSKZ7W2_Auto3
+[2024.04.14-16.44.03:143][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/0C0S3OSNY8ZSK2TJSKZ7W2_Auto3D9A708E543FD2C9471F04F826B1CE13F.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/DA/0C0S3OSNY8ZSK2TJSKZ7W2_Auto3.uasset'
+[2024.04.14-16.44.03:147][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/1/50/MFV8HUIJ9R1L9OOVOBVI8B_Auto3
+[2024.04.14-16.44.03:147][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/MFV8HUIJ9R1L9OOVOBVI8B_Auto3EBA00E65465151AA757F1F819655221B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/1/50/MFV8HUIJ9R1L9OOVOBVI8B_Auto3.uasset'
+[2024.04.14-16.44.03:151][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/D/1H/VO6S43GUTE2A43N7J6JAMP_Auto3
+[2024.04.14-16.44.03:151][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/VO6S43GUTE2A43N7J6JAMP_Auto3735AB6CC4CB09379B8A8BC9FF1591F1F.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/D/1H/VO6S43GUTE2A43N7J6JAMP_Auto3.uasset'
+[2024.04.14-16.44.03:154][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/US/OURU7UQSXYH4727QJKO6NT_Auto3
+[2024.04.14-16.44.03:154][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/OURU7UQSXYH4727QJKO6NT_Auto39625D26F400EAFECD52EC48371F05437.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/US/OURU7UQSXYH4727QJKO6NT_Auto3.uasset'
+[2024.04.14-16.44.03:157][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/7/ND/W9IN8CQSIOG1BT3SDHLCZA_Auto3
+[2024.04.14-16.44.03:157][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/W9IN8CQSIOG1BT3SDHLCZA_Auto36503CEA540CF647D7EE77A95EDC68282.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/7/ND/W9IN8CQSIOG1BT3SDHLCZA_Auto3.uasset'
+[2024.04.14-16.44.03:160][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/6T/ECFZ363SV96RZV5T36O0US_Auto3
+[2024.04.14-16.44.03:160][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/ECFZ363SV96RZV5T36O0US_Auto36335A7C84365EAA32974949625A1D24B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/6T/ECFZ363SV96RZV5T36O0US_Auto3.uasset'
+[2024.04.14-16.44.03:162][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/Q7/GGO1KEBQUH86SV4NEATW69_Auto3
+[2024.04.14-16.44.03:162][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/GGO1KEBQUH86SV4NEATW69_Auto345D9B2E84134BD38753090BB574C57AA.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/Q7/GGO1KEBQUH86SV4NEATW69_Auto3.uasset'
+[2024.04.14-16.44.03:165][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/E/XJ/SUFIYJI138WI1NECK9YHR1_Auto3
+[2024.04.14-16.44.03:165][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/SUFIYJI138WI1NECK9YHR1_Auto3B89E1B354DD0E1CBCE9F39AB7A3D0F09.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/E/XJ/SUFIYJI138WI1NECK9YHR1_Auto3.uasset'
+[2024.04.14-16.44.03:168][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/Z8/SWZRXDMSRM63TDMMEKP7MZ_Auto3
+[2024.04.14-16.44.03:168][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/SWZRXDMSRM63TDMMEKP7MZ_Auto38EC115ED4EDC126AE1F904A7B9F1FD67.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/Z8/SWZRXDMSRM63TDMMEKP7MZ_Auto3.uasset'
+[2024.04.14-16.44.03:171][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/FV/SQC2QZN7TN5HHKGQH5D069_Auto3
+[2024.04.14-16.44.03:171][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/SQC2QZN7TN5HHKGQH5D069_Auto38334BB8D491ECA3935D5E7A62771DCF0.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/5/FV/SQC2QZN7TN5HHKGQH5D069_Auto3.uasset'
+[2024.04.14-16.44.03:173][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/CK/HGS77Y54PZ7KQQ6UC40CGE_Auto3
+[2024.04.14-16.44.03:173][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/HGS77Y54PZ7KQQ6UC40CGE_Auto386D7DCEC40E7AA72049880A3EE445248.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/0/CK/HGS77Y54PZ7KQQ6UC40CGE_Auto3.uasset'
+[2024.04.14-16.44.03:175][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/1/M1/3CHNMAQCAN2X3PLK7N52F4_Auto3
+[2024.04.14-16.44.03:176][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/3CHNMAQCAN2X3PLK7N52F4_Auto337FCB24541F9E3AC9A842FAD32B8D576.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/1/M1/3CHNMAQCAN2X3PLK7N52F4_Auto3.uasset'
+[2024.04.14-16.44.03:179][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/ME/GTVSW2FN3EK2OR3EY3Z52J_Auto3
+[2024.04.14-16.44.03:179][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/GTVSW2FN3EK2OR3EY3Z52J_Auto3EAB624214C4FBFC851DA40875E06D11B.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/B/ME/GTVSW2FN3EK2OR3EY3Z52J_Auto3.uasset'
+[2024.04.14-16.44.03:182][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/4/W0/EG03HV7B607294I0144YE7_Auto3
+[2024.04.14-16.44.03:182][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/EG03HV7B607294I0144YE7_Auto361D448EA4BAE45DDE131FB9F98496D99.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/4/W0/EG03HV7B607294I0144YE7_Auto3.uasset'
+[2024.04.14-16.44.03:185][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/A/G9/WE9IVCL5JNL3MOJP548I5I_Auto3
+[2024.04.14-16.44.03:185][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/WE9IVCL5JNL3MOJP548I5I_Auto3999C6298473D67775E714394C2AF77A5.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/A/G9/WE9IVCL5JNL3MOJP548I5I_Auto3.uasset'
+[2024.04.14-16.44.03:188][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/5E/E45GN9XPC63JVLKKE21JQY_Auto3
+[2024.04.14-16.44.03:188][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/E45GN9XPC63JVLKKE21JQY_Auto3A2514F9D420F765E3C51528E6AE13892.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/5E/E45GN9XPC63JVLKKE21JQY_Auto3.uasset'
+[2024.04.14-16.44.03:190][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/1V/V7G7LB1B219L7OY3CS1CWU_Auto3
+[2024.04.14-16.44.03:190][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/V7G7LB1B219L7OY3CS1CWU_Auto332A52D8E4D105630E195A9A403ABBAC5.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/3/1V/V7G7LB1B219L7OY3CS1CWU_Auto3.uasset'
+[2024.04.14-16.44.03:193][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/9/RP/0EMIKQX4W8BEPWK2T84A33_Auto3
+[2024.04.14-16.44.03:193][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/0EMIKQX4W8BEPWK2T84A33_Auto3E3D925344D84BCB0D7BA10A84C0FAEE0.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/9/RP/0EMIKQX4W8BEPWK2T84A33_Auto3.uasset'
+[2024.04.14-16.44.03:196][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/WG/U1U0YFVLLGFWAOBHGCAI5U_Auto3
+[2024.04.14-16.44.03:196][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/U1U0YFVLLGFWAOBHGCAI5U_Auto3EAAC50DF4069C1335A7B2EA5F8DED71D.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/6/WG/U1U0YFVLLGFWAOBHGCAI5U_Auto3.uasset'
+[2024.04.14-16.44.03:199][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/OO/SKQAN98Z387DHQC3E8XDO6_Auto3
+[2024.04.14-16.44.03:199][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/SKQAN98Z387DHQC3E8XDO6_Auto3149B71D54CC5053997CC38B907EA54B3.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/2/OO/SKQAN98Z387DHQC3E8XDO6_Auto3.uasset'
+[2024.04.14-16.44.03:201][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/I1/VZH8S47IMR7MDUIOZM66RF_Auto3
+[2024.04.14-16.44.03:201][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/VZH8S47IMR7MDUIOZM66RF_Auto33B9BBD9C40E938882096B19BACE1F69A.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/C/I1/VZH8S47IMR7MDUIOZM66RF_Auto3.uasset'
+[2024.04.14-16.44.03:204][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/A/2D/85WFH8L3BWEXBB96J3F9CR_Auto3
+[2024.04.14-16.44.03:204][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/85WFH8L3BWEXBB96J3F9CR_Auto3801169D740538209F39E8296D29AD922.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/Maps/EnvironmentTestMap/A/2D/85WFH8L3BWEXBB96J3F9CR_Auto3.uasset'
+[2024.04.14-16.44.03:205][809]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EnvironmentTestMap' took 0.088
+[2024.04.14-16.44.03:205][809]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.088
+[2024.04.14-16.44.03:205][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/aquario] ([1] browsable assets)...
+[2024.04.14-16.44.03:205][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/aquario]
+[2024.04.14-16.44.03:210][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/aquario_Auto3
+[2024.04.14-16.44.03:210][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/aquario_Auto3F7ABEF7D417E1A792476ECA2D788D8B9.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/aquario_Auto3.uasset'
+[2024.04.14-16.44.03:211][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/Material_001] ([1] browsable assets)...
+[2024.04.14-16.44.03:211][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/Material_001]
+[2024.04.14-16.44.03:213][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/Material_001_Auto3
+[2024.04.14-16.44.03:213][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Material_001_Auto3B395472B4827313EBAA0589C6A8ABE42.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/Material_001_Auto3.uasset'
+[2024.04.14-16.44.03:213][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/DefaultMaterial_Base_color] ([1] browsable assets)...
+[2024.04.14-16.44.03:213][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/DefaultMaterial_Base_color]
+[2024.04.14-16.44.03:223][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/DefaultMaterial_Base_color_Auto3
+[2024.04.14-16.44.03:223][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_Base_color_Auto302E31F184CF732D7EEFB68BFAF2DA65C.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/DefaultMaterial_Base_color_Auto3.uasset'
+[2024.04.14-16.44.03:224][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/DefaultMaterial_Roughness] ([1] browsable assets)...
+[2024.04.14-16.44.03:224][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/DefaultMaterial_Roughness]
+[2024.04.14-16.44.03:228][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/DefaultMaterial_Roughness_Auto3
+[2024.04.14-16.44.03:228][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_Roughness_Auto3BB50778E49D3B45D24D634AC7DAFF927.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/DefaultMaterial_Roughness_Auto3.uasset'
+[2024.04.14-16.44.03:229][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/ground_13_06_Mat] ([1] browsable assets)...
+[2024.04.14-16.44.03:229][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/ground_13_06_Mat]
+[2024.04.14-16.44.03:230][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/ground_13_06_Mat_Auto3
+[2024.04.14-16.44.03:230][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/ground_13_06_Mat_Auto3B704C6D54CC3F4107A3D6CA97A4E65E1.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/ground_13_06_Mat_Auto3.uasset'
+[2024.04.14-16.44.03:231][809]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Environment/aquario/ground_08_02_Mat] ([1] browsable assets)...
+[2024.04.14-16.44.03:231][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/Environment/aquario/ground_08_02_Mat]
+[2024.04.14-16.44.03:232][809]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Environment/aquario/ground_08_02_Mat_Auto3
+[2024.04.14-16.44.03:232][809]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/ground_08_02_Mat_Auto34753D9DB4C9FC4A351D07CB16B4906DF.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Environment/aquario/ground_08_02_Mat_Auto3.uasset'
+[2024.04.14-16.44.03:233][809]LogFileHelpers: Auto-saving content packages took 0.029
