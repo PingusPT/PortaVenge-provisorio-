@@ -4531,21 +4531,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.29-16.25.51:481][413]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_Base_color50CB2E354CA99121F831E09C5ECB23DE.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/Environment/WarningSignalPole/DefaultMaterial_Base_color.uasset'
 [2024.04.29-16.25.51:497][413]LogSavePackage: Moving output files for package: /Game/Environment/WarningSignalPole/DefaultMaterial_Roughness
 [2024.04.29-16.25.51:497][413]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/DefaultMaterial_RoughnessE32743CB40BAD9EB669A259C61CF7BA3.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/Environment/WarningSignalPole/DefaultMaterial_Roughness.uasset'
-[2024.04.29-16.25.53:511][413]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
-[2024.04.29-16.25.53:846][413]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.334176s
-[2024.04.29-16.25.53:846][413]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.337735s (0.337735s overbudget)
-[2024.04.29-16.25.53:861][413]LogSavePackage: Moving output files for package: /Game/Environment/WarningSignalPole/Material_002
-[2024.04.29-16.25.53:861][413]LogSavePackage: Moving 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Saved/Material_002692870014F46CABBA302CCA841FA2423.tmp' to 'C:/pasta do git/Unreal Git/PortaVenge-provisorio-/PortaVenger/Content/Environment/WarningSignalPole/Material_002.uasset'
-[2024.04.29-16.25.53:870][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.55 sec (total: 3.08 sec)
-[2024.04.29-16.25.53:873][413]AssetCheck: New page: Asset Save: multiple assets
-[2024.04.29-16.25.53:873][413]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Environment/WarningSignalPole/offlimitpole.offlimitpole
-[2024.04.29-16.25.53:873][413]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/WarningSignalPole/Material_001.Material_001
-[2024.04.29-16.25.53:873][413]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Environment/WarningSignalPole/DefaultMaterial_Base_color.DefaultMaterial_Base_color
-[2024.04.29-16.25.53:873][413]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Environment/WarningSignalPole/DefaultMaterial_Roughness.DefaultMaterial_Roughness
-[2024.04.29-16.25.53:873][413]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Environment/WarningSignalPole/Material_002.Material_002
-[2024.04.29-16.25.53:874][413]MaterialEditorStats: Base pass shader: 142 instructions
-[2024.04.29-16.25.53:874][413]MaterialEditorStats: Base pass vertex shader: 118 instructions
-[2024.04.29-16.25.53:874][413]MaterialEditorStats: MaxSampler: 191 instructions
-[2024.04.29-16.25.53:874][413]MaterialEditorStats: Texture samplers: 3/16
-[2024.04.29-16.25.53:874][413]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
-[2024.04.29-16.25.53:874][413]MaterialEditorStats: Shader Count: 16
