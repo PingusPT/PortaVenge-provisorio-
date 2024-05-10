@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
+		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
+		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
+		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
