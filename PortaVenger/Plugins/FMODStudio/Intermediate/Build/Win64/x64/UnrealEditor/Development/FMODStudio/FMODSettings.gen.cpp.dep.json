@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodsettings.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fmodstudio\\pch.fmodstudio.h.pch",
+        "Includes": [
+            "d:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\generatedcppincludes.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\metadata.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\textproperty.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\source\\fmodstudio\\classes\\fmodsettings.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_common.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_codec.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_dsp_effects.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\source\\fmodstudio\\public\\fmod\\fmod_output.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\plugins\\fmodstudio\\intermediate\\build\\win64\\unrealeditor\\inc\\fmodstudio\\uht\\fmodsettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

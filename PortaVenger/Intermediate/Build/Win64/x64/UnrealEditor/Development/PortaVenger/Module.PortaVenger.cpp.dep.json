@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portavenger\\module.portavenger.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\intermediate\\build\\win64\\x64\\portavengereditor\\development\\core\\sharedpch.core.cpp17.h.pch",
+        "Includes": [
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\portavenger\\definitions.portavenger.h",
+            "c:\\pasta do git\\unreal git\\portavenge-provisorio-\\portavenger\\intermediate\\source\\portavenger.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

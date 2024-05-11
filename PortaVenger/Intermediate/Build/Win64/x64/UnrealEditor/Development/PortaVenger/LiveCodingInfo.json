@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PortaVenger.cpp.obj": [
+			"PortaVenger.cpp.obj"
+		]
+	}
+}
