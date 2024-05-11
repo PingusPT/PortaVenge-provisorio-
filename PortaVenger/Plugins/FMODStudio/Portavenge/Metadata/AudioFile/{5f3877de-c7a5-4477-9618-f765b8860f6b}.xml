@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5f3877de-c7a5-4477-9618-f765b8860f6b}">
+		<property name="assetPath">
+			<value>Hack_mov_bolinha2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.13931972789115646</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99462094-359a-46d1-86e9-41745c33da98}</destination>
+		</relationship>
+	</object>
+</objects>
