@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{3b032d97-1efa-4a7b-888e-d3d240078e66}">
+		<property name="assetPath">
+			<value>Hack/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{16f7322b-a257-4631-b7f6-09af5bcefb7e}</destination>
+		</relationship>
+	</object>
+</objects>
