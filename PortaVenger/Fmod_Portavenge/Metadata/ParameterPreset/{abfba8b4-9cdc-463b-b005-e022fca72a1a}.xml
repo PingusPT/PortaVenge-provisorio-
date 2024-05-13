@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{abfba8b4-9cdc-463b-b005-e022fca72a1a}">
+		<property name="name">
+			<value>Distance_Sound</value>
+		</property>
+		<relationship name="folder">
+			<destination>{620fccb0-97fe-45f3-8e4d-54638482cea5}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6af090ab-8f4d-4e71-864e-25a35cf39080}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6af090ab-8f4d-4e71-864e-25a35cf39080}">
+		<property name="parameterType">
+			<value>3</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
