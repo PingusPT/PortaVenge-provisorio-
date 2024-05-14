@@ -10759,3 +10759,54 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 
 [2024.05.13-23.10.36:007][569]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\studio_api\src\fmod_objectlookup.h(124) - Lookup failed for EventModel: {d1dac0d6-4513-4b65-b9ef-be410c163558}
 
+[2024.05.14-00.41.52:643][ 30]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.05.14-00.41.52:643][ 30]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.05.14-00.41.52:684][ 31]LogAutomationController: Ignoring very large delta of 5390.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.14-00.42.02:685][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.05.14-00.42.02:688][ 60]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainMap' took 0.021
+[2024.05.14-00.42.02:699][ 60]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bp/Bp_CameraController] ([2] browsable assets)...
+[2024.05.14-00.42.02:699][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bp/Bp_CameraController]
+[2024.05.14-00.42.02:724][ 60]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Bp/Bp_CameraController_Auto1
+[2024.05.14-00.42.02:724][ 60]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Bp_CameraController_Auto19410773C4D2EB688AEBA339EBDE95F09.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Bp/Bp_CameraController_Auto1.uasset'
+[2024.05.14-00.42.02:726][ 60]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bp/Snale_Bp] ([2] browsable assets)...
+[2024.05.14-00.42.02:736][ 60]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bp/Snale_Bp.Snale_Bp]
+[2024.05.14-00.42.02:737][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bp/Snale_Bp]
+[2024.05.14-00.42.02:745][ 60]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Bp/Snale_Bp_Auto1
+[2024.05.14-00.42.02:746][ 60]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Snale_Bp_Auto1B365F2904BEDF258CA41BD9F4D6054C8.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Bp/Snale_Bp_Auto1.uasset'
+[2024.05.14-00.42.02:747][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Inimigos/Pequeno/ANIM/IP_WalkAnim] ([1] browsable assets)...
+[2024.05.14-00.42.02:753][ 60]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Inimigos/Pequeno/ANIM/IP_WalkAnim.IP_WalkAnim]
+[2024.05.14-00.42.02:753][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Inimigos/Pequeno/ANIM/IP_WalkAnim]
+[2024.05.14-00.42.02:768][ 60]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Inimigos/Pequeno/ANIM/IP_WalkAnim_Auto1
+[2024.05.14-00.42.02:768][ 60]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/IP_WalkAnim_Auto1A60B9C7C4C5FB9A8079A408796224FDE.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Inimigos/Pequeno/ANIM/IP_WalkAnim_Auto1.uasset'
+[2024.05.14-00.42.02:769][ 60]LogFileHelpers: Auto-saving content packages took 0.081
+[2024.05.14-02.00.02:208][212]LogAutomationController: Ignoring very large delta of 4629.56 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.14-07.04.07:775][213]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.05.14-07.04.07:775][213]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.05.14-07.04.07:902][214]LogAutomationController: Ignoring very large delta of 18245.43 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: request failed, libcurl error: 28 (Timeout was reached)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 0 (Too old connection (4689 seconds idle), disconnect it)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 2 (Closing connection)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 3 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 5 (Hostname in DNS cache was stale, zapped)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 6 (  Trying 44.194.152.193:443...)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 7 (Connected to datarouter.ol.epicgames.com (44.194.152.193) port 443)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 8 (ALPN: curl offers http/1.1)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 9 (SSL reusing session ID)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 10 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 11 (SSL connection timeout)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 12 (Closing connection)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: 00000B2F39E6D700: libcurl info message cache 20 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.05.14-07.04.07:922][214]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B120D1F28-41B6-C161-7410-329E02A153C3%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=8d783f944c853452b8cb93952ed09bd9%7C7e2aca84ace94e9da397b5ad33121dce%7Ce76001e3-3985-4479-82a6-607dda66709b&AppEnvironment=datacollector-binary&UploadType=eteventstream
