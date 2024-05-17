@@ -1,21 +1,15 @@
 {
 	"SourceFiles": [
-<<<<<<< Updated upstream
-		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
-		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
-		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
-		"C:\\Users\\anamj\\OneDrive\\Documentos\\GitHub\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs"
-=======
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVenger.Build.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVenger.Target.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVengerClient.Target.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVengerEditor.Target.cs",
-		"C:\\pasta do git\\Unreal Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVengerServer.Target.cs"
->>>>>>> Stashed changes
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLinkEditor\\FMODAudioLinkEditor.Build.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODAudioLink\\FMODAudioLink.Build.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Plugins\\LineOfSight\\Source\\LineOfSight\\LineOfSight.Build.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVenger.Build.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVenger.Target.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVengerClient.Target.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVengerEditor.Target.cs",
+		"C:\\Users\\Josep\\OneDrive\\Ambiente de Trabalho\\Git\\PortaVenge-provisorio-\\PortaVenger\\Intermediate\\Source\\PortaVengerServer.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }

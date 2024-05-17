@@ -1058,9 +1058,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* It is not recommended to use this function. Change Trace Responces in Collision settings instead */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "It is not recommended to use this function. Change Trace Responces in Collision settings instead" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "AddActorsToIgnore", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore_Statics::LineOfSightComponent_eventAddActorsToIgnore_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore_Statics::Function_MetaDataParams) };
@@ -1103,9 +1107,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* It is not recommended to use this function. Change Trace Responces in Collision settings instead */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "It is not recommended to use this function. Change Trace Responces in Collision settings instead" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "AddIgnoredActor", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor_Statics::LineOfSightComponent_eventAddIgnoredActor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor_Statics::Function_MetaDataParams) };
@@ -1193,9 +1201,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Returns the corner to the target. Same as FindLookAtRotation. Works correctly for the Z axis. */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the corner to the target. Same as FindLookAtRotation. Works correctly for the Z axis." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "FindAngleRotate", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate_Statics::LineOfSightComponent_eventFindAngleRotate_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate_Statics::Function_MetaDataParams) };
@@ -1682,9 +1694,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Returns true if there was a call to StartBuildMesh(). This function is not equivalent to IsPauseBuildMesh() and SetPauseBuildMesh(). */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns true if there was a call to StartBuildMesh(). This function is not equivalent to IsPauseBuildMesh() and SetPauseBuildMesh()." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "MeshIsBuilt", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt_Statics::LineOfSightComponent_eventMeshIsBuilt_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt_Statics::Function_MetaDataParams) };
@@ -1902,9 +1918,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Changes the Geometry Type. Can only be called before Start Line Trace or after Stop Line Trace  */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Changes the Geometry Type. Can only be called before Start Line Trace or after Stop Line Trace" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "SetGeometryType", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType_Statics::LineOfSightComponent_eventSetGeometryType_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType_Statics::Function_MetaDataParams) };
@@ -1952,9 +1972,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Set the Ignore Self option, but clear the actor array added using AddActorsToIgnore */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the Ignore Self option, but clear the actor array added using AddActorsToIgnore" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "SetIgnoreSelf", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf_Statics::LineOfSightComponent_eventSetIgnoreSelf_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf_Statics::Function_MetaDataParams) };
@@ -1997,9 +2021,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_SetNormals_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Can only be called after Start Build Mesh  */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Can only be called after Start Build Mesh" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_SetNormals_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "SetNormals", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_SetNormals_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetNormals_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_SetNormals_Statics::LineOfSightComponent_eventSetNormals_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetNormals_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_SetNormals_Statics::Function_MetaDataParams) };
@@ -2064,10 +2092,14 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Disables updating of the mesh. Tracing continues to work. This is faster than StopBuildMesh() and StartBuildMesh(). If StartLineTrace() has not been called, this function does nothing. */" },
+#endif
 		{ "CPP_Default_ChangeVisibility", "true" },
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Disables updating of the mesh. Tracing continues to work. This is faster than StopBuildMesh() and StartBuildMesh(). If StartLineTrace() has not been called, this function does nothing." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "SetPauseBuildMesh", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh_Statics::LineOfSightComponent_eventSetPauseBuildMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh_Statics::Function_MetaDataParams) };
@@ -2166,10 +2198,14 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* \n\x09""Disables LineTrace. It works faster than StopLineTrace() and StartLineTrace(). The rotation functions continue to work. If StartLineTrace() has not been called, this function does nothing.\n\x09* RunEndOverlap - Triggering the EndOverlap event for Actors that have previously called BeginOverlap.\n\x09* EmptyOverlapArray - Clear the array that stores Actors for which BeginOverlap was called. If this array is not cleared then BeginOverlap will not be called again. It makes sense only if RunEndOverlap = false.\n\x09* ChangeVisibility - Switches the mesh visibility automatically. If True then the mesh will become invisible if 'Pause' = true and vice versa.\n\x09*/" },
+#endif
 		{ "CPP_Default_ChangeVisibility", "true" },
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Disables LineTrace. It works faster than StopLineTrace() and StartLineTrace(). The rotation functions continue to work. If StartLineTrace() has not been called, this function does nothing.\n* RunEndOverlap - Triggering the EndOverlap event for Actors that have previously called BeginOverlap.\n* EmptyOverlapArray - Clear the array that stores Actors for which BeginOverlap was called. If this array is not cleared then BeginOverlap will not be called again. It makes sense only if RunEndOverlap = false.\n* ChangeVisibility - Switches the mesh visibility automatically. If True then the mesh will become invisible if 'Pause' = true and vice versa." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "SetPauseTrace", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace_Statics::LineOfSightComponent_eventSetPauseTrace_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace_Statics::Function_MetaDataParams) };
@@ -2346,9 +2382,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_SetTolerance_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Tolerance to compare angles. Default 0.00005f. */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Tolerance to compare angles. Default 0.00005f." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_SetTolerance_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "SetTolerance", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_SetTolerance_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetTolerance_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_SetTolerance_Statics::LineOfSightComponent_eventSetTolerance_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_SetTolerance_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_SetTolerance_Statics::Function_MetaDataParams) };
@@ -2512,9 +2552,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_StartBuildMesh_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Create Mesh After StartLineTrace(). */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Create Mesh After StartLineTrace()." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_StartBuildMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "StartBuildMesh", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartBuildMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_StartBuildMesh_Statics::Function_MetaDataParams) };
@@ -2670,9 +2714,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Smoothly changes the radius */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Smoothly changes the radius" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "StartInterpRadius", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius_Statics::LineOfSightComponent_eventStartInterpRadius_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius_Statics::Function_MetaDataParams) };
@@ -2711,10 +2759,14 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Does TraceLine */" },
+#endif
 		{ "CPP_Default_NumberOfLines", "60" },
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Does TraceLine" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "StartLineTrace", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace_Statics::LineOfSightComponent_eventStartLineTrace_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace_Statics::Function_MetaDataParams) };
@@ -2918,9 +2970,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Maximum angle 89 */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Maximum angle 89" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "StartRotateInRangeAxis", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis_Statics::LineOfSightComponent_eventStartRotateInRangeAxis_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis_Statics::Function_MetaDataParams) };
@@ -2982,9 +3038,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* This function uses World Rotation */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "This function uses World Rotation" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "StartRotateToActor", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor_Statics::LineOfSightComponent_eventStartRotateToActor_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor_Statics::Function_MetaDataParams) };
@@ -3086,10 +3146,14 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* When the rotation is finished, event RotateToAngleEnd will be called. */" },
+#endif
 		{ "CPP_Default_AddToCurrent", "true" },
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When the rotation is finished, event RotateToAngleEnd will be called." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "StartRotateToAngleAxis", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis_Statics::LineOfSightComponent_eventStartRotateToAngleAxis_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis_Statics::Function_MetaDataParams) };
@@ -3206,9 +3270,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_StopLineTrace_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Essentially disables the component. Stops tracing and building the mesh. But the tick function will continue to work. To disable it completely,\n\x09""call StopLineTrace () and call SetTickComponentEnabled (false). */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Essentially disables the component. Stops tracing and building the mesh. But the tick function will continue to work. To disable it completely,\n      call StopLineTrace () and call SetTickComponentEnabled (false)." },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_StopLineTrace_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "StopLineTrace", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_StopLineTrace_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_StopLineTrace_Statics::Function_MetaDataParams) };
@@ -3287,10 +3355,14 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULineOfSightComponent_Test1_Statics::Function_MetaDataParams[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Can only be called after Start Build Mesh  */" },
+#endif
 		{ "CPP_Default_NumberOfLines", "60" },
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Can only be called after Start Build Mesh" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ULineOfSightComponent_Test1_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ULineOfSightComponent, nullptr, "Test1", nullptr, nullptr, Z_Construct_UFunction_ULineOfSightComponent_Test1_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_Test1_Statics::PropPointers), sizeof(Z_Construct_UFunction_ULineOfSightComponent_Test1_Statics::LineOfSightComponent_eventTest1_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ULineOfSightComponent_Test1_Statics::Function_MetaDataParams), Z_Construct_UFunction_ULineOfSightComponent_Test1_Statics::Function_MetaDataParams) };
@@ -3531,10 +3603,10 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ULineOfSightComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_ULineOfSightComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore, "AddActorsToIgnore" }, // 1478101369
-		{ &Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor, "AddIgnoredActor" }, // 3435509757
+		{ &Z_Construct_UFunction_ULineOfSightComponent_AddActorsToIgnore, "AddActorsToIgnore" }, // 4192762834
+		{ &Z_Construct_UFunction_ULineOfSightComponent_AddIgnoredActor, "AddIgnoredActor" }, // 254577886
 		{ &Z_Construct_UFunction_ULineOfSightComponent_ClearActorsToIgnore, "ClearActorsToIgnore" }, // 646177372
-		{ &Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate, "FindAngleRotate" }, // 3881106377
+		{ &Z_Construct_UFunction_ULineOfSightComponent_FindAngleRotate, "FindAngleRotate" }, // 2515648502
 		{ &Z_Construct_UFunction_ULineOfSightComponent_GetAngle1, "GetAngle1" }, // 2045944721
 		{ &Z_Construct_UFunction_ULineOfSightComponent_GetAngle2, "GetAngle2" }, // 128580052
 		{ &Z_Construct_UFunction_ULineOfSightComponent_GetBeginAndEndOverlapEvent, "GetBeginAndEndOverlapEvent" }, // 1694163055
@@ -3547,40 +3619,40 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 		{ &Z_Construct_UFunction_ULineOfSightComponent_IsPauseBuildMesh, "IsPauseBuildMesh" }, // 179655015
 		{ &Z_Construct_UFunction_ULineOfSightComponent_IsPauseTrace, "IsPauseTrace" }, // 1960389992
 		{ &Z_Construct_UFunction_ULineOfSightComponent_LineOfSightIsActive, "LineOfSightIsActive" }, // 216033195
-		{ &Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt, "MeshIsBuilt" }, // 1712666022
+		{ &Z_Construct_UFunction_ULineOfSightComponent_MeshIsBuilt, "MeshIsBuilt" }, // 965624432
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetAngle1, "SetAngle1" }, // 711087527
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetAngle2, "SetAngle2" }, // 1630871157
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetBeginAndEndOverlapEvent, "SetBeginAndEndOverlapEvent" }, // 773966394
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetFrameTracing, "SetFrameTracing" }, // 1957452892
-		{ &Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType, "SetGeometryType" }, // 4144806883
-		{ &Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf, "SetIgnoreSelf" }, // 1300046450
-		{ &Z_Construct_UFunction_ULineOfSightComponent_SetNormals, "SetNormals" }, // 3456056825
-		{ &Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh, "SetPauseBuildMesh" }, // 3972155965
-		{ &Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace, "SetPauseTrace" }, // 1902110063
+		{ &Z_Construct_UFunction_ULineOfSightComponent_SetGeometryType, "SetGeometryType" }, // 3539255397
+		{ &Z_Construct_UFunction_ULineOfSightComponent_SetIgnoreSelf, "SetIgnoreSelf" }, // 266385275
+		{ &Z_Construct_UFunction_ULineOfSightComponent_SetNormals, "SetNormals" }, // 3548436638
+		{ &Z_Construct_UFunction_ULineOfSightComponent_SetPauseBuildMesh, "SetPauseBuildMesh" }, // 3894168907
+		{ &Z_Construct_UFunction_ULineOfSightComponent_SetPauseTrace, "SetPauseTrace" }, // 2299439183
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetRadius1, "SetRadius1" }, // 1117254303
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetRadius2, "SetRadius2" }, // 3205576068
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetTickEnable, "SetTickEnable" }, // 110377400
-		{ &Z_Construct_UFunction_ULineOfSightComponent_SetTolerance, "SetTolerance" }, // 3483513737
+		{ &Z_Construct_UFunction_ULineOfSightComponent_SetTolerance, "SetTolerance" }, // 3566864273
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetTraceChannel, "SetTraceChannel" }, // 3199857524
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetTraceComplex, "SetTraceComplex" }, // 2638345166
 		{ &Z_Construct_UFunction_ULineOfSightComponent_SetVisibilityOfMesh, "SetVisibilityOfMesh" }, // 1394415683
-		{ &Z_Construct_UFunction_ULineOfSightComponent_StartBuildMesh, "StartBuildMesh" }, // 1097051641
+		{ &Z_Construct_UFunction_ULineOfSightComponent_StartBuildMesh, "StartBuildMesh" }, // 3942094381
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StartInterpAngle, "StartInterpAngle" }, // 2539011939
-		{ &Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius, "StartInterpRadius" }, // 2810603247
-		{ &Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace, "StartLineTrace" }, // 1628923464
+		{ &Z_Construct_UFunction_ULineOfSightComponent_StartInterpRadius, "StartInterpRadius" }, // 1958691458
+		{ &Z_Construct_UFunction_ULineOfSightComponent_StartLineTrace, "StartLineTrace" }, // 1642092497
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StartOAEArc, "StartOAEArc" }, // 4249352156
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StartOAEFlat, "StartOAEFlat" }, // 28848870
-		{ &Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis, "StartRotateInRangeAxis" }, // 2305706551
-		{ &Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor, "StartRotateToActor" }, // 1487401726
-		{ &Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis, "StartRotateToAngleAxis" }, // 1562077572
+		{ &Z_Construct_UFunction_ULineOfSightComponent_StartRotateInRangeAxis, "StartRotateInRangeAxis" }, // 11673122
+		{ &Z_Construct_UFunction_ULineOfSightComponent_StartRotateToActor, "StartRotateToActor" }, // 32489243
+		{ &Z_Construct_UFunction_ULineOfSightComponent_StartRotateToAngleAxis, "StartRotateToAngleAxis" }, // 3653700411
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StopAllRotate, "StopAllRotate" }, // 2847254213
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StopBuildMesh, "StopBuildMesh" }, // 3010272217
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StopInterpAngle, "StopInterpAngle" }, // 214024828
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StopInterpRadius, "StopInterpRadius" }, // 3486963258
-		{ &Z_Construct_UFunction_ULineOfSightComponent_StopLineTrace, "StopLineTrace" }, // 3786798640
+		{ &Z_Construct_UFunction_ULineOfSightComponent_StopLineTrace, "StopLineTrace" }, // 792894881
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StopRotateInRange, "StopRotateInRange" }, // 3181932937
 		{ &Z_Construct_UFunction_ULineOfSightComponent_StopRotateToAngle, "StopRotateToAngle" }, // 1281245823
-		{ &Z_Construct_UFunction_ULineOfSightComponent_Test1, "Test1" }, // 3939818124
+		{ &Z_Construct_UFunction_ULineOfSightComponent_Test1, "Test1" }, // 336052241
 		{ &Z_Construct_UFunction_ULineOfSightComponent_ZStartCloneTo, "ZStartCloneTo" }, // 39506846
 		{ &Z_Construct_UFunction_ULineOfSightComponent_ZStopCloneTo, "ZStopCloneTo" }, // 290686853
 	};
@@ -3598,18 +3670,26 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_BeginOverlap_MetaData[] = {
 		{ "Category", "LineOfSight Component|Event" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The event is similar to On Component Begin Overlap */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The event is similar to On Component Begin Overlap" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_BeginOverlap = { "BeginOverlap", nullptr, (EPropertyFlags)0x0010100010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ULineOfSightComponent, BeginOverlap), Z_Construct_UDelegateFunction_LineOfSight_HitStart__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_BeginOverlap_MetaData), Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_BeginOverlap_MetaData) }; // 784290310
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_EndOverlap_MetaData[] = {
 		{ "Category", "LineOfSight Component|Event" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* The event is similar to On Component End Overlap */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The event is similar to On Component End Overlap" },
+#endif
 	};
 #endif
 	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_EndOverlap = { "EndOverlap", nullptr, (EPropertyFlags)0x0010100010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ULineOfSightComponent, EndOverlap), Z_Construct_UDelegateFunction_LineOfSight_HitEnd__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_EndOverlap_MetaData), Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_EndOverlap_MetaData) }; // 4013317266
@@ -3680,9 +3760,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_IgnoreSelf_MetaData[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Adds an actor to the list for trace exceptions. */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Adds an actor to the list for trace exceptions." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_IgnoreSelf_SetBit(void* Obj)
@@ -3693,9 +3777,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_BeginAndEndOverlapEvent_MetaData[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Calls Events: Hit Start and Hit End. Similar to Event On Component Begin Overlap. */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Calls Events: Hit Start and Hit End. Similar to Event On Component Begin Overlap." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_BeginAndEndOverlapEvent_SetBit(void* Obj)
@@ -3706,9 +3794,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_OnlyOneArc_MetaData[] = {
 		{ "Category", "LineOfSight Component" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Used for optimization. Use false if you only need 1 arch instead of Radius 1 = 0 and Angle 1 = 0. */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Used for optimization. Use false if you only need 1 arch instead of Radius 1 = 0 and Angle 1 = 0." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_OnlyOneArc_SetBit(void* Obj)
@@ -3750,9 +3842,13 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_Debug_MetaData[] = {
 		{ "Category", "LineOfSight Component|Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Only available in the editor. Draws tracing lines. */" },
+#endif
 		{ "ModuleRelativePath", "Public/LineOfSightComponent.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Only available in the editor. Draws tracing lines." },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_ULineOfSightComponent_Statics::NewProp_Debug_SetBit(void* Obj)
@@ -3926,27 +4022,27 @@ void FRotateToAngleEnd_DelegateWrapper(const FMulticastScriptDelegate& RotateToA
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ULineOfSightComponent);
 	ULineOfSightComponent::~ULineOfSightComponent() {}
-	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::EnumInfo[] = {
 		{ ETypeTriangle_StaticEnum, TEXT("ETypeTriangle"), &Z_Registration_Info_UEnum_ETypeTriangle, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3798736391U) },
 		{ ETypeArc_StaticEnum, TEXT("ETypeArc"), &Z_Registration_Info_UEnum_ETypeArc, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3372663358U) },
 		{ EAxisTypeComp_StaticEnum, TEXT("EAxisTypeComp"), &Z_Registration_Info_UEnum_EAxisTypeComp, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1873111054U) },
 		{ ETypeRotation_StaticEnum, TEXT("ETypeRotation"), &Z_Registration_Info_UEnum_ETypeRotation, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2521429666U) },
 		{ EFrameTracingSight_StaticEnum, TEXT("EFrameTracingSight"), &Z_Registration_Info_UEnum_EFrameTracingSight, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3228495972U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ScriptStructInfo[] = {
 		{ FResultLineTrace::StaticStruct, Z_Construct_UScriptStruct_FResultLineTrace_Statics::NewStructOps, TEXT("ResultLineTrace"), &Z_Registration_Info_UScriptStruct_ResultLineTrace, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FResultLineTrace), 2688562759U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ULineOfSightComponent, ULineOfSightComponent::StaticClass, TEXT("ULineOfSightComponent"), &Z_Registration_Info_UClass_ULineOfSightComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULineOfSightComponent), 1910513388U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_ULineOfSightComponent, ULineOfSightComponent::StaticClass, TEXT("ULineOfSightComponent"), &Z_Registration_Info_UClass_ULineOfSightComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ULineOfSightComponent), 1979057781U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_715363163(TEXT("/Script/LineOfSight"),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_3760661826(TEXT("/Script/LineOfSight"),
+		Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Josep_OneDrive_Ambiente_de_Trabalho_Git_PortaVenge_provisorio__PortaVenger_Plugins_LineOfSight_Source_LineOfSight_Public_LineOfSightComponent_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

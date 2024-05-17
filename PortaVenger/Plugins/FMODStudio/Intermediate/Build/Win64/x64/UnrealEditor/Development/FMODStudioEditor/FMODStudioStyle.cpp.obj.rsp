@@ -1,11 +1,11 @@
-"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.cpp"
-/FI"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
-/FI"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\Definitions.h"
-/Yu"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
-/Fp"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h.pch"
-/Fo"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODStudioStyle.cpp.obj"
-/sourceDependencies "C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODStudioStyle.cpp.dep.json"
-@"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODStudioEditor.Shared.rsp"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.cpp"
+/FI"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
+/FI"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\Definitions.h"
+/Yu"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h"
+/Fp"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\PCH.FMODStudioEditor.h.pch"
+/Fo"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODStudioStyle.cpp.obj"
+/sourceDependencies "C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODStudioStyle.cpp.dep.json"
+@"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudioEditor\FMODStudioEditor.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

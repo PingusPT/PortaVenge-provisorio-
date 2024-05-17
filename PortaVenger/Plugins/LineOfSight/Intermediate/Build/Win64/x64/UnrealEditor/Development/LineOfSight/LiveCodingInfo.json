@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.LineOfSight.cpp.obj": [
+			"LineOfSight.init.gen.cpp.obj",
+			"LineOfSightComponent.gen.cpp.obj",
+			"LineOfSight.cpp.obj",
+			"LineOfSightComponent.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-PortaVenger.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h.obj"
+"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp.obj"
+"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Default.rc2.res"
+/OUT:"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\UnrealEditor-PortaVenger.lib"

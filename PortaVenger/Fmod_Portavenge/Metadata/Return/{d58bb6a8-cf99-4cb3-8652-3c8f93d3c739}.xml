@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{d58bb6a8-cf99-4cb3-8652-3c8f93d3c739}">
+		<property name="name">
+			<value>Rev_Geral</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{26921eeb-6270-4f16-8f5e-e37a96960159}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{272c0771-06dc-42b3-888b-e87da396d2c9}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b97d0089-a9a0-435b-9fab-6034ae8aeda3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{26921eeb-6270-4f16-8f5e-e37a96960159}">
+		<relationship name="effects">
+			<destination>{30b95384-cc54-4ca3-a926-188787c3f1cd}</destination>
+			<destination>{0f298a43-ae9d-42b2-98cc-9323a4dcf1a5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{272c0771-06dc-42b3-888b-e87da396d2c9}" />
+	<object class="MixerBusFader" id="{30b95384-cc54-4ca3-a926-188787c3f1cd}" />
+	<object class="SFXReverbEffect" id="{0f298a43-ae9d-42b2-98cc-9323a4dcf1a5}">
+		<relationship name="automators">
+			<destination>{e9e80062-e62e-465b-b2e1-048900027fea}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{e9e80062-e62e-465b-b2e1-048900027fea}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>decayTime</value>
+		</property>
+	</object>
+</objects>

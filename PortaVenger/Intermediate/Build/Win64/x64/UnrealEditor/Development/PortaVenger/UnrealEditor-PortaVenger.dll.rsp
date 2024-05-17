@@ -34,9 +34,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h.obj"
-"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp.obj"
-"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Default.rc2.res"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h.obj"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp.obj"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "delayimp.lib"
 "wininet.lib"
@@ -63,7 +63,7 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Binaries\Win64\UnrealEditor-PortaVenger.dll"
-/IMPLIB:"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\UnrealEditor-PortaVenger.sup.lib"
-/PDB:"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Binaries\Win64\UnrealEditor-PortaVenger.pdb"
+/OUT:"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Binaries\Win64\UnrealEditor-PortaVenger.dll"
+/IMPLIB:"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\UnrealEditor-PortaVenger.sup.lib"
+/PDB:"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Binaries\Win64\UnrealEditor-PortaVenger.pdb"
 /ignore:4078

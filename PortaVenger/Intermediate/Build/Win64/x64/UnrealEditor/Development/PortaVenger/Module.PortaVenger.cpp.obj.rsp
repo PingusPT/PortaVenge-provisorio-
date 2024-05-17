@@ -1,11 +1,11 @@
-"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp"
-/FI"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h"
-/FI"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Definitions.PortaVenger.h"
-/Yu"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h"
-/Fp"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h.pch"
-/Fo"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp.obj"
-/sourceDependencies "C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp.dep.json"
-@"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\PortaVenger.Shared.rsp"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp"
+/FI"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h"
+/FI"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Definitions.PortaVenger.h"
+/Yu"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h"
+/Fp"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Core\SharedPCH.Core.Cpp17.h.pch"
+/Fo"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp.obj"
+/sourceDependencies "C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\Module.PortaVenger.cpp.dep.json"
+@"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\UnrealEditor\Development\PortaVenger\PortaVenger.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

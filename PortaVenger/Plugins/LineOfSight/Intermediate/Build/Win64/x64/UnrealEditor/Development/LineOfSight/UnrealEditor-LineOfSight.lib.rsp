@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-LineOfSight.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Intermediate\Build\Win64\x64\PortaVengerEditor\Development\Engine\SharedPCH.Engine.Cpp17.h.obj"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\LineOfSight\Intermediate\Build\Win64\x64\UnrealEditor\Development\LineOfSight\Module.LineOfSight.cpp.obj"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\LineOfSight\Intermediate\Build\Win64\x64\UnrealEditor\Development\LineOfSight\Default.rc2.res"
+/OUT:"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\LineOfSight\Intermediate\Build\Win64\x64\UnrealEditor\Development\LineOfSight\UnrealEditor-LineOfSight.lib"

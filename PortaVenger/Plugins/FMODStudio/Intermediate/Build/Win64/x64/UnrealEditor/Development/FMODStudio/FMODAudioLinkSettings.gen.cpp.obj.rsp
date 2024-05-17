@@ -1,11 +1,11 @@
-"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\UnrealEditor\Inc\FMODStudio\UHT\FMODAudioLinkSettings.gen.cpp"
-/FI"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
-/FI"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\Definitions.h"
-/Yu"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
-/Fp"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h.pch"
-/Fo"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettings.gen.cpp.obj"
-/sourceDependencies "C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettings.gen.cpp.dep.json"
-@"C:\pasta do git\Unreal Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODStudio.Shared.rsp"
+"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\UnrealEditor\Inc\FMODStudio\UHT\FMODAudioLinkSettings.gen.cpp"
+/FI"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
+/FI"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\Definitions.h"
+/Yu"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h"
+/Fp"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\PCH.FMODStudio.h.pch"
+/Fo"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettings.gen.cpp.obj"
+/sourceDependencies "C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODAudioLinkSettings.gen.cpp.dep.json"
+@"C:\Users\Josep\OneDrive\Ambiente de Trabalho\Git\PortaVenge-provisorio-\PortaVenger\Plugins\FMODStudio\Intermediate\Build\Win64\x64\UnrealEditor\Development\FMODStudio\FMODStudio.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

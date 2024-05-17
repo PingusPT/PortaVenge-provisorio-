@@ -292,9 +292,7 @@
 /Gy
 /utf-8
 /wd4819
-/DSAL_NO_ATTRIBUTE_DECLARATIONS=1
-/permissive-
-/Zc:strictStrings-
+/Zc:hiddenFriend
 /Zc:__cplusplus
 /D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
 /D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
@@ -322,6 +320,4 @@
 /TP
 /GR-
 /W4
-/std:c++20
-/Zc:preprocessor
-/wd5054
+/std:c++17
