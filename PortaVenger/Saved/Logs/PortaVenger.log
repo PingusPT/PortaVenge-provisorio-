@@ -3270,3 +3270,1490 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2024.05.25-18.11.57:200][973]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/1stLevel.1stLevel:PersistentLevel.StaticMeshActor_UAID_A8B13B818D24A6F801_1391084428
 [2024.05.25-18.11.57:200][973]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/1stLevel.1stLevel:PersistentLevel.StaticMeshActor_UAID_A8B13B818D24A6F801_1905230467
 [2024.05.25-18.11.57:200][973]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/1stLevel.1stLevel:PersistentLevel.StaticMeshActor_UAID_A8B13B818D24A6F801_1905231468
+[2024.05.25-18.14.44:913][340]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.14.44:913][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.14.45:427][364]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.05.25-18.14.45:427][364]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.14.45:427][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.14.53:291][826]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\studio_api\src\fmod_objectlookup.h(124) - Lookup failed for EventModel: {a20bac4a-c0f8-4259-91e0-3eb267f1493a}
+
+[2024.05.25-18.14.53:448][830]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.14.53:448][830]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.25-18.14.53:448][830]LogShaderCompilers: Display: Total job queries 323, among them cache hits 158 (48.92%)
+[2024.05.25-18.14.53:448][830]LogShaderCompilers: Display: Tracking 165 distinct input hashes that result in 95 distinct outputs (57.58%)
+[2024.05.25-18.14.53:448][830]LogShaderCompilers: Display: RAM used: 362,13 KiB of 819,20 MiB budget. Usage: 0.04%
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Shaders Compiled: 3
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Average time worker was idle: 492.89 s
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 0.62 s
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Job life time (pending + execution): average 0.60 s, max 0.65
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Shader code size: average 7,485 KiB, min 5,727 KiB, max 9,832 KiB
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.26 s
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Average processing rate: 2.38 jobs/sec
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Total thread time: 0,997 s
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Total thread preprocess time: 0,098 s
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Percentage time preprocessing: 9.84%
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Effective parallelization: 0.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 40.50% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.01% of total time (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 28.49% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.14.53:449][830]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.14.53:458][831]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.14.53:461][831]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.05.25-18.14.53:522][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.14.55:019][921]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ParedeSpawnPortal/BP_InvisibleWall.BP_InvisibleWall
+[2024.05.25-18.14.55:020][921]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.14.55:020][921]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.16.28:388][178]LogClass: Warning: Short type name "Bp_CCTV_C_UAID_A8B13B9207F703F901_1751433631" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.05.25-18.16.28:395][178]LogClass: Warning: Short type name "Bp_CCTV_C_UAID_A8B13B9207F703F901_1751433631" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.05.25-18.16.30:794][317]Cmd: TRANSACTION UNDO
+[2024.05.25-18.16.30:794][317]LogEditorTransaction: Undo Move Elements
+[2024.05.25-18.16.30:834][317]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.17.42:643][559]LogWorldPartition: Actor /Game/1stLevel.1stLevel:PersistentLevel.Bp_CCTV_C_UAID_A8B13B9207F70DF901_1560446400 is unreachable without properly detaching object /Game/__ExternalActors__/1stLevel/D/ZF/4Z97FEUDFFLQH0PJPR2HWJ.PackageMetaData in its package
+[2024.05.25-18.17.42:655][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.05.25-18.17.42:663][559]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/1stLevel/9/ZA/9S0SVUGT2PIN16A8LD7PMV_Auto1
+[2024.05.25-18.17.42:664][559]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/9S0SVUGT2PIN16A8LD7PMV_Auto19A58951E489A8ADB5F644AA754059C24.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/__ExternalActors__/1stLevel/9/ZA/9S0SVUGT2PIN16A8LD7PMV_Auto1.uasset'
+[2024.05.25-18.17.42:666][559]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/1stLevel' took 0.037
+[2024.05.25-18.17.42:667][559]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2024.05.25-18.17.42:712][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Total job queries 325, among them cache hits 158 (48.62%)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Tracking 167 distinct input hashes that result in 97 distinct outputs (58.08%)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: RAM used: 372,81 KiB of 819,20 MiB budget. Usage: 0.04%
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Shaders Compiled: 3
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Average time worker was idle: 492.89 s
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 0.62 s
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Job life time (pending + execution): average 0.60 s, max 0.65
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Shader code size: average 7,485 KiB, min 5,727 KiB, max 9,832 KiB
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.26 s
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Average processing rate: 2.38 jobs/sec
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Total thread time: 0,997 s
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Total thread preprocess time: 0,098 s
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Percentage time preprocessing: 9.84%
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Effective parallelization: 0.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 40.50% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.01% of total time (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 28.49% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.19.09:859][781]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.19.12:756][951]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Bp/Bp_PortalArm.Bp_PortalArm
+[2024.05.25-18.19.12:756][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.19.12:756][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.22.06:762][360]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.22.06:818][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.05.25-18.22.08:642][440]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.22.08:654][440]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.22.08:654][440]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.22.08:792][440]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 137 ms (total: 1.11 sec)
+[2024.05.25-18.22.08:820][440]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.22.08:820][440]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.22.08:826][440]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.22.08:826][440]LogFMOD: System sample rate = 48000
+[2024.05.25-18.22.08:826][440]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.22.08:915][440]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.22.08:915][440]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.22.08:950][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.22.08:950][440]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:22:08)
+[2024.05.25-18.22.08:950][440]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2024.05.25-18.22.08:953][440]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.05.25-18.22.09:037][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.22.09:037][441]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.22.09:069][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031822s)
+[2024.05.25-18.22.09:069][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.031866s)
+[2024.05.25-18.22.09:081][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.05.25-18.22.09:083][441]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.22.09:083][441]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.22.09:084][441]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.22.09:084][441]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.22.09:084][441]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.22.09:084][441]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.22.09:084][441]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.22.09:094][441]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.22.09:094][441]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.41 sec)
+[2024.05.25-18.22.09:094][441]LogPlayLevel: PIE: World Init took: (0.010693s)
+[2024.05.25-18.22.09:094][441]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.05.25-18.22.09:094][441]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.22.09:094][441]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.22.09:094][441]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.22.09:094][441]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.22.09:094][441]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.22.09:094][441]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.22.09:094][441]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.22.09:094][441]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.22.09:095][441]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.22.09:095][441]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.22.09:095][441]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.22.09:096][441]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.22.09:162][441]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.22.09:163][441]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.22.09:163][441]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.22.09:163][441]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.22.09:163][441]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.05.25-18.22.09:163][441]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.05.25-18.22.09:166][441]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.05.25-18.22.09:166][441]LogInit: FAudioDevice initialized with ID 9.
+[2024.05.25-18.22.09:166][441]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.05.25-18.22.09:166][441]LogAudio: Display: Audio Device (ID: 9) registered with world '1stLevel'.
+[2024.05.25-18.22.09:166][441]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.05.25-18.22.09:167][441]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.22.09:169][441]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.22.09
+[2024.05.25-18.22.09:169][441]LogWorld: Bringing up level for play took: 0.001489
+[2024.05.25-18.22.09:171][441]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.22.09:171][441]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.22.09:258][441]LogStreaming: Display: FlushAsyncLoading(): 1994 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.22.10:138][441]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.22.10:140][441]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.22.10:157][441]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.22.10:179][441]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.22.10:180][441]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.22.10:202][441]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.22.10:202][441]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.22.10:204][441]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.22.10:206][441]PIE: Server logged in
+[2024.05.25-18.22.10:206][441]PIE: Play in editor total start time 1,552 seconds.
+[2024.05.25-18.22.14:072][658]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.22.14:072][658]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.22.14:088][658]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.22.14:088][658]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.22.17:689][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.22.17:689][864]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.22.17:703][864]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.22.17:704][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.22.17:704][864]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.22.17:708][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.22.17:715][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.22.17:743][864]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.22.17:745][864]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.05.25-18.22.17:745][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.22.17:745][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.05.25-18.22.17:747][864]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.05.25-18.22.17:755][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.22.17:802][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.05.25-18.22.17:948][865]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.05.25-18.23.04:414][640]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.23.04:461][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.05.25-18.23.05:730][680]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.23.05:741][680]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.23.05:741][680]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.23.05:875][680]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 133 ms (total: 1.24 sec)
+[2024.05.25-18.23.05:910][680]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.23.05:910][680]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.23.05:915][680]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.23.05:915][680]LogFMOD: System sample rate = 48000
+[2024.05.25-18.23.05:915][680]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.23.06:005][680]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.23.06:005][680]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.23.06:048][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.23.06:048][680]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:23:06)
+[2024.05.25-18.23.06:048][680]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2024.05.25-18.23.06:051][680]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.05.25-18.23.06:131][681]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.06:132][681]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.23.06:165][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031899s)
+[2024.05.25-18.23.06:165][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.031946s)
+[2024.05.25-18.23.06:176][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.05.25-18.23.06:181][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.23.06:181][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.23.06:181][681]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.23.06:181][681]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.23.06:181][681]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.23.06:181][681]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.23.06:181][681]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.23.06:191][681]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.23.06:191][681]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.42 sec)
+[2024.05.25-18.23.06:191][681]LogPlayLevel: PIE: World Init took: (0.010522s)
+[2024.05.25-18.23.06:191][681]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.05.25-18.23.06:191][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.23.06:191][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.23.06:191][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.23.06:191][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.23.06:191][681]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.23.06:191][681]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.23.06:191][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.23.06:191][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.23.06:192][681]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.23.06:192][681]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.23.06:192][681]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.23.06:194][681]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.23.06:256][681]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.23.06:256][681]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.23.06:256][681]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.23.06:256][681]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.23.06:257][681]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.05.25-18.23.06:257][681]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.05.25-18.23.06:259][681]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.05.25-18.23.06:259][681]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.05.25-18.23.06:259][681]LogInit: FAudioDevice initialized with ID 10.
+[2024.05.25-18.23.06:259][681]LogAudio: Display: Audio Device (ID: 10) registered with world '1stLevel'.
+[2024.05.25-18.23.06:259][681]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.05.25-18.23.06:261][681]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.23.06:262][681]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.23.06
+[2024.05.25-18.23.06:262][681]LogWorld: Bringing up level for play took: 0.001311
+[2024.05.25-18.23.06:264][681]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.23.06:264][681]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.23.06:321][681]LogStreaming: Display: FlushAsyncLoading(): 1994 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.23.07:218][681]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.23.07:219][681]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.23.07:238][681]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.23.07:260][681]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.23.07:262][681]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.23.07:284][681]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.23.07:284][681]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.23.07:287][681]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.23.07:288][681]PIE: Server logged in
+[2024.05.25-18.23.07:289][681]PIE: Play in editor total start time 1,547 seconds.
+[2024.05.25-18.23.09:718][819]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.23.09:718][819]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.23.09:720][819]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.23.09:720][819]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.23.13:000][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.23.13:000][  6]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.23.13:014][  6]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.23.13:014][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.13:015][  6]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.23.13:018][  6]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.23.13:025][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.13:052][  6]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.23.13:054][  6]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.05.25-18.23.13:054][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.13:054][  6]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.05.25-18.23.13:057][  6]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.05.25-18.23.13:065][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.23.13:115][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.05.25-18.23.13:264][  7]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.05.25-18.23.21:547][499]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.23.21:595][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.05.25-18.23.22:887][550]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.23.22:897][550]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.23.22:897][550]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.23.23:032][550]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 134 ms (total: 1.37 sec)
+[2024.05.25-18.23.23:059][550]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.23.23:059][550]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.23.23:064][550]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.23.23:064][550]LogFMOD: System sample rate = 48000
+[2024.05.25-18.23.23:064][550]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.23.23:159][550]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.23.23:159][550]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.23.23:200][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.23.23:200][550]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:23:23)
+[2024.05.25-18.23.23:200][550]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2024.05.25-18.23.23:204][550]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.05.25-18.23.23:285][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.23:286][551]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.23.23:318][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031934s)
+[2024.05.25-18.23.23:318][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.031979s)
+[2024.05.25-18.23.23:329][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.05.25-18.23.23:334][551]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.23.23:334][551]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.23.23:335][551]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.23.23:335][551]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.23.23:335][551]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.23.23:335][551]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.23.23:335][551]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.23.23:345][551]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.23.23:345][551]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.43 sec)
+[2024.05.25-18.23.23:345][551]LogPlayLevel: PIE: World Init took: (0.010377s)
+[2024.05.25-18.23.23:345][551]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.05.25-18.23.23:345][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.23.23:345][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.23.23:345][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.23.23:345][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.23.23:345][551]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.23.23:345][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.23.23:345][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.23.23:345][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.23.23:346][551]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.23.23:346][551]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.23.23:346][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.23.23:347][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.23.23:409][551]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.23.23:409][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.23.23:409][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.23.23:409][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.23.23:409][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.05.25-18.23.23:409][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.05.25-18.23.23:411][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.05.25-18.23.23:412][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.05.25-18.23.23:412][551]LogInit: FAudioDevice initialized with ID 11.
+[2024.05.25-18.23.23:412][551]LogAudio: Display: Audio Device (ID: 11) registered with world '1stLevel'.
+[2024.05.25-18.23.23:412][551]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.05.25-18.23.23:414][551]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.23.23:415][551]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.23.23
+[2024.05.25-18.23.23:415][551]LogWorld: Bringing up level for play took: 0.001484
+[2024.05.25-18.23.23:417][551]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.23.23:417][551]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.23.23:465][551]LogStreaming: Display: FlushAsyncLoading(): 1994 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.23.24:280][551]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.23.24:281][551]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.23.24:298][551]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.23.24:319][551]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.23.24:320][551]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.23.24:343][551]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.23.24:343][551]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.23.24:345][551]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.23.24:347][551]PIE: Server logged in
+[2024.05.25-18.23.24:348][551]PIE: Play in editor total start time 1,451 seconds.
+[2024.05.25-18.23.27:305][712]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.23.27:305][712]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.23.27:306][712]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.23.27:306][712]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.23.33:477][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.23.33:477][ 72]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.23.33:490][ 72]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.23.33:490][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.33:491][ 72]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.23.33:494][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.23.33:502][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.33:530][ 72]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.23.33:533][ 72]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.05.25-18.23.33:533][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.33:533][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.05.25-18.23.33:535][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.05.25-18.23.33:542][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.23.33:591][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.05.25-18.23.33:738][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.05.25-18.23.43:062][610]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.23.43:108][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.05.25-18.23.53:720][194]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.23.53:770][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.05.25-18.23.55:170][254]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.23.55:183][254]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.23.55:183][254]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.23.55:316][254]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 133 ms (total: 1.51 sec)
+[2024.05.25-18.23.55:340][254]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.23.55:340][254]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.23.55:342][254]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.23.55:342][254]LogFMOD: System sample rate = 48000
+[2024.05.25-18.23.55:342][254]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.23.55:424][254]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.23.55:425][254]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.23.55:460][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.23.55:460][254]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:23:55)
+[2024.05.25-18.23.55:460][254]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.05.25-18.23.55:464][254]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.05.25-18.23.55:542][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.23.55:542][255]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.23.55:573][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030492s)
+[2024.05.25-18.23.55:573][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.030534s)
+[2024.05.25-18.23.55:585][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.05.25-18.23.55:591][255]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.23.55:591][255]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.23.55:592][255]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.23.55:592][255]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.23.55:592][255]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.23.55:592][255]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.23.55:592][255]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.23.55:602][255]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.23.55:602][255]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.44 sec)
+[2024.05.25-18.23.55:602][255]LogPlayLevel: PIE: World Init took: (0.010471s)
+[2024.05.25-18.23.55:602][255]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.05.25-18.23.55:602][255]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.23.55:602][255]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.23.55:602][255]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.23.55:602][255]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.23.55:602][255]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.23.55:602][255]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.23.55:602][255]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.23.55:602][255]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.23.55:602][255]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.23.55:602][255]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.23.55:602][255]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.23.55:604][255]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.23.55:664][255]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.23.55:664][255]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.23.55:664][255]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.23.55:664][255]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.23.55:666][255]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.05.25-18.23.55:666][255]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.05.25-18.23.55:667][255]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.05.25-18.23.55:667][255]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.05.25-18.23.55:667][255]LogInit: FAudioDevice initialized with ID 12.
+[2024.05.25-18.23.55:667][255]LogAudio: Display: Audio Device (ID: 12) registered with world '1stLevel'.
+[2024.05.25-18.23.55:667][255]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.05.25-18.23.55:669][255]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.23.55:670][255]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.23.55
+[2024.05.25-18.23.55:670][255]LogWorld: Bringing up level for play took: 0.001283
+[2024.05.25-18.23.55:672][255]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.23.55:672][255]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.23.55:730][255]LogStreaming: Display: FlushAsyncLoading(): 1994 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.23.56:601][255]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.23.56:603][255]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.23.56:620][255]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.23.56:642][255]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.23.56:643][255]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.23.56:666][255]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.23.56:666][255]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.23.56:668][255]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.23.56:669][255]PIE: Server logged in
+[2024.05.25-18.23.56:670][255]PIE: Play in editor total start time 1,487 seconds.
+[2024.05.25-18.24.00:344][459]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.24.00:344][459]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.24.00:346][459]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.24.00:346][459]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.24.03:278][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.24.03:278][626]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.24.03:292][626]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.24.03:292][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.24.03:292][626]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.24.03:295][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.24.03:302][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.24.03:323][626]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.24.03:326][626]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.05.25-18.24.03:326][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.24.03:326][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.05.25-18.24.03:327][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.05.25-18.24.03:335][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.24.03:391][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.05.25-18.24.03:540][627]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.05.25-18.24.11:238][ 86]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.24.11:285][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.05.25-18.24.12:492][135]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.24.12:503][135]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.24.12:503][135]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.24.12:637][135]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 134 ms (total: 1.64 sec)
+[2024.05.25-18.24.12:689][135]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.24.12:689][135]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.24.12:695][135]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.24.12:695][135]LogFMOD: System sample rate = 48000
+[2024.05.25-18.24.12:695][135]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.24.12:784][135]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.24.12:784][135]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.24.12:820][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.24.12:820][135]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:24:12)
+[2024.05.25-18.24.12:820][135]LogPlayLevel: Display: Creating online subsystem for client :Context_28
+[2024.05.25-18.24.12:824][135]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.05.25-18.24.12:898][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.24.12:899][136]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.24.12:931][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031385s)
+[2024.05.25-18.24.12:931][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.031431s)
+[2024.05.25-18.24.12:943][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.05.25-18.24.12:948][136]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.24.12:948][136]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.24.12:949][136]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.24.12:949][136]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.24.12:949][136]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.24.12:949][136]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.24.12:949][136]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.24.12:958][136]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.24.12:958][136]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.45 sec)
+[2024.05.25-18.24.12:958][136]LogPlayLevel: PIE: World Init took: (0.010610s)
+[2024.05.25-18.24.12:958][136]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.05.25-18.24.12:958][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.24.12:958][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.24.12:958][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.24.12:958][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.24.12:958][136]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.24.12:958][136]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.24.12:958][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.24.12:958][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.24.12:959][136]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.24.12:959][136]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.24.12:959][136]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.24.12:961][136]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.24.13:025][136]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.24.13:025][136]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.24.13:025][136]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.24.13:025][136]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.24.13:025][136]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.05.25-18.24.13:026][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.05.25-18.24.13:027][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.05.25-18.24.13:027][136]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.05.25-18.24.13:027][136]LogInit: FAudioDevice initialized with ID 13.
+[2024.05.25-18.24.13:027][136]LogAudio: Display: Audio Device (ID: 13) registered with world '1stLevel'.
+[2024.05.25-18.24.13:027][136]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.25-18.24.13:029][136]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.24.13:031][136]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.24.13
+[2024.05.25-18.24.13:031][136]LogWorld: Bringing up level for play took: 0.001511
+[2024.05.25-18.24.13:032][136]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.24.13:032][136]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.24.13:085][136]LogStreaming: Display: FlushAsyncLoading(): 1994 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.24.13:908][136]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.24.13:909][136]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.24.13:927][136]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.24.13:949][136]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.24.13:950][136]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.24.13:974][136]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.24.13:974][136]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.24.13:975][136]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.24.13:977][136]PIE: Server logged in
+[2024.05.25-18.24.13:977][136]PIE: Play in editor total start time 1,475 seconds.
+[2024.05.25-18.24.17:292][321]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.24.17:293][321]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.24.17:294][321]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.24.17:294][321]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.24.27:045][906]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.24.27:045][906]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.24.27:046][906]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Frente
+[2024.05.25-18.24.27:046][906]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Direita
+[2024.05.25-18.24.30:444][110]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.24.30:444][110]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.24.30:446][110]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Frente
+[2024.05.25-18.24.30:446][110]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Direita
+[2024.05.25-18.24.36:094][449]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.24.36:094][449]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.24.36:096][449]LogBlueprintUserMessages: [Bp_PortalArm_C_3] Frente
+[2024.05.25-18.24.36:096][449]LogBlueprintUserMessages: [Bp_PortalArm_C_3] Direita
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: Total job queries 328, among them cache hits 159 (48.48%)
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: Tracking 169 distinct input hashes that result in 97 distinct outputs (57.40%)
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: RAM used: 377,45 KiB of 819,20 MiB budget. Usage: 0.04%
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: Shaders Compiled: 3
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: Average time worker was idle: 492.89 s
+[2024.05.25-18.24.48:224][158]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 0.62 s
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Job life time (pending + execution): average 0.60 s, max 0.65
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Shader code size: average 7,485 KiB, min 5,727 KiB, max 9,832 KiB
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.26 s
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Average processing rate: 2.38 jobs/sec
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Total thread time: 0,997 s
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Total thread preprocess time: 0,098 s
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Percentage time preprocessing: 9.84%
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Effective parallelization: 0.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 40.50% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.01% of total time (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 28.49% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.24.48:225][158]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.24.55:712][472]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.24.55:712][472]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.24.55:714][472]LogBlueprintUserMessages: [Bp_PortalArm_C_4] Frente
+[2024.05.25-18.24.55:714][472]LogBlueprintUserMessages: [Bp_PortalArm_C_4] Direita
+[2024.05.25-18.25.00:308][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.25.00:309][739]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.25.00:321][739]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.25.00:321][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.25.00:321][739]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.25.00:325][739]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.25.00:332][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.25.00:350][739]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.25.00:352][739]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.25-18.25.00:352][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.25.00:353][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.25-18.25.00:354][739]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.25-18.25.00:362][739]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.25.00:425][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.05.25-18.25.00:497][740]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.05.25-18.25.48:363][528]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.25.48:405][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.05.25-18.25.50:164][610]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.25.50:177][610]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.25.50:177][610]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.25.50:322][610]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 145 ms (total: 1.79 sec)
+[2024.05.25-18.25.50:350][610]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.25.50:350][610]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.25.50:354][610]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.25.50:355][610]LogFMOD: System sample rate = 48000
+[2024.05.25-18.25.50:355][610]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.25.50:431][610]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.25.50:431][610]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.25.50:469][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.25.50:469][610]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:25:50)
+[2024.05.25-18.25.50:469][610]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2024.05.25-18.25.50:471][610]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.05.25-18.25.50:516][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.25.50:517][611]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.25.50:548][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031523s)
+[2024.05.25-18.25.50:548][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.031573s)
+[2024.05.25-18.25.50:563][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.05.25-18.25.50:569][611]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.25.50:569][611]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.25.50:569][611]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.25.50:570][611]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.25.50:570][611]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.25.50:570][611]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.25.50:570][611]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.25.50:580][611]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.25.50:580][611]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.46 sec)
+[2024.05.25-18.25.50:580][611]LogPlayLevel: PIE: World Init took: (0.010658s)
+[2024.05.25-18.25.50:580][611]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.05.25-18.25.50:580][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.25.50:580][611]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.25.50:580][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.25.50:580][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.25.50:580][611]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.25.50:580][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.25.50:580][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.25.50:580][611]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.25.50:580][611]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.25.50:580][611]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.25.50:580][611]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.25.50:582][611]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.25.50:642][611]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.25.50:642][611]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.25.50:642][611]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.25.50:642][611]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.25.50:643][611]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.05.25-18.25.50:643][611]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.05.25-18.25.50:645][611]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.05.25-18.25.50:645][611]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.05.25-18.25.50:645][611]LogInit: FAudioDevice initialized with ID 14.
+[2024.05.25-18.25.50:645][611]LogAudio: Display: Audio Device (ID: 14) registered with world '1stLevel'.
+[2024.05.25-18.25.50:645][611]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.25-18.25.50:646][611]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.25.50:649][611]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.25.50
+[2024.05.25-18.25.50:649][611]LogWorld: Bringing up level for play took: 0.001440
+[2024.05.25-18.25.50:651][611]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.25.50:651][611]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.25.50:702][611]LogStreaming: Display: FlushAsyncLoading(): 1994 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.25.51:512][611]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.25.51:513][611]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.25.51:532][611]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.25.51:554][611]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.25.51:555][611]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.25.51:575][611]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.25.51:575][611]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.25.51:578][611]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.25.51:579][611]PIE: Server logged in
+[2024.05.25-18.25.51:580][611]PIE: Play in editor total start time 1,403 seconds.
+[2024.05.25-18.25.54:450][776]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.25.54:450][776]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.25.54:451][776]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.25.54:451][776]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.25.59:035][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.25.59:035][ 41]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.25.59:051][ 41]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.25.59:051][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.25.59:051][ 41]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.25.59:054][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.25.59:085][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.25.59:111][ 41]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.25.59:113][ 41]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.25-18.25.59:113][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.25.59:113][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.25-18.25.59:115][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.25-18.25.59:123][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.25.59:172][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.05.25-18.25.59:247][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.05.25-18.26.05:474][402]LogClass: Warning: Short type name "AIPerception" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.05.25-18.26.13:547][867]LogClass: Warning: Short type name "AIPerception" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.05.25-18.26.18:685][158]LogClass: Warning: Short type name "AIPerception" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.05.25-18.26.20:856][275]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.26.20:867][275]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.26.20:867][275]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.26.21:012][275]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 145 ms (total: 1.93 sec)
+[2024.05.25-18.26.21:048][275]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.26.21:048][275]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.26.21:052][275]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.26.21:052][275]LogFMOD: System sample rate = 48000
+[2024.05.25-18.26.21:052][275]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.26.21:132][275]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.26.21:132][275]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.26.21:169][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.26.21:169][275]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:26:21)
+[2024.05.25-18.26.21:169][275]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2024.05.25-18.26.21:172][275]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.05.25-18.26.21:243][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.26.21:244][276]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.26.21:378][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134562s)
+[2024.05.25-18.26.21:378][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.134636s)
+[2024.05.25-18.26.21:393][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.05.25-18.26.21:398][276]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.26.21:398][276]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.26.21:398][276]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.26.21:399][276]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.26.21:399][276]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.26.21:399][276]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.26.21:399][276]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.26.21:409][276]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.26.21:409][276]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.47 sec)
+[2024.05.25-18.26.21:409][276]LogPlayLevel: PIE: World Init took: (0.010292s)
+[2024.05.25-18.26.21:409][276]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.05.25-18.26.21:409][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.26.21:409][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.26.21:409][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.26.21:409][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.26.21:409][276]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.26.21:409][276]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.26.21:409][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.26.21:409][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.26.21:409][276]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.26.21:409][276]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.26.21:409][276]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.26.21:411][276]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.26.21:472][276]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.26.21:472][276]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.26.21:472][276]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.26.21:472][276]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.26.21:474][276]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.05.25-18.26.21:474][276]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.05.25-18.26.21:475][276]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.05.25-18.26.21:475][276]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.05.25-18.26.21:475][276]LogInit: FAudioDevice initialized with ID 15.
+[2024.05.25-18.26.21:475][276]LogAudio: Display: Audio Device (ID: 15) registered with world '1stLevel'.
+[2024.05.25-18.26.21:475][276]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.25-18.26.21:477][276]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.26.21:479][276]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.26.21
+[2024.05.25-18.26.21:479][276]LogWorld: Bringing up level for play took: 0.001540
+[2024.05.25-18.26.21:480][276]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.26.21:480][276]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.26.21:606][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:607][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:622][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2137548401, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:622][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2145619402, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:622][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70EF901_1077018579, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:627][276]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.26.21:652][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:653][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:666][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2137548401, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:666][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2145619402, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:668][276]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70EF901_1077018579, they are designed to work with AAIControllers!
+[2024.05.25-18.26.21:675][276]LogStreaming: Display: FlushAsyncLoading(): 2 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.26.21:684][276]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.26.21:684][276]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.26.21:687][276]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.26.21:688][276]PIE: Server logged in
+[2024.05.25-18.26.21:689][276]PIE: Play in editor total start time 0,823 seconds.
+[2024.05.25-18.26.25:240][483]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.26.25:240][483]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.26.25:242][483]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.26.25:242][483]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.26.28:592][684]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.26.28:592][684]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.26.28:593][684]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Frente
+[2024.05.25-18.26.28:593][684]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Direita
+[2024.05.25-18.26.31:024][830]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.26.31:024][830]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.26.31:026][830]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Frente
+[2024.05.25-18.26.31:026][830]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Direita
+[2024.05.25-18.26.35:594][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.26.35:594][ 95]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.26.35:607][ 95]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.26.35:607][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.26.35:607][ 95]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.26.35:611][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.26.35:617][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.26.35:636][ 95]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.26.35:641][ 95]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.25-18.26.35:641][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.26.35:641][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.25-18.26.35:643][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.25-18.26.35:650][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.26.35:677][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.05.25-18.26.35:810][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.05.25-18.26.37:359][186]LogViewport: Scene viewport resized to 1207x614, mode Windowed.
+[2024.05.25-18.27.23:211][911]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.27.23:268][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.05.25-18.27.27:367][119]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.27.27:379][119]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.27.27:379][119]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.27.27:517][119]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 138 ms (total: 2.07 sec)
+[2024.05.25-18.27.27:569][119]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.27.27:569][119]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.27.27:574][119]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.27.27:574][119]LogFMOD: System sample rate = 48000
+[2024.05.25-18.27.27:574][119]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.27.27:663][119]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.27.27:663][119]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.27.27:700][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.27.27:700][119]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:27:27)
+[2024.05.25-18.27.27:700][119]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2024.05.25-18.27.27:704][119]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.05.25-18.27.27:821][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.27.27:822][120]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.27.27:954][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131414s)
+[2024.05.25-18.27.27:954][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.131459s)
+[2024.05.25-18.27.27:965][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.05.25-18.27.27:969][120]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.27.27:969][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.27.27:970][120]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.27.27:970][120]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.27.27:970][120]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.27.27:970][120]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.27.27:970][120]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.27.27:979][120]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.27.27:979][120]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.48 sec)
+[2024.05.25-18.27.27:979][120]LogPlayLevel: PIE: World Init took: (0.010307s)
+[2024.05.25-18.27.27:979][120]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.05.25-18.27.27:979][120]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.27.27:979][120]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.27.27:979][120]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.27.27:979][120]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.27.27:979][120]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.27.27:979][120]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.27.27:980][120]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.27.27:980][120]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.27.27:980][120]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.27.27:980][120]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.27.27:980][120]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.27.27:982][120]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.27.28:044][120]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.27.28:044][120]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.27.28:044][120]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.27.28:045][120]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.27.28:045][120]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.05.25-18.27.28:045][120]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.05.25-18.27.28:047][120]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.05.25-18.27.28:047][120]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.05.25-18.27.28:047][120]LogInit: FAudioDevice initialized with ID 16.
+[2024.05.25-18.27.28:047][120]LogAudio: Display: Audio Device (ID: 16) registered with world '1stLevel'.
+[2024.05.25-18.27.28:047][120]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.05.25-18.27.28:048][120]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.27.28:050][120]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.27.28
+[2024.05.25-18.27.28:050][120]LogWorld: Bringing up level for play took: 0.001455
+[2024.05.25-18.27.28:051][120]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.27.28:051][120]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.27.28:176][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:176][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:190][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2137548401, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:190][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2145619402, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:191][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70EF901_1077018579, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:196][120]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.27.28:217][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:219][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:232][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2137548401, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:233][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2145619402, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:234][120]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70EF901_1077018579, they are designed to work with AAIControllers!
+[2024.05.25-18.27.28:243][120]LogStreaming: Display: FlushAsyncLoading(): 2 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.27.28:251][120]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.27.28:251][120]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.27.28:253][120]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.27.28:255][120]PIE: Server logged in
+[2024.05.25-18.27.28:256][120]PIE: Play in editor total start time 0,877 seconds.
+[2024.05.25-18.27.32:000][330]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.27.32:000][330]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.27.32:002][330]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.27.32:002][330]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.27.37:551][663]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.27.37:551][663]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.27.37:553][663]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Frente
+[2024.05.25-18.27.37:553][663]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Direita
+[2024.05.25-18.27.40:487][839]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.27.40:487][839]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.27.40:488][839]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Frente
+[2024.05.25-18.27.40:488][839]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Direita
+[2024.05.25-18.27.43:499][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.27.43:499][ 11]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.27.43:512][ 11]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.27.43:512][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.27.43:513][ 11]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.27.43:516][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.27.43:522][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.27.43:544][ 11]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.25-18.27.43:558][ 11]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.05.25-18.27.43:558][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.27.43:558][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.05.25-18.27.43:559][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.05.25-18.27.43:568][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.27.43:589][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.05.25-18.27.43:719][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.05.25-18.27.53:859][613]LogEditorTransaction: Undo Modify Component(s)
+[2024.05.25-18.28.05:455][292]BlueprintLog: New page: Compile Bp_PortalArm
+[2024.05.25-18.28.05:527][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.05.25-18.28.06:824][355]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.25-18.28.06:838][355]LogContentBundle: [1stLevel(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.05.25-18.28.06:838][355]LogWorldPartition: Display: GenerateStreaming for '1stLevel' started...
+[2024.05.25-18.28.06:977][355]LogWorldPartition: Display: GenerateStreaming for '1stLevel' took 139 ms (total: 2.21 sec)
+[2024.05.25-18.28.07:008][355]LogFMOD: Display: Loaded bank lookup
+[2024.05.25-18.28.07:008][355]LogFMOD: Display: Loaded asset lookup
+[2024.05.25-18.28.07:011][355]LogFMOD: Default sample rate = 48000
+[2024.05.25-18.28.07:011][355]LogFMOD: System sample rate = 48000
+[2024.05.25-18.28.07:011][355]LogFMOD: Matching system sample rate 48000
+[2024.05.25-18.28.07:091][355]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.05.25-18.28.07:092][355]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.05.25-18.28.07:129][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.25-18.28.07:129][355]PIE: New page: PIE session: 1stLevel (25/05/2024, 20:28:07)
+[2024.05.25-18.28.07:129][355]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2024.05.25-18.28.07:132][355]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.05.25-18.28.07:247][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.28.07:248][356]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.28.07:384][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.135780s)
+[2024.05.25-18.28.07:384][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/1stLevel.1stLevel to /Game/UEDPIE_0_1stLevel.1stLevel (0.135825s)
+[2024.05.25-18.28.07:399][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.05.25-18.28.07:409][356]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.25-18.28.07:409][356]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.25-18.28.07:409][356]LogAIModule: Creating AISystem for world 1stLevel
+[2024.05.25-18.28.07:410][356]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.05.25-18.28.07:410][356]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.05.25-18.28.07:410][356]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.05.25-18.28.07:410][356]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.05.25-18.28.07:419][356]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.05.25-18.28.07:419][356]LogWorldPartition: Display: WorldPartition initialize took 9 ms (total: 2.49 sec)
+[2024.05.25-18.28.07:419][356]LogPlayLevel: PIE: World Init took: (0.010176s)
+[2024.05.25-18.28.07:419][356]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.05.25-18.28.07:419][356]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.25-18.28.07:419][356]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.25-18.28.07:419][356]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.25-18.28.07:419][356]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.25-18.28.07:419][356]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.25-18.28.07:419][356]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.25-18.28.07:419][356]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.25-18.28.07:419][356]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.25-18.28.07:420][356]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.25-18.28.07:420][356]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.25-18.28.07:420][356]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.25-18.28.07:422][356]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.25-18.28.07:483][356]LogAudioMixer: Display: Using Audio Hardware Device Altifalantes (KROM)
+[2024.05.25-18.28.07:484][356]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.25-18.28.07:484][356]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.25-18.28.07:484][356]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.25-18.28.07:485][356]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.05.25-18.28.07:485][356]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.05.25-18.28.07:486][356]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.05.25-18.28.07:486][356]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.05.25-18.28.07:486][356]LogInit: FAudioDevice initialized with ID 17.
+[2024.05.25-18.28.07:486][356]LogAudio: Display: Audio Device (ID: 17) registered with world '1stLevel'.
+[2024.05.25-18.28.07:486][356]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.05.25-18.28.07:488][356]LogLoad: Game class is 'Main_GameMode_C'
+[2024.05.25-18.28.07:490][356]LogWorld: Bringing World /Game/UEDPIE_0_1stLevel.1stLevel up for play (max tick rate 60) at 2024.05.25-19.28.07
+[2024.05.25-18.28.07:490][356]LogWorld: Bringing up level for play took: 0.001523
+[2024.05.25-18.28.07:491][356]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(3), CellsToLoad(0), CellsToUnload(0)
+[2024.05.25-18.28.07:491][356]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=5020.816 Y=-433.025 Z=104.113,P=0.000000 Y=89.999999 R=-0.000000
+[2024.05.25-18.28.07:618][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:619][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:631][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2137548401, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:632][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2145619402, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:632][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70EF901_1077018579, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:637][356]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.05.25-18.28.07:659][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1800725370, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:660][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F7C3F801_1899614371, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:674][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2137548401, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:675][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2145619402, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:675][356]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_UAID_A8B13B9207F70EF901_1077018579, they are designed to work with AAIControllers!
+[2024.05.25-18.28.07:684][356]LogStreaming: Display: FlushAsyncLoading(): 2 QueuedPackages, 0 AsyncPackages
+[2024.05.25-18.28.07:691][356]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.05.25-18.28.07:691][356]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.05.25-18.28.07:694][356]LogBlueprintUserMessages: [Bp_Character_C_UAID_A8B13B9207F7C2F801_2058931191] Hello
+[2024.05.25-18.28.07:695][356]PIE: Server logged in
+[2024.05.25-18.28.07:697][356]PIE: Play in editor total start time 0,859 seconds.
+[2024.05.25-18.28.10:875][540]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 0.0
+[2024.05.25-18.28.10:875][540]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.28.10:878][540]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Frente
+[2024.05.25-18.28.10:878][540]LogBlueprintUserMessages: [Bp_PortalArm_C_0] Direita
+[2024.05.25-18.28.13:127][675]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.28.13:127][675]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.28.13:128][675]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Frente
+[2024.05.25-18.28.13:128][675]LogBlueprintUserMessages: [Bp_PortalArm_C_1] Direita
+[2024.05.25-18.28.15:497][817]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] 1.0
+[2024.05.25-18.28.15:497][817]LogBlueprintUserMessages: [BP_InvisibleWall_C_UAID_A8B13B9207F705F901_1626733986] Nao Passou
+[2024.05.25-18.28.15:498][817]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Frente
+[2024.05.25-18.28.15:498][817]LogBlueprintUserMessages: [Bp_PortalArm_C_2] Direita
+[2024.05.25-18.28.18:999][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.28.18:999][ 17]LogWorld: BeginTearingDown for /Game/UEDPIE_0_1stLevel
+[2024.05.25-18.28.19:012][ 17]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.19:013][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.28.19:013][ 17]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.28.19:016][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.25-18.28.19:023][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.28.19:049][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.25-18.28.19:053][ 17]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.05.25-18.28.19:053][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.28.19:053][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.05.25-18.28.19:055][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.05.25-18.28.19:085][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.05.25-18.28.19:214][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.05.25-18.28.32:557][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.05.25-18.28.33:425][187]LogSlate: Window 'Save Content' being destroyed
+[2024.05.25-18.28.33:457][187]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.25-18.28.33:492][187]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/1stLevel/C/6F/PVNWER8NP235FQ0RGQLBT4
+[2024.05.25-18.28.33:493][187]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/PVNWER8NP235FQ0RGQLBT42D9EA1934937A9D08D19B2A4AEC6D8C8.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/1stLevel/C/6F/PVNWER8NP235FQ0RGQLBT4.uasset'
+[2024.05.25-18.28.33:500][187]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/1stLevel/6/35/WYH504WJCZCGZ03S6TMP6G
+[2024.05.25-18.28.33:500][187]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/WYH504WJCZCGZ03S6TMP6G78B610F140DAD78FF47E93B200BA533C.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/1stLevel/6/35/WYH504WJCZCGZ03S6TMP6G.uasset'
+[2024.05.25-18.28.33:505][187]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/1stLevel/4/F8/0UATOCO26L6EDQAA606D3N
+[2024.05.25-18.28.33:505][187]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/0UATOCO26L6EDQAA606D3N862D9E3046D021211A58DA9EF5E2AC72.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/1stLevel/4/F8/0UATOCO26L6EDQAA606D3N.uasset'
+[2024.05.25-18.28.33:510][187]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/1stLevel/9/ZA/9S0SVUGT2PIN16A8LD7PMV
+[2024.05.25-18.28.33:511][187]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/9S0SVUGT2PIN16A8LD7PMV0BDD1DCF4C780F24F76F6DAEBDA1F621.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/1stLevel/9/ZA/9S0SVUGT2PIN16A8LD7PMV.uasset'
+[2024.05.25-18.28.33:522][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Bp_PortalArm" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_PortalArm.uasset" SILENT=true
+[2024.05.25-18.28.33:570][187]LogSavePackage: Moving output files for package: /Game/Bp/Bp_PortalArm
+[2024.05.25-18.28.33:570][187]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Bp_PortalArm59D72EFA45AD8B7C56EB28986154C1D7.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_PortalArm.uasset'
+[2024.05.25-18.28.33:581][187]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 1.34 sec)
+[2024.05.25-18.28.33:586][187]AssetCheck: New page: Asset Save: multiple assets
+[2024.05.25-18.28.33:586][187]LogContentValidation: Display: Validating /Game/AI/Bp_AiEnemy.Bp_AiEnemy_C /Game/1stLevel.1stLevel:PersistentLevel.Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2137548401
+[2024.05.25-18.28.33:586][187]LogContentValidation: Display: Validating /Game/AI/Bp_AiEnemy.Bp_AiEnemy_C /Game/1stLevel.1stLevel:PersistentLevel.Bp_AiEnemy_C_UAID_A8B13B9207F70DF901_2145619402
+[2024.05.25-18.28.33:586][187]LogContentValidation: Display: Validating /Game/AI/Bp_AiEnemy.Bp_AiEnemy_C /Game/1stLevel.1stLevel:PersistentLevel.Bp_AiEnemy_C_UAID_A8B13B9207F70EF901_1077018579
+[2024.05.25-18.28.33:586][187]LogContentValidation: Display: Validating /Game/Bp/Bp_CCTV.Bp_CCTV_C /Game/1stLevel.1stLevel:PersistentLevel.Bp_CCTV_C_UAID_A8B13B9207F703F901_1751433631
+[2024.05.25-18.28.33:586][187]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bp/Bp_PortalArm.Bp_PortalArm
+[2024.05.25-18.28.36:623][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.05.25-18.28.36:634][368]LogStall: Shutdown...
+[2024.05.25-18.28.36:637][368]LogStall: Shutdown complete.
+[2024.05.25-18.28.36:702][368]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.36:702][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.28.36:784][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.05.25-18.28.36:784][368]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.36:784][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.28.36:852][368]LogSlate: Window 'PortaVenger - Unreal Editor' being destroyed
+[2024.05.25-18.28.37:010][369]Cmd: QUIT_EDITOR
+[2024.05.25-18.28.37:010][369]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.05.25-18.28.37:020][369]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.05.25-18.28.37:021][369]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.05.25-18.28.37:021][369]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.05.25-18.28.37:039][369]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.37:040][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.25-18.28.37:054][369]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.05.25-18.28.37:069][369]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.05.25-18.28.37:307][369]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.05.25-18.28.37:307][369]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.05.25-18.28.37:307][369]LogAudio: Display: Audio Device unregistered from world '1stLevel'.
+[2024.05.25-18.28.37:307][369]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.05.25-18.28.37:307][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.05.25-18.28.37:310][369]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.05.25-18.28.37:333][369]LogAudio: Display: Audio Device Manager Shutdown
+[2024.05.25-18.28.37:334][369]LogWindowsTextInputMethodSystem: Activated input method: Português (Portugal) - (Keyboard).
+[2024.05.25-18.28.37:338][369]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.05.25-18.28.37:338][369]LogExit: Preparing to exit.
+[2024.05.25-18.28.37:370][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.37:386][369]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.05.25-18.28.38:049][369]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:051][369]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:053][369]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:055][369]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:056][369]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:057][369]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:058][369]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:060][369]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:061][369]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:062][369]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.05.25-18.28.38:062][369]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.05.25-18.28.38:062][369]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.05.25-18.28.38:062][369]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.05.25-18.28.38:062][369]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.05.25-18.28.38:062][369]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.05.25-18.28.38:063][369]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.05.25-18.28.38:063][369]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:064][369]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:065][369]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.05.25-18.28.38:175][369]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.05.25-18.28.38:187][369]LogExit: Editor shut down
+[2024.05.25-18.28.38:190][369]LogExit: Transaction tracking system shut down
+[2024.05.25-18.28.38:474][369]LogExit: Object subsystem successfully closed.
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Total job queries 369, among them cache hits 190 (51.49%)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Tracking 179 distinct input hashes that result in 98 distinct outputs (54.75%)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: RAM used: 395,92 KiB of 819,20 MiB budget. Usage: 0.05%
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Shaders Compiled: 3
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Jobs assigned 3, completed 3 (100%)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Average time worker was idle: 492.89 s
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 0.62 s
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Job life time (pending + execution): average 0.60 s, max 0.65
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Shader code size: average 7,485 KiB, min 5,727 KiB, max 9,832 KiB
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.26 s
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Average processing rate: 2.38 jobs/sec
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Total thread time: 0,997 s
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Total thread preprocess time: 0,098 s
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Percentage time preprocessing: 9.84%
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Effective parallelization: 0.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 40.50% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.01% of total time (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 28.49% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2024.05.25-18.28.38:479][369]LogShaderCompilers: Display: ================================================
+[2024.05.25-18.28.38:574][369]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.05.25-18.28.38:595][369]LogVirtualization: UE::Virtualization was shutdown
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1082)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module Voice (1080)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1078)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module AddContentDialog (1076)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1075)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module SceneOutliner (1072)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1070)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module StatusBar (1068)
+[2024.05.25-18.28.38:649][369]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1066)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (1064)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1062)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module DataLayerEditor (1060)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module StatsViewer (1058)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1056)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module AutomationWorker (1054)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module RiderLC (1052)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module RiderShaderInfo (1050)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module SmartSnapping (1048)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module WaveTableEditor (1046)
+[2024.05.25-18.28.38:650][369]LogModuleManager: Shutting down and abandoning module RigVMEditor (1044)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (1042)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module GooglePADEditor (1040)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (1038)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (1036)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1034)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1032)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (1030)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1028)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1026)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module WebMMedia (1024)
+[2024.05.25-18.28.38:651][369]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1022)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module SequenceRecorder (1021)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (1018)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (1016)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (1014)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (1012)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (1010)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (1008)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (1006)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module PlanarCut (1004)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module FractureEngine (1002)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module CharacterAI (1000)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module TextureAlignMode (998)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module BspMode (996)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module GeometryMode (994)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (992)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (990)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module IKRigEditor (988)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (986)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (984)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (982)
+[2024.05.25-18.28.38:652][369]LogModuleManager: Shutting down and abandoning module ControlRigEditor (980)
+[2024.05.25-18.28.38:653][369]LogModuleManager: Shutting down and abandoning module SessionServices (978)
+[2024.05.25-18.28.38:653][369]LogModuleManager: Shutting down and abandoning module MeshPaint (976)
+[2024.05.25-18.28.38:653][369]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (974)
+[2024.05.25-18.28.38:654][369]LogModuleManager: Shutting down and abandoning module PlacementMode (973)
+[2024.05.25-18.28.38:654][369]LogModuleManager: Shutting down and abandoning module FoliageEdit (970)
+[2024.05.25-18.28.38:654][369]LogModuleManager: Shutting down and abandoning module LandscapeEditor (968)
+[2024.05.25-18.28.38:654][369]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (966)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module ActorPickerMode (964)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module ViewportSnapping (962)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module EditorWidgets (960)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module ViewportInteraction (958)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module ClothPainter (956)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (955)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module WidgetRegistration (952)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module LogVisualizer (950)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (948)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (946)
+[2024.05.25-18.28.38:655][369]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (945)
+[2024.05.25-18.28.38:656][369]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (943)
+[2024.05.25-18.28.38:789][369]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (940)
+[2024.05.25-18.28.38:789][369]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (938)
+[2024.05.25-18.28.38:789][369]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (936)
+[2024.05.25-18.28.38:789][369]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (934)
+[2024.05.25-18.28.38:789][369]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (932)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (930)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module AnimationSettings (928)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (926)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module CSVtoSVG (924)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (922)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module EditorConfig (920)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module EditorFramework (918)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (916)
+[2024.05.25-18.28.38:790][369]LogModuleManager: Shutting down and abandoning module TraceInsights (914)
+[2024.05.25-18.28.38:795][369]MemoryProfiler: Shutdown
+[2024.05.25-18.28.38:798][369]NetworkingProfiler: Shutdown
+[2024.05.25-18.28.38:799][369]LoadingProfiler: Shutdown
+[2024.05.25-18.28.38:800][369]TimingProfiler: Shutdown
+[2024.05.25-18.28.38:803][369]LogModuleManager: Shutting down and abandoning module TraceServices (913)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module TraceAnalysis (912)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (908)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (907)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module InputBindingEditor (904)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module MergeActors (902)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (900)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module LocalizationService (899)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module HardwareTargeting (896)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (894)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module UndoHistory (892)
+[2024.05.25-18.28.38:805][369]LogModuleManager: Shutting down and abandoning module XmlParser (890)
+[2024.05.25-18.28.38:806][369]LogModuleManager: Shutting down and abandoning module Blutility (888)
+[2024.05.25-18.28.38:806][369]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (886)
+[2024.05.25-18.28.38:806][369]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (885)
+[2024.05.25-18.28.38:806][369]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (882)
+[2024.05.25-18.28.38:806][369]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (881)
+[2024.05.25-18.28.38:806][369]LogModuleManager: Shutting down and abandoning module SettingsEditor (878)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module ProjectLauncher (876)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module SessionFrontend (874)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module ProfilerClient (872)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module DeviceManager (870)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module AutomationController (868)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module AutomationWindow (866)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module Layers (864)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (862)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module DetailCustomizations (860)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module PackagesDialog (858)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (856)
+[2024.05.25-18.28.38:807][369]LogModuleManager: Shutting down and abandoning module Persona (854)
+[2024.05.25-18.28.38:808][369]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (853)
+[2024.05.25-18.28.38:808][369]LogModuleManager: Shutting down and abandoning module Kismet (850)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module KismetWidgets (849)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module GraphEditor (846)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module StructViewer (844)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module ClassViewer (842)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (840)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (838)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module SourceControlWindows (836)
+[2024.05.25-18.28.38:818][369]LogModuleManager: Shutting down and abandoning module OutputLog (834)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module Documentation (832)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (830)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (828)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module MovieScene (826)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (824)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (822)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (820)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module AudioMixer (819)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module AudioMixerCore (818)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module LauncherPlatform (814)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module AnalyticsET (812)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module PortalServices (810)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module PortalRpc (808)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module MessagingRpc (806)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module AIModule (804)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module GameplayDebugger (803)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module AITestSuite (801)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module NavigationSystem (799)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (796)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (794)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module TypedElementFramework (792)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (790)
+[2024.05.25-18.28.38:819][369]LogModuleManager: Shutting down and abandoning module ProfilerService (788)
+[2024.05.25-18.28.38:841][369]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (786)
+[2024.05.25-18.28.38:841][369]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (784)
+[2024.05.25-18.28.38:841][369]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (782)
+[2024.05.25-18.28.38:841][369]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (780)
+[2024.05.25-18.28.38:841][369]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (778)
+[2024.05.25-18.28.38:841][369]LogModuleManager: Shutting down and abandoning module TakesCore (776)
+[2024.05.25-18.28.38:842][369]LogModuleManager: Shutting down and abandoning module MegascansPlugin (774)
+[2024.05.25-18.28.38:842][369]LogModuleManager: Shutting down and abandoning module Bridge (772)
+[2024.05.25-18.28.38:842][369]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (770)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module LineOfSight (768)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (766)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module RiderGameControl (764)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module RiderBlueprint (762)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (760)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module LightMixer (758)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (756)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (754)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module CollectionManager (753)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (750)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (748)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (746)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module Paper2DEditor (744)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module SynthesisEditor (742)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ResonanceAudio (740)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (738)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module DynamicMesh (736)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (734)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (732)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (730)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ModelingOperators (728)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (726)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ModelingComponents (724)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module GeometryFramework (723)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (720)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module MeshModelingTools (718)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (716)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module AppleImageUtils (714)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (712)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (710)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (708)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (706)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module InputDebugging (704)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module GooglePAD (702)
+[2024.05.25-18.28.38:853][369]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (700)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module AssetTags (698)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module AudioCapture (696)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (695)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module AndroidPermission (692)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (690)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (688)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (684)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module InterchangeTests (682)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (680)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module MediaPlate (678)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module MediaCompositing (676)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ImgMedia (674)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (672)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (670)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module Text3DEditor (668)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module Text3D (666)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (664)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (662)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (660)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (658)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (656)
+[2024.05.25-18.28.38:854][369]LogOpenImageDenoise: OIDN shutting down
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (654)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (652)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (650)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (648)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (646)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (644)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (642)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (640)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module MeshLODToolset (638)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (636)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module LocalizableMessage (634)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (632)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (630)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (629)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (627)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (624)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module DataflowNodes (622)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (620)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module DataflowEditor (618)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ChaosNiagara (616)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module BackChannel (614)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (612)
+[2024.05.25-18.28.38:854][369]LogModuleManager: Shutting down and abandoning module FractureEditor (610)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (608)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (606)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (604)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (602)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (600)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (598)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeExport (596)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeMessages (594)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module GLTFCore (592)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (590)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (588)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module InterchangeEditor (586)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module UObjectPlugin (584)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (582)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module AutomationUtils (580)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (578)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module NiagaraFluids (576)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module AlembicImporter (574)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module AlembicLibrary (573)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module GeometryCache (572)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (571)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (566)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module PluginBrowser (564)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (562)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module UVEditorTools (560)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module UVEditor (558)
+[2024.05.25-18.28.38:855][369]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (556)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (554)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (552)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (550)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module EditorDebugTools (548)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (546)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module CryptoKeys (544)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (542)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module ChangelistReview (540)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module CurveEditorTools (538)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (536)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module TakeSequencer (534)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module TakeMovieScene (532)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module PluginUtils (530)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (528)
+[2024.05.25-18.28.38:856][369]LogModuleManager: Shutting down and abandoning module VariantManager (526)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (525)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (522)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module TemplateSequence (520)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (518)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module SequencerScripting (516)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (514)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (512)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (510)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (508)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (506)
+[2024.05.25-18.28.38:857][369]LogModuleManager: Shutting down and abandoning module GitSourceControl (504)
+[2024.05.25-18.28.38:858][369]LogModuleManager: Shutting down and abandoning module DumpGPUServices (502)
+[2024.05.25-18.28.38:858][369]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (500)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (498)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module ControlRigSpline (496)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (494)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (492)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (490)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (488)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (486)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (484)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module TraceUtilities (482)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module InputEditor (480)
+[2024.05.25-18.28.38:859][369]LogModuleManager: Shutting down and abandoning module FMODStudio (478)
