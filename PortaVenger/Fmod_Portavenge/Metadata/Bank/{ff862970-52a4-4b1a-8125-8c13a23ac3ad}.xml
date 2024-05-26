@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{ff862970-52a4-4b1a-8125-8c13a23ac3ad}">
+		<property name="name">
+			<value>Hack</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8467252f-a008-4920-b562-305aa25436e2}</destination>
+		</relationship>
+	</object>
+</objects>
