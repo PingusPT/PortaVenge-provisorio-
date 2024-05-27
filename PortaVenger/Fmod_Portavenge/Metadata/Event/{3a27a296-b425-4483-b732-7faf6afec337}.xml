@@ -5,7 +5,7 @@
 			<value>PlayerDetect_Cam</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{95a59a78-4b73-47b1-8304-f7a28005fa4a}</destination>
@@ -90,7 +90,7 @@
 	<object class="MixerBusPanner" id="{04340029-38d6-4c51-95e0-c90c8fca09bf}" />
 	<object class="MultiSound" id="{abdda137-bf96-4b54-8b5f-9f04d0ec715a}">
 		<property name="length">
-			<value>7.5</value>
+			<value>1.7000000000000002</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -99,8 +99,14 @@
 			<destination>{9b426361-0e0e-4124-bb7b-32b55c26d038}</destination>
 			<destination>{4a775a62-7939-4bae-9d82-ffc318b81313}</destination>
 		</relationship>
+		<relationship name="sounds">
+			<destination>{50eea2eb-cd42-4320-9508-e4957d529df6}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b628ecb9-20db-46df-a2ee-09cd7038b357}">
+		<property name="volume">
+			<value>-28</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -137,12 +143,29 @@
 			<value>6</value>
 		</property>
 	</object>
+	<object class="SingleSound" id="{50eea2eb-cd42-4320-9508-e4957d529df6}">
+		<relationship name="audioFile">
+			<destination>{8ae7615b-aa20-4cb6-bcc6-3ec51ac13232}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{e3a75eae-8849-4322-a6a1-585504c0711f}">
 		<relationship name="effects">
 			<destination>{7abb58ec-e8ce-40ac-9f59-c06360d246c7}</destination>
+			<destination>{9b68436b-b0b6-4801-a169-a72bbafe501d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d7ea43dc-79b4-4780-87a7-b90c051773b2}" />
 	<object class="MixerBusFader" id="{63bf87c9-0748-471d-ad55-bde49ba30c11}" />
 	<object class="MixerBusFader" id="{7abb58ec-e8ce-40ac-9f59-c06360d246c7}" />
+	<object class="MixerSend" id="{9b68436b-b0b6-4801-a169-a72bbafe501d}">
+		<property name="level">
+			<value>-1</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{d58bb6a8-cf99-4cb3-8652-3c8f93d3c739}</destination>
+		</relationship>
+	</object>
 </objects>

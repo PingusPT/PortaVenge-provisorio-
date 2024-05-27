@@ -5,7 +5,7 @@
 			<value>KnifeKill_X1</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f2e04769-5235-470b-b6ab-653a1255ae16}</destination>
@@ -179,6 +179,7 @@
 	<object class="MixerBusEffectChain" id="{c033d1f1-6a94-4c71-8552-eb4a982a2022}">
 		<relationship name="effects">
 			<destination>{a1e81fe8-6eeb-4023-8d65-3cd317b04e9b}</destination>
+			<destination>{982724aa-d399-423e-b34c-f505961536b3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0ac886ad-63b6-4e95-83c2-24473efb767b}" />
@@ -233,6 +234,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{6f01f3bd-153e-4663-8cf2-373f27d0c198}" />
 	<object class="MixerBusFader" id="{a1e81fe8-6eeb-4023-8d65-3cd317b04e9b}" />
+	<object class="SpatialiserEffect" id="{982724aa-d399-423e-b34c-f505961536b3}">
+		<property name="maximumDistance">
+			<value>45</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2317508d-6ddd-4125-8c6b-716cbce78a45}" />
 	<object class="MixerBusFader" id="{d85da30a-5eeb-4b69-90ac-fd88af117f0e}" />
 </objects>

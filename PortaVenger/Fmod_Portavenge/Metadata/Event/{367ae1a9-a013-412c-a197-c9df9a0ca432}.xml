@@ -5,7 +5,7 @@
 			<value>KnifePull_X1</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f2e04769-5235-470b-b6ab-653a1255ae16}</destination>
@@ -99,9 +99,6 @@
 			<destination>{5592033f-849d-4527-9c7b-1c0b7c453a3c}</destination>
 			<destination>{599c66cd-1c4a-4f68-8359-e78eab15e871}</destination>
 		</relationship>
-		<relationship name="sounds">
-			<destination>{892581dc-d786-444a-9cdb-8f6c800e0ac5}</destination>
-		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a3f548d0-e4b6-4d50-8498-3c07e0f2f28a}">
 		<property name="name">
@@ -139,11 +136,6 @@
 		<property name="amount">
 			<value>7</value>
 		</property>
-	</object>
-	<object class="SingleSound" id="{892581dc-d786-444a-9cdb-8f6c800e0ac5}">
-		<relationship name="audioFile">
-			<destination>{3e84d211-ab31-44c8-97da-62d11a5f613e}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ed35941b-0e1f-42bf-a7ee-0b0ef0593d31}">
 		<relationship name="effects">

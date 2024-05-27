@@ -5,7 +5,7 @@
 			<value>ActivateHack_X1</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f2e04769-5235-470b-b6ab-653a1255ae16}</destination>
@@ -90,7 +90,7 @@
 	<object class="MixerBusPanner" id="{7853343a-d45b-4279-8cf1-5a0ae5af8e21}" />
 	<object class="MultiSound" id="{62f8b361-ebc9-46fd-81c2-1e1bc900d8af}">
 		<property name="length">
-			<value>6.5</value>
+			<value>1.1000000000000001</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -98,6 +98,9 @@
 		<relationship name="modulators">
 			<destination>{3344ebaa-7a50-49db-afb2-0bf6ad50e227}</destination>
 			<destination>{0dd12057-6ad3-4dc2-a6ee-4d77aaa10282}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{8afb1067-aaee-4311-8966-91a6f581d556}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5aa7b691-74be-4646-bd50-b5ef708c3b62}">
@@ -137,12 +140,29 @@
 			<value>6.5</value>
 		</property>
 	</object>
+	<object class="SingleSound" id="{8afb1067-aaee-4311-8966-91a6f581d556}">
+		<relationship name="audioFile">
+			<destination>{c1100102-75c4-49f5-92f7-0222f126a3c1}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{d08e1ad9-b29d-4539-bd0e-37c41b1e007e}">
 		<relationship name="effects">
 			<destination>{deff13e7-9b93-41d7-927d-17d28d0504e6}</destination>
+			<destination>{70d25b14-ce78-4a52-9ad3-08fdf298eba0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{edb9ebce-1090-40a7-84ea-448fd1432a7c}" />
 	<object class="MixerBusFader" id="{2de617e9-fe14-4cd3-8080-081d9f2afb0d}" />
 	<object class="MixerBusFader" id="{deff13e7-9b93-41d7-927d-17d28d0504e6}" />
+	<object class="MixerSend" id="{70d25b14-ce78-4a52-9ad3-08fdf298eba0}">
+		<property name="level">
+			<value>-9</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{46579c37-257a-4df8-987c-cb51c5b5ac01}</destination>
+		</relationship>
+	</object>
 </objects>
