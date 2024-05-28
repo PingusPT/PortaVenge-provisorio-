@@ -1,0 +1,57 @@
+[+] Containers:
+ |- [+] Container: /Game/Maps/DialogueMap
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:C846298C466D24FF72F49A80632E98A1 BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_A8B13B818D24A4F901_1553204969 Label:Camera SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=402.506 Y=-162.885 Z=34.415), Max=(X=402.506 Y=-162.885 Z=34.415) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E94C54B446DA71B0FAC9168F2F998B8F BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:C846298C466D24FF72F49A80632E98A1 BaseClass: NativeClass:/Script/CinematicCamera.CineCameraActor Name:CineCameraActor_UAID_A8B13B818D24A4F901_1553204969 Label:Camera SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=402.506 Y=-162.885 Z=34.415), Max=(X=402.506 Y=-162.885 Z=34.415) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:E94C54B446DA71B0FAC9168F2F998B8F BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/Maps/DialogueMap
+----------------------------------------------------------------------------------------------------------------
+DialogueMap - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of DialogueMap Persistent Level
+ |- Always loaded Actor Count: 9 
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/Maps/DialogueMap
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.Brush_0
+ |- Actor Package: /Game/Maps/DialogueMap
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.CineCameraActor_UAID_A8B13B818D24A4F901_1553204969
+ |- Actor Package: /Game/__ExternalActors__/Maps/DialogueMap/5/RL/7LO37UTZOOPU8ESYLR3EX5
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/Maps/DialogueMap
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.DialogueMap_C_0
+ |- Actor Package: /Game/Maps/DialogueMap
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/Maps/DialogueMap
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/Maps/DialogueMap/B/NY/SSY3SHZ3NDPPYI4W3JOEKW
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.WorldPartitionMiniMap_UAID_A8B13B818D24A4F901_1515998968
+ |- Actor Package: /Game/__ExternalActors__/Maps/DialogueMap/5/GS/BZR2MS5RKGN8UQJXEJGPYU
+ |- Actor Path: /Game/Maps/DialogueMap.DialogueMap:PersistentLevel.WorldSettings
+ |- Actor Package: /Game/Maps/DialogueMap
+
+----------------------------------------------------------------------------------------------------------------
+DialogueMap - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 12800
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 25600.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   12800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+
