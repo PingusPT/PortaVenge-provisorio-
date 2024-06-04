@@ -60,7 +60,7 @@
 			<destination>{7d0262f0-3d90-4e86-b94a-9e86c7209114}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b97d0089-a9a0-435b-9fab-6034ae8aeda3}</destination>
+			<destination>{9199c8f5-f26c-470c-a463-3119962a0faa}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{1b537f89-d339-48dc-a6dc-48a0616afdfe}" />
@@ -182,6 +182,7 @@
 	<object class="MixerBusEffectChain" id="{e1d9a4f0-0b7e-4c8f-aee5-8a52f34a7f14}">
 		<relationship name="effects">
 			<destination>{c79e0e1c-bd33-4318-b77e-66cd902d6600}</destination>
+			<destination>{7b5b0af7-2366-4005-b933-e67150d1c7c7}</destination>
 			<destination>{e1bff4cd-5884-428a-ad6b-d0ffe039f6e5}</destination>
 			<destination>{2ac4cc77-9962-454c-b2eb-ef49282016db}</destination>
 		</relationship>
@@ -258,9 +259,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{458949be-1c90-4812-8521-6296505d45ef}" />
 	<object class="MixerBusFader" id="{c79e0e1c-bd33-4318-b77e-66cd902d6600}" />
+	<object class="GainEffect" id="{7b5b0af7-2366-4005-b933-e67150d1c7c7}">
+		<property name="gain">
+			<value>9.5</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{e1bff4cd-5884-428a-ad6b-d0ffe039f6e5}">
 		<property name="maximumDistance">
-			<value>40</value>
+			<value>45</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>

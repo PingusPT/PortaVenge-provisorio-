@@ -1,0 +1,384 @@
+Playback::frame, 0
+Playback::version, 2, 131617
+#
+# FMOD v2.02.21 command capture
+#   System::setSoftwareChannels(numsoftwarechannels: 64)
+#   System::setDSPBufferSize(bufferlength: 1024, numbuffers: 4)
+#   System::setSoftwareFormat(samplerate: 48000, speakermode: 6, numrawspeakers: 6)
+#   System::setAdvancedSettings(settings: {maxMPEGCodecs: 0, maxADPCMCodecs: 0, maxXMACodecs: 0, maxVorbisCodecs: 64, maxAT9Codecs: 0, maxFADPCMCodecs: 0, maxPCMCodecs: 0, maxOpusCodecs: 0
+#       ASIONumChannels: 0, vol0virtualvol: 0.001, defaultDecodeBufferSize: 400, geometryMaxFadeTime: 0,
+#       distanceFilterCenterFreq: 1500, reverb3Dinstance: 0, DSPBufferPoolSize: 8, resamplerMethod: 2, randomSeed: 29362})
+#   Studio::System::setAdvancedSettings(settings: {commandqueuesize: 32768, handleinitialsize: 65536, studioupdateperiod: 20, idlesampledatapoolsize: 262144})
+#   Studio::System::initialize(maxchannels: 512, studioflags: 0x00000001, flags: 0x00030000)
+#
+Playback::frame, 0
+# Printing initial instance state
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Master.bank, 0, 2097312
+Playback::loadBankFinished, {6e9a433a-5dbb-4816-b9af-efbfa5c904b5}, 2097312, 0
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Master.strings.bank, 0, 2097568
+Playback::loadBankFinished, {f68763ee-2cc0-0454-3fe6-6541543a022d}, 2097568, 0
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank, 0, 2097824
+Playback::loadBankFinished, {bd2ce2bd-b66e-460b-9ce0-cd4d00d0b74c}, 2097824, 0
+Bank::getEventListItem, 2097824, 0, {95a18c53-7786-4385-a0f9-82356d296238}, 2108576
+Bank::getEventListItem, 2097824, 1, {4817ab79-fab4-4baf-a965-be9ea354bfe2}, 2114976
+Bank::getEventListItem, 2097824, 2, {9f7f4ea2-1247-482d-a46b-8f3b66637138}, 2101152
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank, 0, 2098080
+Playback::loadBankFinished, {4fb3d10c-bbd7-4a70-9870-76e65189d08e}, 2098080, 0
+Bank::getEventListItem, 2098080, 0, {33db0ede-64e4-4225-807d-4bf561bd7c34}, 2104480
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank, 0, 2098336
+Playback::loadBankFinished, {76436fe0-6e00-4140-a1f1-2049fea4144b}, 2098336, 0
+Bank::getEventListItem, 2098336, 0, {3a27a296-b425-4483-b732-7faf6afec337}, 2100640
+Bank::getEventListItem, 2098336, 1, {e48f28e9-300c-4cd6-8a71-f378dc61a77f}, 2100128
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank, 0, 2098592
+Playback::loadBankFinished, {90ecad50-d4d1-48dd-ad2f-22220f6697ae}, 2098592, 0
+Bank::getEventListItem, 2098592, 0, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank, 0, 2098848
+Playback::loadBankFinished, {ff862970-52a4-4b1a-8125-8c13a23ac3ad}, 2098848, 0
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank, 0, 2099104
+Playback::loadBankFinished, {2007cd03-4d78-49f7-9ba9-a14bf4a93ca3}, 2099104, 0
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank, 0, 2099360
+Playback::loadBankFinished, {5283bca3-eccc-44cd-946b-101022b4e175}, 2099360, 0
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank, 0, 2099616
+Playback::loadBankFinished, {5ea0dc05-1291-4b1c-b727-00c3faf42593}, 2099616, 0
+System::loadBankFile, ../../../../../../Users/Josep/OneDrive/Ambiente de Trabalho/Git/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank, 0, 2099872
+Playback::loadBankFinished, {dcf25e8c-e929-479b-8e01-a542ca176ae5}, 2099872, 0
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {-18.6654,11.0787,50.2082}, true
+EventDescription::createInstance, 2108576, 2108832
+EventInstance::set3DAttributes, 2108832, {{26.5182,11.6245,42.0217},{0,0,0},{0,0,1},{0,1,0}}
+EventInstance::setTimelinePosition, 2108832, 3394
+EventInstance::start, 2108832
+EventDescription::createInstance, 2116768, 2196128
+EventInstance::set3DAttributes, 2196128, {{43.8275,0.324898,58.2212},{0,0,0},{-0.0316377,-8.30197e-17,-0.999499},{-6.81939e-09,1,2.15858e-10}}
+EventInstance::setTimelinePosition, 2196128, 362
+EventInstance::start, 2196128
+EventInstance::release, 2196128
+EventDescription::createInstance, 2116768, 2197152
+EventInstance::set3DAttributes, 2197152, {{19.8647,0.324898,32.2815},{0,0,0},{-0.0108042,-2.37564e-18,-0.999942},{-1.95226e-10,1,2.10939e-12}}
+EventInstance::setTimelinePosition, 2197152, 42
+EventInstance::start, 2197152
+EventInstance::release, 2197152
+EventDescription::createInstance, 2116768, 2198176
+EventInstance::set3DAttributes, 2198176, {{41.8188,0.324898,14.9963},{0,0,0},{-0.0126277,-5.96742e-17,-0.99992},{-4.90381e-09,1,6.19288e-11}}
+EventInstance::setTimelinePosition, 2198176, 42
+EventInstance::start, 2198176
+EventInstance::release, 2198176
+EventDescription::createInstance, 2116768, 2195616
+EventInstance::set3DAttributes, 2195616, {{20.8696,0.324898,32.2684},{0,0,0},{-0.0148881,-2.38034e-18,-0.999889},{-1.95602e-10,1,2.91246e-12}}
+EventInstance::setTimelinePosition, 2195616, 362
+EventInstance::start, 2195616
+EventInstance::release, 2195616
+EventDescription::createInstance, 2116768, 2196640
+EventInstance::set3DAttributes, 2196640, {{42.837,0.324898,14.9739},{0,0,0},{-0.0362239,-5.54892e-17,-0.999344},{-4.55728e-09,1,1.65191e-10}}
+EventInstance::setTimelinePosition, 2196640, 362
+EventInstance::start, 2196640
+EventInstance::release, 2196640
+EventDescription::createInstance, 2116768, 2197664
+EventInstance::set3DAttributes, 2197664, {{43.076,0.324898,57.8913},{0,0,0},{0.971653,-2.76205e-18,-0.236411},{-5.36639e-11,1,-2.20559e-10}}
+EventInstance::setTimelinePosition, 2197664, 42
+EventInstance::start, 2197664
+EventInstance::release, 2197664
+EventDescription::createInstance, 2100128, 2100384
+EventInstance::set3DAttributes, 2100384, {{33.5803,6.65158,104.785},{0,0,0},{0.939693,0,0.34202},{0,1,0}}
+EventInstance::setTimelinePosition, 2100384, 1565
+EventInstance::start, 2100384
+EventDescription::createInstance, 2100128, 2112672
+EventInstance::set3DAttributes, 2112672, {{23.3871,6.65158,92.6049},{0,0,0},{2.70399e-09,0,-1},{0,1,0}}
+EventInstance::setTimelinePosition, 2112672, 1565
+EventInstance::start, 2112672
+EventDescription::createInstance, 2100128, 2109344
+EventInstance::set3DAttributes, 2109344, {{18.5948,6.65158,92.6049},{0,0,0},{-0.642788,0,-0.766044},{0,1,0}}
+EventInstance::setTimelinePosition, 2109344, 1565
+EventInstance::start, 2109344
+EventDescription::createInstance, 2100128, 2105504
+EventInstance::set3DAttributes, 2105504, {{18.5948,6.65158,108.481},{0,0,0},{-0.5,0,0.866025},{0,1,0}}
+EventInstance::setTimelinePosition, 2105504, 1565
+EventInstance::start, 2105504
+EventDescription::createInstance, 2100128, 2111392
+EventInstance::set3DAttributes, 2111392, {{33.691,6.65158,99.9762},{0,0,0},{0.984808,0,0.173648},{0,1,0}}
+EventInstance::setTimelinePosition, 2111392, 1565
+EventInstance::start, 2111392
+EventDescription::createInstance, 2100128, 2109856
+EventInstance::set3DAttributes, 2109856, {{58.6124,6.82245,52.6275},{0,0,0},{0.991418,0.130734,-3.65039e-08},{-0.130734,0.991418,-7.91034e-16}}
+EventInstance::setTimelinePosition, 2109856, 1565
+EventInstance::start, 2109856
+EventDescription::createInstance, 2100128, 2103712
+EventInstance::set3DAttributes, 2103712, {{33.8863,6.65158,94.0816},{0,0,0},{0.939693,0,-0.34202},{0,1,0}}
+EventInstance::setTimelinePosition, 2103712, 1565
+EventInstance::start, 2103712
+EventDescription::createInstance, 2100128, 2108064
+EventInstance::set3DAttributes, 2108064, {{28.614,6.65158,109.218},{0,0,0},{0.642788,0,0.766044},{0,1,0}}
+EventInstance::setTimelinePosition, 2108064, 1565
+EventInstance::start, 2108064
+EventDescription::createInstance, 2100128, 2112160
+EventInstance::set3DAttributes, 2112160, {{23.85,6.68754,109.145},{0,0,0},{0.173648,0,0.984808},{0,1,0}}
+EventInstance::setTimelinePosition, 2112160, 1565
+EventInstance::start, 2112160
+EventDescription::createInstance, 2100128, 2113952
+EventInstance::set3DAttributes, 2113952, {{27.4428,6.65158,92.6049},{0,0,0},{0.34202,0,-0.939693},{0,1,0}}
+EventInstance::setTimelinePosition, 2113952, 1565
+EventInstance::start, 2113952
+EventDescription::createInstance, 2114976, 2115232
+EventInstance::set3DAttributes, 2115232, {{24.1201,0.941291,22.1991},{0,0,0},{0,0,1},{0,1,0}}
+EventInstance::setTimelinePosition, 2115232, 194
+EventInstance::start, 2115232
+EventDescription::createInstance, 2114976, 2115744
+EventInstance::set3DAttributes, 2115744, {{39.5501,0.941291,22.7645},{0,0,0},{0,0,1},{0,1,0}}
+EventInstance::setTimelinePosition, 2115744, 194
+EventInstance::start, 2115744
+# Finished printing initial instance state
+Playback::frame, 13312
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2198688
+EventInstance::set3DAttributes, 2198688, {{17.8703,0.324898,32.2896},{0,0,0},{0.00476064,-2.32324e-18,-0.999989},{-1.90928e-10,1,-9.08953e-13}}
+EventInstance::start, 2198688
+EventInstance::release, 2198688
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2199200
+EventInstance::set3DAttributes, 2199200, {{39.8188,0.324898,15.0048},{0,0,0},{0.00140161,-6.12318e-17,-0.999999},{-5.03221e-09,1,-7.05326e-12}}
+EventInstance::start, 2199200
+EventInstance::release, 2199200
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2199712
+EventInstance::set3DAttributes, 2199712, {{42.9356,0.324898,55.9266},{0,0,0},{0.889267,9.55624e-27,0.457388},{-3.59214e-19,1,6.98395e-19}}
+EventInstance::start, 2199712
+EventInstance::release, 2199712
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2200224
+EventInstance::set3DAttributes, 2200224, {{15.8605,0.324898,32.2473},{0,0,0},{0.0442763,-2.14169e-18,-0.999019},{-1.75838e-10,1,-7.79308e-12}}
+EventInstance::start, 2200224
+EventInstance::release, 2200224
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2200736
+EventInstance::set3DAttributes, 2200736, {{44.7746,0.324898,55.3892},{0,0,0},{-0.0265933,9.08413e-26,0.999646},{-7.46297e-18,1,-1.98535e-19}}
+EventInstance::start, 2200736
+EventInstance::release, 2200736
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2201248
+EventInstance::set3DAttributes, 2201248, {{37.8056,0.324898,14.9959},{0,0,0},{0.0067862,-6.08823e-17,-0.999977},{-5.00337e-09,1,-3.39547e-11}}
+EventInstance::start, 2201248
+EventInstance::release, 2201248
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2201760
+EventInstance::set3DAttributes, 2201760, {{14.8688,0.324898,32.1814},{0,0,0},{0.0959029,-1.87863e-18,-0.995391},{-1.5368e-10,1,-1.48066e-11}}
+EventInstance::start, 2201760
+EventInstance::release, 2201760
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2202272
+EventInstance::set3DAttributes, 2202272, {{36.7898,0.324898,14.9882},{0,0,0},{0.00830549,-6.03682e-17,-0.999965},{-4.96107e-09,1,-4.12056e-11}}
+EventInstance::start, 2202272
+EventInstance::release, 2202272
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2202784
+EventInstance::set3DAttributes, 2202784, {{45.7679,0.324898,55.4932},{0,0,0},{-0.140141,1.69388e-25,0.990132},{-1.37834e-17,1,-1.95087e-18}}
+EventInstance::start, 2202784
+EventInstance::release, 2202784
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2203296
+EventInstance::set3DAttributes, 2203296, {{12.9249,0.324898,31.7335},{0,0,0},{0.422966,8.56132e-20,-0.906146},{6.37559e-12,1,2.97596e-12}}
+EventInstance::start, 2203296
+EventInstance::release, 2203296
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2203808
+EventInstance::set3DAttributes, 2203808, {{47.7656,0.324898,55.7134},{0,0,0},{-0.033967,2.12756e-25,0.999423},{-1.74748e-17,1,-5.93911e-19}}
+EventInstance::start, 2203808
+EventInstance::release, 2203808
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2204320
+EventInstance::set3DAttributes, 2204320, {{34.7853,0.324898,14.9696},{0,0,0},{0.00997589,-5.87932e-17,-0.99995},{-4.83156e-09,1,-4.82016e-11}}
+EventInstance::start, 2204320
+EventInstance::release, 2204320
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2204832
+EventInstance::set3DAttributes, 2204832, {{12.1711,0.260978,31.0949},{0,0,0},{0.863337,2.29218e-18,-0.504628},{9.50609e-11,1,1.62634e-10}}
+EventInstance::start, 2204832
+EventInstance::release, 2204832
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2205344
+EventInstance::set3DAttributes, 2205344, {{48.7664,0.324898,55.6714},{0,0,0},{0.13478,2.14018e-25,0.990875},{-1.74282e-17,1,2.3706e-18}}
+EventInstance::start, 2205344
+EventInstance::release, 2205344
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2205856
+EventInstance::set3DAttributes, 2205856, {{33.7995,0.260497,14.9594},{0,0,0},{0.0102981,-5.76941e-17,-0.999947},{-4.74122e-09,1,-4.88283e-11}}
+EventInstance::start, 2205856
+EventInstance::release, 2205856
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2206368
+EventInstance::set3DAttributes, 2206368, {{13.0644,0.324898,29.8599},{0,0,0},{0.167161,3.83121e-22,0.98593},{-3.1043e-14,1,5.26324e-15}}
+EventInstance::start, 2206368
+EventInstance::release, 2206368
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2206880
+EventInstance::set3DAttributes, 2206880, {{50.5072,0.324898,54.8127},{0,0,0},{0.762132,1.13591e-25,0.647421},{-6.04386e-18,1,7.11471e-18}}
+EventInstance::start, 2206880
+EventInstance::release, 2206880
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2207392
+EventInstance::set3DAttributes, 2207392, {{31.7704,0.324898,14.9388},{0,0,0},{0.00997443,-5.46157e-17,-0.99995},{-4.48826e-09,1,-4.47701e-11}}
+EventInstance::start, 2207392
+EventInstance::release, 2207392
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2207904
+EventInstance::set3DAttributes, 2207904, {{15.0376,0.324898,29.6866},{0,0,0},{0.0377129,-2.04015e-20,0.999289},{1.67546e-12,1,-6.32316e-14}}
+EventInstance::start, 2207904
+EventInstance::release, 2207904
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2208416
+EventInstance::set3DAttributes, 2208416, {{51.2919,0.324898,52.9976},{0,0,0},{0.971967,2.20859e-26,0.235119},{-4.26762e-19,1,1.7642e-18}}
+EventInstance::start, 2208416
+EventInstance::release, 2208416
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2208928
+EventInstance::set3DAttributes, 2208928, {{29.7584,0.324898,14.9204},{0,0,0},{0.00795756,-4.95278e-17,-0.999968},{-4.07021e-09,1,-3.23901e-11}}
+EventInstance::start, 2208928
+EventInstance::release, 2208928
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2209440
+EventInstance::set3DAttributes, 2209440, {{16.0434,0.324898,29.6607},{0,0,0},{0.0166927,-3.694e-20,0.999861},{3.03542e-12,1,-5.06764e-14}}
+EventInstance::start, 2209440
+EventInstance::release, 2209440
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2209952
+EventInstance::set3DAttributes, 2209952, {{51.46,0.294852,52.0172},{0,0,0},{0.987081,7.7551e-27,0.160223},{-1.02116e-19,1,6.29103e-19}}
+EventInstance::start, 2209952
+EventInstance::release, 2209952
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2210464
+EventInstance::set3DAttributes, 2210464, {{28.7723,0.324898,14.9135},{0,0,0},{0.00589859,-4.55699e-17,-0.999983},{-3.74501e-09,1,-2.20907e-11}}
+EventInstance::start, 2210464
+EventInstance::release, 2210464
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2210976
+EventInstance::set3DAttributes, 2210976, {{51.7472,0.291519,50.0224},{0,0,0},{0.996427,0,0.0844639},{0,1,0}}
+EventInstance::start, 2210976
+EventInstance::release, 2210976
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2211488
+EventInstance::set3DAttributes, 2211488, {{18.0636,0.324898,29.6469},{0,0,0},{-0.000234346,-4.2481e-20,1},{3.49122e-12,1,8.18195e-16}}
+EventInstance::start, 2211488
+EventInstance::release, 2211488
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2212000
+EventInstance::set3DAttributes, 2212000, {{26.7867,0.324898,14.9097},{0,0,0},{-0.00382071,-3.17505e-17,-0.999993},{-2.60933e-09,1,9.96953e-12}}
+EventInstance::start, 2212000
+EventInstance::release, 2212000
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2212512
+EventInstance::set3DAttributes, 2212512, {{19.0362,0.283011,29.6493},{0,0,0},{-0.00439592,-3.99097e-20,0.99999},{3.27987e-12,1,1.44182e-14}}
+EventInstance::start, 2212512
+EventInstance::release, 2212512
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2213024
+EventInstance::set3DAttributes, 2213024, {{25.785,0.324898,14.9165},{0,0,0},{-0.00953838,-2.54424e-17,-0.999955},{-2.09084e-09,1,1.99441e-11}}
+EventInstance::start, 2213024
+EventInstance::release, 2213024
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2213536
+EventInstance::set3DAttributes, 2213536, {{51.8087,0.25364,49.0206},{0,0,0},{0.997856,0,0.065447},{0,1,0}}
+EventInstance::start, 2213536
+EventInstance::release, 2213536
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2214048
+EventInstance::set3DAttributes, 2214048, {{21.0691,0.324898,29.6635},{0,0,0},{-0.00911413,-2.77412e-20,0.999958},{2.27976e-12,1,2.07789e-14}}
+EventInstance::start, 2214048
+EventInstance::release, 2214048
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2214560
+EventInstance::set3DAttributes, 2214560, {{23.7825,0.324898,14.9436},{0,0,0},{-0.0166053,-1.51797e-17,-0.999862},{-1.24734e-09,1,2.07152e-11}}
+EventInstance::start, 2214560
+EventInstance::release, 2214560
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2215072
+EventInstance::set3DAttributes, 2215072, {{51.9058,0.324898,47.0227},{0,0,0},{0.998805,0,0.0488655},{0,1,0}}
+EventInstance::start, 2215072
+EventInstance::release, 2215072
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2215584
+EventInstance::set3DAttributes, 2215584, {{23.0772,0.324898,29.6838},{0,0,0},{-0.0105407,-4.70804e-21,0.999944},{3.86899e-13,1,4.07843e-15}}
+EventInstance::start, 2215584
+EventInstance::release, 2215584
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2216096
+EventInstance::set3DAttributes, 2216096, {{21.7831,0.324898,14.9792},{0,0,0},{-0.018014,-7.43124e-18,-0.999838},{-6.10622e-10,1,1.10015e-11}}
+EventInstance::start, 2216096
+EventInstance::release, 2216096
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2216608
+EventInstance::set3DAttributes, 2216608, {{52.006,0.324898,45.0214},{0,0,0},{0.998495,0,0.0548408},{0,1,0}}
+EventInstance::start, 2216608
+EventInstance::release, 2216608
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 15360
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2217120
+EventInstance::set3DAttributes, 2217120, {{24.0763,0.324898,29.6941},{0,0,0},{-0.0100499,1.31908e-20,0.99995},{-1.08401e-12,1,-1.08948e-14}}
+EventInstance::start, 2217120
+EventInstance::release, 2217120
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2217632
+EventInstance::set3DAttributes, 2217632, {{52.0665,0.310787,43.9966},{0,0,0},{0.997764,0,0.0668298},{0,1,0}}
+EventInstance::start, 2217632
+EventInstance::release, 2217632
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2218144
+EventInstance::set3DAttributes, 2218144, {{20.7786,0.324898,14.9966},{0,0,0},{-0.016299,-4.37208e-18,-0.999867},{-3.59263e-10,1,5.85641e-12}}
+EventInstance::start, 2218144
+EventInstance::release, 2218144
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
+Playback::frame, 16384
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2218656
+EventInstance::set3DAttributes, 2218656, {{52.2426,0.324898,42.0318},{0,0,0},{0.993138,0,0.116945},{0,1,0}}
+EventInstance::start, 2218656
+EventInstance::release, 2218656
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2219168
+EventInstance::set3DAttributes, 2219168, {{26.0883,0.324898,29.7105},{0,0,0},{-0.0049412,7.87393e-20,0.999988},{-6.47095e-12,1,-3.19747e-14}}
+EventInstance::start, 2219168
+EventInstance::release, 2219168
+System::getEventByID, {15c30f51-6874-4e28-a4ba-259490fd1b75}, 2116768
+EventDescription::createInstance, 2116768, 2219680
+EventInstance::set3DAttributes, 2219680, {{18.7807,0.324898,15.0208},{0,0,0},{-0.00613496,-5.08952e-20,-0.999981},{-4.18264e-12,1,2.56608e-14}}
+EventInstance::start, 2219680
+EventInstance::release, 2219680
+System::setListenerAttributes, 0, {{-18.6654,11.0787,50.2082},{0,0,0},{0.819152,-0.573576,1.99348e-08},{0.573576,0.819152,1.39585e-08}}, {0,0,0}, false
