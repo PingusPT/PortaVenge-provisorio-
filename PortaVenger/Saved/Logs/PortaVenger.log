@@ -4149,3 +4149,880 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.13-12.25.30:535][292]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/Bp_V2AiController.Bp_V2AiController
 [2024.06.13-12.25.30:535][292]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/AI/BT_NewEnemy.BT_NewEnemy
 [2024.06.13-12.25.30:535][292]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/BTT_AnimCoin.BTT_AnimCoin
+[2024.06.13-12.30.27:882][767]LogDerivedDataCache: C:/Users/anamj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.130 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6630 files in 8265 folders with total size 600 MiB.
+[2024.06.13-12.44.06:756][887]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.13-12.44.06:803][887]LogFMOD: Display: Loaded bank lookup
+[2024.06.13-12.44.06:803][887]LogFMOD: Display: Loaded asset lookup
+[2024.06.13-12.44.06:808][887]LogFMOD: Default sample rate = 48000
+[2024.06.13-12.44.06:808][887]LogFMOD: System sample rate = 48000
+[2024.06.13-12.44.06:808][887]LogFMOD: Matching system sample rate 48000
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.13-12.44.06:886][887]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.13-12.44.06:924][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.13-12.44.06:924][887]PIE: New page: PIE session: MapasTesteJoao (13/06/2024, 14:44:06)
+[2024.06.13-12.44.06:925][887]LogPlayLevel: Display: Creating online subsystem for client :Context_49
+[2024.06.13-12.44.06:932][887]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.06.13-12.44.06:974][888]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.44.06:985][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008925s)
+[2024.06.13-12.44.06:985][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.010218s)
+[2024.06.13-12.44.06:997][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.13-12.44.07:002][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.44.07:002][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.44.07:002][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.44.07:003][888]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.13-12.44.07:003][888]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2024.06.13-12.44.07:003][888]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.06.13-12.44.07:003][888]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.13-12.44.07:003][888]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.13-12.44.07:003][888]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.13-12.44.07:003][888]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.13-12.44.07:003][888]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.13-12.44.07:003][888]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.13-12.44.07:003][888]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.13-12.44.07:003][888]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.13-12.44.07:004][888]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.13-12.44.07:004][888]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.13-12.44.07:004][888]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.13-12.44.07:006][888]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.13-12.44.07:068][888]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.13-12.44.07:068][888]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.13-12.44.07:068][888]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.13-12.44.07:068][888]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.13-12.44.07:070][888]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.06.13-12.44.07:070][888]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.06.13-12.44.07:072][888]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.06.13-12.44.07:072][888]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.06.13-12.44.07:072][888]LogInit: FAudioDevice initialized with ID 17.
+[2024.06.13-12.44.07:072][888]LogAudio: Display: Audio Device (ID: 17) registered with world 'MapasTesteJoao'.
+[2024.06.13-12.44.07:072][888]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.06.13-12.44.07:074][888]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.13-12.44.07:078][888]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.44.07:078][888]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.44.07:078][888]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.44.07:078][888]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.44.07:079][888]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.44.07:079][888]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.44.07:079][888]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.44.07:079][888]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_8, they are designed to work with AAIControllers!
+[2024.06.13-12.44.07:079][888]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.13-13.44.07
+[2024.06.13-12.44.07:080][888]LogWorld: Bringing up level for play took: 0.006028
+[2024.06.13-12.44.07:085][888]PIE: Server logged in
+[2024.06.13-12.44.07:086][888]PIE: Play in editor total start time 0,314 seconds.
+[2024.06.13-12.44.07:172][892]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByTag_ReturnValue' of length 0 in '/Game/AI/Bp_V2AiController.Bp_V2AiController_C:ExecuteUbergraph_Bp_V2AiController'!
+[2024.06.13-12.44.07:172][892]LogScript: Warning: Script Msg called by: Bp_V2AiController_C /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_V2AiController_C_0
+[2024.06.13-12.44.07:172][892]LogBlueprintUserMessages: [Bp_V2AiController_C_0] Bp_V2AiController0
+[2024.06.13-12.44.07:772][928]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.06.13-12.44.07:772][928]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.06.13-12.44.13:392][265]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.44.13:392][265]LogBlueprintUserMessages: [Rts_Camera_C_0] Enemy and Walk
+[2024.06.13-12.44.30:013][255]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.44.30:014][255]LogBlueprintUserMessages: [Rts_Camera_C_0] Enemy and Walk
+[2024.06.13-12.44.32:463][402]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.44.32:463][402]LogBlueprintUserMessages: [Rts_Camera_C_0] Portal and Walk
+[2024.06.13-12.44.32:964][432]LogBlueprintUserMessages: [Bp_AiEnemy_C_8] Sentiu algo
+[2024.06.13-12.44.32:964][432]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Portal
+[2024.06.13-12.44.32:964][432]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Investigate
+[2024.06.13-12.44.34:403][518]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.44.44:367][115]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.44.49:055][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.44.49:055][386]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.44.49:056][386]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.13-12.44.49:057][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.44.49:103][386]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.13-12.44.49:108][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.44.49:120][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.44.49:121][386]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.06.13-12.44.49:121][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.44.49:121][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.06.13-12.44.49:124][386]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.06.13-12.44.49:134][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.06.13-12.44.49:243][387]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.06.13-12.45.37:355][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.06.13-12.45.37:359][220]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MapasTesteJoao' took 0.012
+[2024.06.13-12.45.37:359][220]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Bp_V2AiController] ([2] browsable assets)...
+[2024.06.13-12.45.37:359][220]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Bp_V2AiController]
+[2024.06.13-12.45.37:395][220]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/Bp_V2AiController_Auto3
+[2024.06.13-12.45.37:396][220]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Bp_V2AiController_Auto390FBAEA547B285CC7A9AFA91E9832418.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/AI/Bp_V2AiController_Auto3.uasset'
+[2024.06.13-12.45.37:398][220]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_NewEnemy] ([1] browsable assets)...
+[2024.06.13-12.45.37:398][220]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_NewEnemy]
+[2024.06.13-12.45.37:410][220]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BT_NewEnemy_Auto3
+[2024.06.13-12.45.37:411][220]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/BT_NewEnemy_Auto32B0533E14A28B67BE1B3819BDBC2EF10.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/AI/BT_NewEnemy_Auto3.uasset'
+[2024.06.13-12.45.37:412][220]LogFileHelpers: Auto-saving content packages took 0.054
+[2024.06.13-12.46.33:675][541]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetSystemLibrary::DrawDebugBox' [Elemento não encontrado.]
+[2024.06.13-12.46.37:309][640]LogSlate: Window 'Color Picker' being destroyed
+[2024.06.13-12.46.38:112][686]BlueprintLog: New page: Compile Bp_V2AiController
+[2024.06.13-12.46.38:224][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:224][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:224][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:224][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:224][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:237][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.06.13-12.46.38:253][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:253][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:253][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:255][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:255][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:255][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:256][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:256][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:256][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:257][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:257][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:258][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:259][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:259][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:259][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:259][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.38:260][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:260][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:260][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:260][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.38:260][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:260][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:261][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:261][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.38:262][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:262][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:262][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:262][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.38:434][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:434][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:434][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:436][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:436][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:436][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:437][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:437][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:437][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:439][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:439][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:439][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:440][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:440][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:440][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:440][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.38:441][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:441][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:441][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:441][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.38:442][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:442][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:442][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:443][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.38:443][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:443][686]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.38:443][686]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.38:444][686]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.39:104][720]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.13-12.46.39:144][720]LogFMOD: Display: Loaded bank lookup
+[2024.06.13-12.46.39:144][720]LogFMOD: Display: Loaded asset lookup
+[2024.06.13-12.46.39:149][720]LogFMOD: Default sample rate = 48000
+[2024.06.13-12.46.39:149][720]LogFMOD: System sample rate = 48000
+[2024.06.13-12.46.39:149][720]LogFMOD: Matching system sample rate 48000
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.13-12.46.39:228][720]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.13-12.46.39:264][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.13-12.46.39:264][720]PIE: New page: PIE session: MapasTesteJoao (13/06/2024, 14:46:39)
+[2024.06.13-12.46.39:264][720]LogPlayLevel: Display: Creating online subsystem for client :Context_50
+[2024.06.13-12.46.39:267][720]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.06.13-12.46.39:304][721]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.46.39:316][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007399s)
+[2024.06.13-12.46.39:316][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.012829s)
+[2024.06.13-12.46.39:331][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.13-12.46.39:341][721]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.46.39:341][721]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.46.39:342][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.46.39:342][721]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.13-12.46.39:342][721]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2024.06.13-12.46.39:342][721]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.06.13-12.46.39:342][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.13-12.46.39:342][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.13-12.46.39:342][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.13-12.46.39:342][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.13-12.46.39:342][721]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.13-12.46.39:342][721]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.13-12.46.39:342][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.13-12.46.39:342][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.13-12.46.39:343][721]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.13-12.46.39:343][721]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.13-12.46.39:343][721]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.13-12.46.39:345][721]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.13-12.46.39:404][721]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.13-12.46.39:405][721]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.13-12.46.39:405][721]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.13-12.46.39:405][721]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.13-12.46.39:406][721]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.06.13-12.46.39:406][721]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.06.13-12.46.39:407][721]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.06.13-12.46.39:407][721]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.06.13-12.46.39:407][721]LogInit: FAudioDevice initialized with ID 18.
+[2024.06.13-12.46.39:407][721]LogAudio: Display: Audio Device (ID: 18) registered with world 'MapasTesteJoao'.
+[2024.06.13-12.46.39:407][721]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.06.13-12.46.39:409][721]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.13-12.46.39:413][721]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.39:413][721]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.39:413][721]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.39:413][721]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.46.39:413][721]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.39:414][721]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.39:414][721]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.46.39:414][721]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_8, they are designed to work with AAIControllers!
+[2024.06.13-12.46.39:414][721]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.13-13.46.39
+[2024.06.13-12.46.39:415][721]LogWorld: Bringing up level for play took: 0.005096
+[2024.06.13-12.46.39:419][721]PIE: Server logged in
+[2024.06.13-12.46.39:420][721]PIE: Play in editor total start time 0,302 seconds.
+[2024.06.13-12.46.39:518][726]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByTag_ReturnValue' of length 0 in '/Game/AI/Bp_V2AiController.Bp_V2AiController_C:ExecuteUbergraph_Bp_V2AiController'!
+[2024.06.13-12.46.39:518][726]LogScript: Warning: Script Msg called by: Bp_V2AiController_C /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_V2AiController_C_0
+[2024.06.13-12.46.39:518][726]LogBlueprintUserMessages: [Bp_V2AiController_C_0] Bp_V2AiController0
+[2024.06.13-12.46.40:119][762]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.06.13-12.46.40:119][762]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.06.13-12.46.44:968][ 53]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.46.44:969][ 53]LogBlueprintUserMessages: [Rts_Camera_C_0] Portal and Walk
+[2024.06.13-12.46.45:470][ 83]LogBlueprintUserMessages: [Bp_AiEnemy_C_8] Sentiu algo
+[2024.06.13-12.46.45:470][ 83]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Portal
+[2024.06.13-12.46.45:470][ 83]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Investigate
+[2024.06.13-12.46.47:402][199]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.57:419][800]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.46.57:735][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.46.57:735][809]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.46.57:735][809]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.13-12.46.57:736][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.46.57:783][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.13-12.46.57:787][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.46.57:799][809]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.13-12.46.57:800][809]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.06.13-12.46.57:800][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.46.57:800][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.06.13-12.46.57:802][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.06.13-12.46.57:810][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.46.57:813][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.13-12.46.57:932][810]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.06.13-12.47.34:638][992]LogAssetEditorSubsystem: Opening Asset editor for EnvQuery /Game/AI/EQS/EQS_Test.EQS_Test
+[2024.06.13-12.48.02:024][614]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/EQS/Enemy_Context.Enemy_Context
+[2024.06.13-12.48.02:025][614]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.48.02:025][614]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.48.24:910][476]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.06.13-12.48.24:927][476]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.06.13-12.48.24:941][476]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.06.13-12.48.24:951][477]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.06.13-12.48.32:695][942]LogContentBrowser: Attempting asset rename: NewBlueprint -> SoundLocation_Contex
+[2024.06.13-12.48.32:698][942]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/EQS/SoundLocation_Contex.
+[2024.06.13-12.48.32:701][942]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/EQS/SoundLocation_Contex.
+[2024.06.13-12.48.32:701][942]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.06.13-12.48.35:102][ 84]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AI/EQS/SoundLocation_Contex.SoundLocation_Contex
+[2024.06.13-12.48.35:103][ 84]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.48.35:103][ 84]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.49.10:203][153]BlueprintLog: New page: Compile SoundLocation_Contex
+[2024.06.13-12.49.10:228][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.06.13-12.49.51:444][525]BlueprintLog: New page: Compile Bp_V2AiController
+[2024.06.13-12.49.51:560][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:560][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:560][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:560][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:560][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:574][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.06.13-12.49.51:592][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:592][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:593][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:594][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:594][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:594][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:596][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:596][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:596][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:598][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:598][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:598][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:599][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:599][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:599][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:599][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.49.51:600][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:600][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:600][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:600][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.49.51:600][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:600][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:601][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:601][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.49.51:602][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:602][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:602][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:602][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.49.51:790][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:790][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:791][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:792][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:792][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:793][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:794][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:794][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:794][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:796][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:796][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:796][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:797][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:797][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:797][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:798][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.49.51:798][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:798][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:798][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:798][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.49.51:799][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:799][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:799][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:800][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.49.51:801][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:801][525]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.49.51:801][525]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.49.51:801][525]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.50.01:393][ 73]BlueprintLog: New page: Compile SoundLocation_Contex
+[2024.06.13-12.50.01:414][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.06.13-12.50.02:384][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.13-12.50.02:417][130]LogSavePackage: Moving output files for package: /Game/AI/EQS/SoundLocation_Contex
+[2024.06.13-12.50.02:417][130]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/SoundLocation_ContexAD4AE8044A61ED35C4B900BA7A34913F.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/SoundLocation_Contex.uasset'
+[2024.06.13-12.50.02:418][130]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/EQS/SoundLocation_Contex.
+[2024.06.13-12.50.02:420][130]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/EQS/SoundLocation_Contex.
+[2024.06.13-12.50.02:431][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 1.51 sec)
+[2024.06.13-12.50.02:432][130]AssetCheck: New page: Asset Save: SoundLocation_Contex
+[2024.06.13-12.50.02:432][130]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/EQS/SoundLocation_Contex.SoundLocation_Contex
+[2024.06.13-12.50.21:484][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.13-12.50.21:509][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EQS/EQS_Test" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Test.uasset" SILENT=true
+[2024.06.13-12.50.21:511][268]LogSavePackage: Moving output files for package: /Game/AI/EQS/EQS_Test
+[2024.06.13-12.50.21:512][268]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/EQS_TestB15BA7704CD9D49A9E143D95E51210B3.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Test.uasset'
+[2024.06.13-12.50.21:519][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 1.55 sec)
+[2024.06.13-12.50.21:527][268]AssetCheck: New page: Asset Save: EQS_Test
+[2024.06.13-12.50.21:527][268]LogContentValidation: Display: Validating /Script/AIModule.EnvQuery /Game/AI/EQS/EQS_Test.EQS_Test
+[2024.06.13-12.50.35:423][746]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.06.13-12.50.52:398][206]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.06.13-12.50.56:129][426]LogContentBrowser: Deferred new asset file creation: NewEnvQuery
+[2024.06.13-12.50.56:150][426]LogContentBrowser: Creating deferred item: NewEnvQuery
+[2024.06.13-12.50.56:178][427]LogContentBrowser: Renaming the item being created (Deferred Item: NewEnvQuery).
+[2024.06.13-12.51.01:889][770]LogContentBrowser: Attempting asset rename: NewEnvQuery -> EQS_Sound
+[2024.06.13-12.51.01:890][770]LogContentBrowser: End creating deferred item NewEnvQuery
+[2024.06.13-12.51.02:391][800]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.13-12.51.02:420][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EQS/EQS_Sound" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset" SILENT=true
+[2024.06.13-12.51.02:421][800]LogSavePackage: Moving output files for package: /Game/AI/EQS/EQS_Sound
+[2024.06.13-12.51.02:421][800]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/EQS_SoundC2D749984202A9F7DCE01081248EDE0F.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset'
+[2024.06.13-12.51.02:430][800]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 1.59 sec)
+[2024.06.13-12.51.02:431][800]AssetCheck: New page: Asset Save: EQS_Sound
+[2024.06.13-12.51.02:431][800]LogContentValidation: Display: Validating /Script/AIModule.EnvQuery /Game/AI/EQS/EQS_Sound.EQS_Sound
+[2024.06.13-12.51.03:249][849]LogAssetEditorSubsystem: Opening Asset editor for EnvQuery /Game/AI/EQS/EQS_Sound.EQS_Sound
+[2024.06.13-12.52.11:583][927]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.13-12.52.11:621][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EQS/EQS_Sound" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset" SILENT=true
+[2024.06.13-12.52.11:624][927]LogSavePackage: Moving output files for package: /Game/AI/EQS/EQS_Sound
+[2024.06.13-12.52.11:625][927]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/EQS_Sound324D42A44B2A9B7D9A4FDDB60CEE0737.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset'
+[2024.06.13-12.52.11:636][927]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.64 sec)
+[2024.06.13-12.52.11:650][927]AssetCheck: New page: Asset Save: EQS_Sound
+[2024.06.13-12.52.11:650][927]LogContentValidation: Display: Validating /Script/AIModule.EnvQuery /Game/AI/EQS/EQS_Sound.EQS_Sound
+[2024.06.13-12.52.38:169][508]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.13-12.52.38:225][508]LogFMOD: Display: Loaded bank lookup
+[2024.06.13-12.52.38:225][508]LogFMOD: Display: Loaded asset lookup
+[2024.06.13-12.52.38:232][508]LogFMOD: Default sample rate = 48000
+[2024.06.13-12.52.38:232][508]LogFMOD: System sample rate = 48000
+[2024.06.13-12.52.38:232][508]LogFMOD: Matching system sample rate 48000
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.13-12.52.38:316][508]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.13-12.52.38:355][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.13-12.52.38:355][508]PIE: New page: PIE session: MapasTesteJoao (13/06/2024, 14:52:38)
+[2024.06.13-12.52.38:355][508]LogPlayLevel: Display: Creating online subsystem for client :Context_53
+[2024.06.13-12.52.38:360][508]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2024.06.13-12.52.38:387][509]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.52.38:412][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007700s)
+[2024.06.13-12.52.38:412][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.025392s)
+[2024.06.13-12.52.38:426][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.06.13-12.52.38:428][509]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.52.38:428][509]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.52.38:429][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.52.38:429][509]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.13-12.52.38:429][509]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2024.06.13-12.52.38:429][509]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.06.13-12.52.38:429][509]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.13-12.52.38:429][509]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.13-12.52.38:429][509]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.13-12.52.38:429][509]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.13-12.52.38:429][509]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.13-12.52.38:429][509]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.13-12.52.38:429][509]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.13-12.52.38:429][509]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.13-12.52.38:430][509]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.13-12.52.38:430][509]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.13-12.52.38:430][509]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.13-12.52.38:432][509]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.13-12.52.38:495][509]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.13-12.52.38:495][509]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.13-12.52.38:495][509]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.13-12.52.38:495][509]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.13-12.52.38:496][509]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.06.13-12.52.38:496][509]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.06.13-12.52.38:498][509]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.06.13-12.52.38:498][509]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.06.13-12.52.38:498][509]LogInit: FAudioDevice initialized with ID 19.
+[2024.06.13-12.52.38:498][509]LogAudio: Display: Audio Device (ID: 19) registered with world 'MapasTesteJoao'.
+[2024.06.13-12.52.38:498][509]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.06.13-12.52.38:500][509]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.13-12.52.38:504][509]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.52.38:504][509]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.52.38:504][509]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.52.38:504][509]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.52.38:505][509]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.52.38:505][509]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.52.38:505][509]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.52.38:505][509]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_8, they are designed to work with AAIControllers!
+[2024.06.13-12.52.38:505][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.13-13.52.38
+[2024.06.13-12.52.38:506][509]LogWorld: Bringing up level for play took: 0.005424
+[2024.06.13-12.52.38:511][509]PIE: Server logged in
+[2024.06.13-12.52.38:511][509]PIE: Play in editor total start time 0,327 seconds.
+[2024.06.13-12.52.38:576][512]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByTag_ReturnValue' of length 0 in '/Game/AI/Bp_V2AiController.Bp_V2AiController_C:ExecuteUbergraph_Bp_V2AiController'!
+[2024.06.13-12.52.38:576][512]LogScript: Warning: Script Msg called by: Bp_V2AiController_C /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_V2AiController_C_0
+[2024.06.13-12.52.38:576][512]LogBlueprintUserMessages: [Bp_V2AiController_C_0] Bp_V2AiController0
+[2024.06.13-12.52.39:177][548]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.06.13-12.52.39:177][548]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.06.13-12.52.48:496][107]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.52.48:496][107]LogBlueprintUserMessages: [Rts_Camera_C_0] Portal and Walk
+[2024.06.13-12.52.48:996][137]LogBlueprintUserMessages: [Bp_AiEnemy_C_8] Sentiu algo
+[2024.06.13-12.52.48:996][137]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Portal
+[2024.06.13-12.52.48:996][137]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Investigate
+[2024.06.13-12.52.52:212][330]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.53.04:666][ 72]LogProjectileMovement: Warning: GetSimulationTimeStep() - Max iterations 4 hit while remaining time 0.129321 > MaxSimulationTimeStep (0.050) for '/Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_PortalArm_C_0.DefaultSceneRoot'
+[2024.06.13-12.53.50:262][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.53.50:262][796]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.53.50:263][796]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.13-12.53.50:264][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.53.50:312][796]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.13-12.53.50:319][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.53.50:334][796]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.13-12.53.50:334][796]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.06.13-12.53.50:334][796]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.53.50:335][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.06.13-12.53.50:336][796]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.06.13-12.53.50:344][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.53.50:348][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.06.13-12.53.50:489][797]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.06.13-12.54.57:109][760]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.13-12.54.57:174][760]LogFMOD: Display: Loaded bank lookup
+[2024.06.13-12.54.57:174][760]LogFMOD: Display: Loaded asset lookup
+[2024.06.13-12.54.57:180][760]LogFMOD: Default sample rate = 48000
+[2024.06.13-12.54.57:180][760]LogFMOD: System sample rate = 48000
+[2024.06.13-12.54.57:180][760]LogFMOD: Matching system sample rate 48000
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.13-12.54.57:296][760]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.13-12.54.57:336][760]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.13-12.54.57:336][760]PIE: New page: PIE session: MapasTesteJoao (13/06/2024, 14:54:57)
+[2024.06.13-12.54.57:336][760]LogPlayLevel: Display: Creating online subsystem for client :Context_54
+[2024.06.13-12.54.57:341][760]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.06.13-12.54.57:407][761]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.54.57:407][761]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.54.57:416][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007775s)
+[2024.06.13-12.54.57:416][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.007816s)
+[2024.06.13-12.54.57:428][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.06.13-12.54.57:430][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.54.57:430][761]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.54.57:431][761]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.13-12.54.57:431][761]LogPlayLevel: PIE: World Init took: (0.001201s)
+[2024.06.13-12.54.57:431][761]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.06.13-12.54.57:431][761]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.13-12.54.57:431][761]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.13-12.54.57:431][761]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.13-12.54.57:431][761]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.13-12.54.57:431][761]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.13-12.54.57:431][761]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.13-12.54.57:431][761]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.13-12.54.57:431][761]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.13-12.54.57:432][761]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.13-12.54.57:432][761]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.13-12.54.57:432][761]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.13-12.54.57:434][761]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.13-12.54.57:557][761]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.13-12.54.57:557][761]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.13-12.54.57:557][761]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.13-12.54.57:557][761]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.13-12.54.57:558][761]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.06.13-12.54.57:558][761]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.06.13-12.54.57:559][761]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.06.13-12.54.57:560][761]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.06.13-12.54.57:560][761]LogInit: FAudioDevice initialized with ID 20.
+[2024.06.13-12.54.57:560][761]LogAudio: Display: Audio Device (ID: 20) registered with world 'MapasTesteJoao'.
+[2024.06.13-12.54.57:560][761]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.06.13-12.54.57:562][761]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.13-12.54.57:565][761]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.54.57:565][761]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.54.57:565][761]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.54.57:565][761]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.54.57:565][761]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.54.57:565][761]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.54.57:565][761]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.54.57:565][761]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_8, they are designed to work with AAIControllers!
+[2024.06.13-12.54.57:565][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.13-13.54.57
+[2024.06.13-12.54.57:566][761]LogWorld: Bringing up level for play took: 0.004900
+[2024.06.13-12.54.57:570][761]PIE: Server logged in
+[2024.06.13-12.54.57:571][761]PIE: Play in editor total start time 0,448 seconds.
+[2024.06.13-12.54.57:601][762]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByTag_ReturnValue' of length 0 in '/Game/AI/Bp_V2AiController.Bp_V2AiController_C:ExecuteUbergraph_Bp_V2AiController'!
+[2024.06.13-12.54.57:601][762]LogScript: Warning: Script Msg called by: Bp_V2AiController_C /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_V2AiController_C_0
+[2024.06.13-12.54.57:601][762]LogBlueprintUserMessages: [Bp_V2AiController_C_0] Bp_V2AiController0
+[2024.06.13-12.54.58:201][798]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.06.13-12.54.58:201][798]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.06.13-12.55.05:413][223]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.55.05:413][223]LogBlueprintUserMessages: [Rts_Camera_C_0] Portal and Walk
+[2024.06.13-12.55.05:912][253]LogBlueprintUserMessages: [Bp_AiEnemy_C_8] Sentiu algo
+[2024.06.13-12.55.05:912][253]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Portal
+[2024.06.13-12.55.05:912][253]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Investigate
+[2024.06.13-12.55.08:432][404]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.55.27:489][543]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionResult', from offset 113
+[2024.06.13-12.55.27:489][543]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/AI/EQS/SoundLocation_Contex.SoundLocation_Contex_C:ProvideSingleLocation
+
+[2024.06.13-12.55.39:459][543]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/AI/EQS/SoundLocation_Contex.SoundLocation_Contex without an associated node. The blueprint breakpoint has been removed
+[2024.06.13-12.55.39:459][543]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/AI/EQS/SoundLocation_Contex.SoundLocation_Contex without an associated node. The blueprint breakpoint has been removed
+[2024.06.13-12.55.42:843][543]LogEQS: Warning: Query EQS_Sound_RandomBest5Pct is over generation time warning. 15.352794 second (limit is 0.010000 second)
+[2024.06.13-12.55.42:843][543]LogEQS: Warning: Query EQS_Sound_RandomBest5Pct (Owner: Bp_AiEnemy_C_8) has taken 15352.87 ms so far, exceeding the configured limit of 25.00 ms. Execution details: Total Execution Time: 15352.87 ms
+  generator[0]: 15352.87 ms (items:35) (EnvQueryGenerator_SimpleGrid_0)
+[2024.06.13-12.55.42:855][544]LogEQS: Warning: Query EQS_Sound_RandomBest5Pct (Owner: Bp_AiEnemy_C_8) has finished in 15352.91 ms, exceeding the configured limit of 25.00 ms. Execution details: Total Execution Time: 15352.91 ms
+  generator[0]: 15352.87 ms (items:35) (EnvQueryGenerator_SimpleGrid_0)
+    test[0]: 0.04 ms (items:35) (EnvQueryTest_Distance_0)
+[2024.06.13-12.55.54:387][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.13-12.55.54:388][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EQS/EQS_Sound" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset" SILENT=true
+[2024.06.13-12.55.54:390][233]LogSavePackage: Moving output files for package: /Game/AI/EQS/EQS_Sound
+[2024.06.13-12.55.54:390][233]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/EQS_SoundDC04BDE2454550AAE49B6AAD011652D8.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset'
+[2024.06.13-12.55.54:392][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 4 ms (total: 1.65 sec)
+[2024.06.13-12.55.54:404][233]AssetCheck: New page: Asset Save: EQS_Sound
+[2024.06.13-12.55.54:404][233]LogContentValidation: Display: Validating /Script/AIModule.EnvQuery /Game/AI/EQS/EQS_Sound.EQS_Sound
+[2024.06.13-12.55.56:033][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.55.56:033][321]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.55.56:033][321]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.13-12.55.56:034][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.55.56:085][321]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.13-12.55.56:090][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.55.56:101][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.55.56:101][321]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.06.13-12.55.56:101][321]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.55.56:101][321]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.06.13-12.55.56:103][321]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.06.13-12.55.56:113][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.13-12.55.56:230][322]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.06.13-12.55.56:940][362]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.13-12.55.56:984][362]LogFMOD: Display: Loaded bank lookup
+[2024.06.13-12.55.56:984][362]LogFMOD: Display: Loaded asset lookup
+[2024.06.13-12.55.56:986][362]LogFMOD: Default sample rate = 48000
+[2024.06.13-12.55.56:986][362]LogFMOD: System sample rate = 48000
+[2024.06.13-12.55.56:986][362]LogFMOD: Matching system sample rate 48000
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.13-12.55.57:041][362]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.13-12.55.57:085][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.13-12.55.57:085][362]PIE: New page: PIE session: MapasTesteJoao (13/06/2024, 14:55:57)
+[2024.06.13-12.55.57:085][362]LogPlayLevel: Display: Creating online subsystem for client :Context_55
+[2024.06.13-12.55.57:090][362]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2024.06.13-12.55.57:161][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.55.57:161][363]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.55.57:167][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007377s)
+[2024.06.13-12.55.57:167][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.007415s)
+[2024.06.13-12.55.57:177][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.13-12.55.57:181][363]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.55.57:181][363]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.55.57:181][363]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.13-12.55.57:181][363]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2024.06.13-12.55.57:181][363]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.06.13-12.55.57:181][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.13-12.55.57:181][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.13-12.55.57:181][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.13-12.55.57:181][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.13-12.55.57:181][363]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.13-12.55.57:181][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.13-12.55.57:181][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.13-12.55.57:181][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.13-12.55.57:183][363]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.13-12.55.57:183][363]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.13-12.55.57:183][363]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.13-12.55.57:185][363]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.13-12.55.57:246][363]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.13-12.55.57:247][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.13-12.55.57:247][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.13-12.55.57:247][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.13-12.55.57:247][363]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.06.13-12.55.57:247][363]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.06.13-12.55.57:249][363]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.06.13-12.55.57:249][363]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.06.13-12.55.57:249][363]LogInit: FAudioDevice initialized with ID 21.
+[2024.06.13-12.55.57:249][363]LogAudio: Display: Audio Device (ID: 21) registered with world 'MapasTesteJoao'.
+[2024.06.13-12.55.57:249][363]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.06.13-12.55.57:251][363]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.13-12.55.57:254][363]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.55.57:254][363]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.55.57:255][363]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.55.57:255][363]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.55.57:255][363]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.55.57:255][363]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.55.57:255][363]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.55.57:256][363]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_8, they are designed to work with AAIControllers!
+[2024.06.13-12.55.57:256][363]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.13-13.55.57
+[2024.06.13-12.55.57:257][363]LogWorld: Bringing up level for play took: 0.005512
+[2024.06.13-12.55.57:261][363]PIE: Server logged in
+[2024.06.13-12.55.57:262][363]PIE: Play in editor total start time 0,309 seconds.
+[2024.06.13-12.55.57:343][367]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByTag_ReturnValue' of length 0 in '/Game/AI/Bp_V2AiController.Bp_V2AiController_C:ExecuteUbergraph_Bp_V2AiController'!
+[2024.06.13-12.55.57:343][367]LogScript: Warning: Script Msg called by: Bp_V2AiController_C /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_V2AiController_C_0
+[2024.06.13-12.55.57:343][367]LogBlueprintUserMessages: [Bp_V2AiController_C_0] Bp_V2AiController0
+[2024.06.13-12.55.57:943][403]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.06.13-12.55.57:943][403]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.06.13-12.56.18:551][617]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.56.18:551][617]LogBlueprintUserMessages: [Rts_Camera_C_0] Enemy and Walk
+[2024.06.13-12.56.28:268][200]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.56.28:268][200]LogBlueprintUserMessages: [Rts_Camera_C_0] Portal and Walk
+[2024.06.13-12.56.28:776][230]LogBlueprintUserMessages: [Bp_AiEnemy_C_8] Sentiu algo
+[2024.06.13-12.56.28:776][230]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Portal
+[2024.06.13-12.56.28:776][230]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Investigate
+[2024.06.13-12.56.31:958][420]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.56.42:614][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.56.42:615][986]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.56.42:615][986]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.13-12.56.42:616][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.56.42:665][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.13-12.56.42:687][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.56.42:754][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.56.42:755][986]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.06.13-12.56.42:755][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.56.42:755][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.06.13-12.56.42:757][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.06.13-12.56.42:809][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.06.13-12.56.42:851][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.56.42:922][987]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2024.06.13-12.56.42:924][987]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.06.13-12.56.42:936][987]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.06.13-12.56.42:968][987]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.06.13-12.56.43:441][ 15]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.06.13-12.56.51:125][474]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.13-12.56.52:315][544]LogAssetEditorSubsystem: Opening Asset editor for EnvQuery /Game/AI/EQS/EQS_FindEnemy.EQS_FindEnemy
+[2024.06.13-12.56.57:371][839]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.13-12.56.57:413][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/EQS/EQS_Sound" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset" SILENT=true
+[2024.06.13-12.56.57:415][839]LogSavePackage: Moving output files for package: /Game/AI/EQS/EQS_Sound
+[2024.06.13-12.56.57:416][839]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/EQS_SoundF8A6EF9C400B3DF591360B863DF1DE4B.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/EQS_Sound.uasset'
+[2024.06.13-12.56.57:427][839]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 1.70 sec)
+[2024.06.13-12.56.57:431][839]AssetCheck: New page: Asset Save: EQS_Sound
+[2024.06.13-12.56.57:431][839]LogContentValidation: Display: Validating /Script/AIModule.EnvQuery /Game/AI/EQS/EQS_Sound.EQS_Sound
+[2024.06.13-12.56.58:776][920]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.13-12.56.58:835][920]LogFMOD: Display: Loaded bank lookup
+[2024.06.13-12.56.58:835][920]LogFMOD: Display: Loaded asset lookup
+[2024.06.13-12.56.58:841][920]LogFMOD: Default sample rate = 48000
+[2024.06.13-12.56.58:842][920]LogFMOD: System sample rate = 48000
+[2024.06.13-12.56.58:842][920]LogFMOD: Matching system sample rate 48000
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.13-12.56.58:951][920]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.13-12.56.58:986][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.13-12.56.58:986][920]PIE: New page: PIE session: MapasTesteJoao (13/06/2024, 14:56:58)
+[2024.06.13-12.56.58:986][920]LogPlayLevel: Display: Creating online subsystem for client :Context_56
+[2024.06.13-12.56.58:990][920]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.06.13-12.56.59:043][920]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.06.13-12.56.59:064][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.56.59:065][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.56.59:073][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008077s)
+[2024.06.13-12.56.59:073][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.008120s)
+[2024.06.13-12.56.59:083][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.13-12.56.59:087][921]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.56.59:087][921]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.56.59:087][921]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.13-12.56.59:088][921]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2024.06.13-12.56.59:088][921]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.06.13-12.56.59:088][921]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.13-12.56.59:088][921]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.13-12.56.59:088][921]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.13-12.56.59:088][921]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.13-12.56.59:088][921]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.13-12.56.59:088][921]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.13-12.56.59:088][921]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.13-12.56.59:088][921]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.13-12.56.59:088][921]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.13-12.56.59:088][921]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.13-12.56.59:088][921]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.13-12.56.59:090][921]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.13-12.56.59:199][921]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.13-12.56.59:199][921]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.13-12.56.59:199][921]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.13-12.56.59:199][921]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.13-12.56.59:200][921]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.06.13-12.56.59:200][921]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.06.13-12.56.59:201][921]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.06.13-12.56.59:201][921]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.06.13-12.56.59:201][921]LogInit: FAudioDevice initialized with ID 22.
+[2024.06.13-12.56.59:201][921]LogAudio: Display: Audio Device (ID: 22) registered with world 'MapasTesteJoao'.
+[2024.06.13-12.56.59:201][921]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.06.13-12.56.59:203][921]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.13-12.56.59:206][921]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.56.59:206][921]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.56.59:206][921]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.56.59:207][921]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.56.59:207][921]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.56.59:207][921]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.56.59:207][921]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.56.59:207][921]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_8, they are designed to work with AAIControllers!
+[2024.06.13-12.56.59:207][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.13-13.56.59
+[2024.06.13-12.56.59:208][921]LogWorld: Bringing up level for play took: 0.004740
+[2024.06.13-12.56.59:213][921]PIE: Server logged in
+[2024.06.13-12.56.59:213][921]PIE: Play in editor total start time 0,424 seconds.
+[2024.06.13-12.56.59:245][922]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByTag_ReturnValue' of length 0 in '/Game/AI/Bp_V2AiController.Bp_V2AiController_C:ExecuteUbergraph_Bp_V2AiController'!
+[2024.06.13-12.56.59:245][922]LogScript: Warning: Script Msg called by: Bp_V2AiController_C /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_V2AiController_C_0
+[2024.06.13-12.56.59:245][922]LogBlueprintUserMessages: [Bp_V2AiController_C_0] Bp_V2AiController0
+[2024.06.13-12.56.59:780][954]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.06.13-12.56.59:780][954]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.06.13-12.57.03:715][190]Set new viewmode: Wireframe
+[2024.06.13-12.57.04:589][241]Set new viewmode: Wireframe
+[2024.06.13-12.57.05:808][314]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.13-12.57.05:808][314]LogBlueprintUserMessages: [Rts_Camera_C_0] Portal and Walk
+[2024.06.13-12.57.06:308][344]LogBlueprintUserMessages: [Bp_AiEnemy_C_8] Sentiu algo
+[2024.06.13-12.57.06:309][344]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Portal
+[2024.06.13-12.57.06:309][344]LogBlueprintUserMessages: [Bp_V2AiController_C_1] Investigate
+[2024.06.13-12.57.08:315][464]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.57.13:315][764]LogAnimation: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.57.30:748][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.57.30:748][793]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.57.30:748][793]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.13-12.57.30:750][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.57.30:796][793]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.13-12.57.30:800][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.57.30:811][793]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.13-12.57.30:811][793]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.06.13-12.57.30:811][793]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.57.30:811][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.06.13-12.57.30:813][793]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.06.13-12.57.30:820][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.57.30:824][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.06.13-12.57.30:961][794]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.06.13-12.57.33:897][967]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.13-12.57.33:945][967]LogFMOD: Display: Loaded bank lookup
+[2024.06.13-12.57.33:945][967]LogFMOD: Display: Loaded asset lookup
+[2024.06.13-12.57.33:947][967]LogFMOD: Default sample rate = 48000
+[2024.06.13-12.57.33:947][967]LogFMOD: System sample rate = 48000
+[2024.06.13-12.57.33:947][967]LogFMOD: Matching system sample rate 48000
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.13-12.57.34:024][967]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.13-12.57.34:066][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.13-12.57.34:066][967]PIE: New page: PIE session: MapasTesteJoao (13/06/2024, 14:57:34)
+[2024.06.13-12.57.34:066][967]LogPlayLevel: Display: Creating online subsystem for client :Context_57
+[2024.06.13-12.57.34:071][967]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2024.06.13-12.57.34:115][968]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.57.34:124][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007709s)
+[2024.06.13-12.57.34:124][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.009177s)
+[2024.06.13-12.57.34:136][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.06.13-12.57.34:138][968]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.13-12.57.34:138][968]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.13-12.57.34:139][968]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.13-12.57.34:139][968]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2024.06.13-12.57.34:139][968]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.06.13-12.57.34:139][968]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.13-12.57.34:139][968]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.13-12.57.34:139][968]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.13-12.57.34:139][968]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.13-12.57.34:139][968]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.13-12.57.34:139][968]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.13-12.57.34:139][968]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.13-12.57.34:139][968]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.13-12.57.34:139][968]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.13-12.57.34:140][968]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.13-12.57.34:140][968]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.13-12.57.34:141][968]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.13-12.57.34:238][968]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.13-12.57.34:238][968]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.13-12.57.34:238][968]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.13-12.57.34:238][968]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.13-12.57.34:239][968]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.06.13-12.57.34:239][968]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.06.13-12.57.34:240][968]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.06.13-12.57.34:240][968]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.06.13-12.57.34:240][968]LogInit: FAudioDevice initialized with ID 23.
+[2024.06.13-12.57.34:240][968]LogAudio: Display: Audio Device (ID: 23) registered with world 'MapasTesteJoao'.
+[2024.06.13-12.57.34:241][968]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.06.13-12.57.34:243][968]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.13-12.57.34:245][968]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.57.34:245][968]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.57.34:245][968]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.57.34:246][968]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_0, they are designed to work with AAIControllers!
+[2024.06.13-12.57.34:246][968]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.57.34:246][968]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.13-12.57.34:246][968]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.13-12.57.34:246][968]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_8, they are designed to work with AAIControllers!
+[2024.06.13-12.57.34:246][968]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.13-13.57.34
+[2024.06.13-12.57.34:247][968]LogWorld: Bringing up level for play took: 0.004969
+[2024.06.13-12.57.34:251][968]PIE: Server logged in
+[2024.06.13-12.57.34:253][968]PIE: Play in editor total start time 0,341 seconds.
+[2024.06.13-12.57.34:253][968]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.57.34:303][970]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetComponentsByTag_ReturnValue' of length 0 in '/Game/AI/Bp_V2AiController.Bp_V2AiController_C:ExecuteUbergraph_Bp_V2AiController'!
+[2024.06.13-12.57.34:304][970]LogScript: Warning: Script Msg called by: Bp_V2AiController_C /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao:PersistentLevel.Bp_V2AiController_C_0
+[2024.06.13-12.57.34:304][970]LogBlueprintUserMessages: [Bp_V2AiController_C_0] Bp_V2AiController0
+[2024.06.13-12.57.35:112][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.57.35:112][ 10]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.13-12.57.35:112][ 10]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.13-12.57.35:113][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.57.35:159][ 10]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.13-12.57.35:164][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.57.35:173][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.13-12.57.35:174][ 10]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.06.13-12.57.35:174][ 10]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.13-12.57.35:174][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.06.13-12.57.35:175][ 10]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.06.13-12.57.35:188][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.13-12.57.35:301][ 11]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2024.06.13-12.57.40:799][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.13-12.57.41:549][337]LogSlate: Window 'Save Content' being destroyed
+[2024.06.13-12.57.41:570][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.13-12.57.41:599][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Bp_V2AiController" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/Bp_V2AiController.uasset" SILENT=true
+[2024.06.13-12.57.41:636][337]LogSavePackage: Moving output files for package: /Game/AI/Bp_V2AiController
+[2024.06.13-12.57.41:637][337]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Bp_V2AiControllerEE162ACA40A25B7144658CBB6E2FC856.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/Bp_V2AiController.uasset'
+[2024.06.13-12.57.41:639][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_NewEnemy" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/BT_NewEnemy.uasset" SILENT=true
+[2024.06.13-12.57.41:651][337]LogSavePackage: Moving output files for package: /Game/AI/BT_NewEnemy
+[2024.06.13-12.57.41:652][337]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/BT_NewEnemyE16EA27942211275858E7D87C2B9C18B.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/BT_NewEnemy.uasset'
+[2024.06.13-12.57.41:657][337]LogSavePackage: Moving output files for package: /Game/AI/EQS/SoundLocation_Contex
+[2024.06.13-12.57.41:658][337]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/SoundLocation_Contex85402E744321DB67CE97C6A4896E9431.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/EQS/SoundLocation_Contex.uasset'
+[2024.06.13-12.57.41:669][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 1.80 sec)
+[2024.06.13-12.57.41:671][337]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.13-12.57.41:671][337]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/Bp_V2AiController.Bp_V2AiController
+[2024.06.13-12.57.41:671][337]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/AI/BT_NewEnemy.BT_NewEnemy
+[2024.06.13-12.57.41:671][337]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AI/EQS/SoundLocation_Contex.SoundLocation_Contex
