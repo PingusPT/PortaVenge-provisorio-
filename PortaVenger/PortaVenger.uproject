@@ -27,6 +27,11 @@
 			"Name": "LineOfSight",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/564592e6f64e47a9a2401e5216ae4738"
+		},
+		{
+			"Name": "AdvancedFadeObjects",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/5797fa36906648ba8ffdeb6ee94c903e"
 		}
 	]
 }
