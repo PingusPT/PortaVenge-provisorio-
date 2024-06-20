@@ -13231,3 +13231,219 @@ Script call stack:
 [2024.06.20-10.11.22:387][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.06.20-10.11.22:465][484]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
 [2024.06.20-10.11.22:465][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.20-10.11.49:991][815]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-10.11.49:991][815]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-10.11.54:584][ 87]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/AI/BT_NewEnemy.BT_NewEnemy
+[2024.06.20-10.12.18:371][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.20-10.12.19:059][500]LogSlate: Window 'Save Content' being destroyed
+[2024.06.20-10.12.19:083][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.20-10.12.19:113][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_NewEnemy" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/BT_NewEnemy.uasset" SILENT=true
+[2024.06.20-10.12.19:131][500]LogSavePackage: Moving output files for package: /Game/AI/BT_NewEnemy
+[2024.06.20-10.12.19:132][500]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/BT_NewEnemy382DBA854EDCC60ABF0B39890D9F9BAD.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/AI/BT_NewEnemy.uasset'
+[2024.06.20-10.12.19:147][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.60 sec)
+[2024.06.20-10.12.19:149][500]AssetCheck: New page: Asset Save: BT_NewEnemy
+[2024.06.20-10.12.19:149][500]LogContentValidation: Display: Validating /Script/AIModule.BehaviorTree /Game/AI/BT_NewEnemy.BT_NewEnemy
+[2024.06.20-10.23.22:440][567]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.06.20-10.23.22:440][567]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.06.20-10.23.22:447][567]LogAutomationController: Ignoring very large delta of 71.03 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 0 (Found bundle for host: 0x6b622950a20 [serially])
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 7 (Closing connection)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 9 (Send failure: Connection was reset)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E0B9BED-485E-4F00-EC51-B38E766D97D5%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=8d783f944c853452b8cb93952ed09bd9%7C7e2aca84ace94e9da397b5ad33121dce%7Ce76001e3-3985-4479-82a6-607dda66709b&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 12 (  Trying 3.214.245.206:443...)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (3.214.245.206) port 443)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 15 (SSL reusing session ID)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 22 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 23 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 24 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 25 (ALPN: server accepted http/1.1)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 26 (Server certificate:)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 27 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 28 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 29 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 30 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 31 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 32 ( SSL certificate verify ok.)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 33 (using HTTP/1.1)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 34 (necessary data rewind wasn't possible)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 35 (Closing connection)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: 000006B6F05AEB00: libcurl info message cache 36 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.06.20-10.23.23:106][570]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E0B9BED-485E-4F00-EC51-B38E766D97D5%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=8d783f944c853452b8cb93952ed09bd9%7C7e2aca84ace94e9da397b5ad33121dce%7Ce76001e3-3985-4479-82a6-607dda66709b&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.06.20-10.25.06:472][581]LogAutomationController: Ignoring very large delta of 99.70 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.20-10.25.07:216][582]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.06.20-10.25.07:216][582]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.06.20-10.25.22:395][237]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Widgets/Snake/Easy.Easy
+[2024.06.20-10.25.22:408][237]LogTexture: Display: Building textures: /Game/Widgets/Snake/Easy.Easy (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 190.960938 MB), EncodeSpeed: Fast
+[2024.06.20-10.25.22:506][237]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.25.22:506][237]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.25.22:507][237]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.25.22:507][237]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.25.22:507][237]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.25.22:507][237]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.25.22:507][237]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.25.22:540][237]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2024.06.20-10.25.23:523][294]LogViewport: Scene viewport resized to 1419x828, mode Windowed.
+[2024.06.20-10.25.25:757][428]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2024.06.20-10.26.29:297][889]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Widgets/Snake/Hard.Hard
+[2024.06.20-10.26.29:372][889]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.29:372][889]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.29:372][889]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.26.29:372][889]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.29:372][889]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.29:372][889]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.26.29:372][889]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.26.29:403][889]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2024.06.20-10.26.29:447][890]LogViewport: Scene viewport resized to 1419x828, mode Windowed.
+[2024.06.20-10.26.30:758][969]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2024.06.20-10.26.42:578][220]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Widgets/Snake/Medium.Medium
+[2024.06.20-10.26.42:650][220]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.42:650][220]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.42:650][220]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.26.42:650][220]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.42:650][220]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-10.26.42:650][220]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.26.42:651][220]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-10.26.42:687][220]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2024.06.20-10.26.42:731][221]LogViewport: Scene viewport resized to 1419x828, mode Windowed.
+[2024.06.20-10.26.43:445][264]LogViewport: Scene viewport resized to 1419x843, mode Windowed.
+[2024.06.20-11.32.38:559][475]LogAutomationController: Ignoring very large delta of 3935.59 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.20-11.32.38:633][476]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.06.20-11.32.38:633][476]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\core_api\platforms\win\src\fmod_output_wasapi.cpp(622) - Starvation detected in WASAPI output buffer!
+
+[2024.06.20-11.35.29:603][ 88]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.20-11.35.29:664][ 88]LogFMOD: Display: Loaded bank lookup
+[2024.06.20-11.35.29:664][ 88]LogFMOD: Display: Loaded asset lookup
+[2024.06.20-11.35.29:672][ 88]LogFMOD: Default sample rate = 48000
+[2024.06.20-11.35.29:672][ 88]LogFMOD: System sample rate = 48000
+[2024.06.20-11.35.29:672][ 88]LogFMOD: Matching system sample rate 48000
+[2024.06.20-11.35.29:764][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/AMB.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Foley.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Cam.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Enemy.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Hack.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/MX.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Player.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/Stingers.bank
+[2024.06.20-11.35.29:765][ 88]LogFMOD: Loading bank: ../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/FMOD/Desktop/UI.bank
+[2024.06.20-11.35.29:843][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.20-11.35.29:843][ 88]PIE: New page: PIE session: MapasTesteJoao (20/06/2024, 13:35:29)
+[2024.06.20-11.35.29:843][ 88]LogPlayLevel: Display: Creating online subsystem for client :Context_66
+[2024.06.20-11.35.29:846][ 88]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.06.20-11.35.29:871][ 89]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.20-11.35.29:902][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009109s)
+[2024.06.20-11.35.29:903][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MapasTesteJoao.MapasTesteJoao to /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao (0.031218s)
+[2024.06.20-11.35.29:916][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.06.20-11.35.29:923][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.20-11.35.29:923][ 89]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.20-11.35.29:924][ 89]LogAIModule: Creating AISystem for world MapasTesteJoao
+[2024.06.20-11.35.29:924][ 89]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2024.06.20-11.35.29:924][ 89]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.06.20-11.35.29:924][ 89]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.20-11.35.29:924][ 89]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.20-11.35.29:924][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.20-11.35.29:924][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.20-11.35.29:924][ 89]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.20-11.35.29:924][ 89]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.20-11.35.29:924][ 89]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.20-11.35.29:924][ 89]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.20-11.35.29:925][ 89]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.20-11.35.29:925][ 89]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.20-11.35.29:925][ 89]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.20-11.35.29:927][ 89]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.20-11.35.29:986][ 89]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2024.06.20-11.35.29:986][ 89]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.20-11.35.29:986][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.20-11.35.29:986][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.20-11.35.29:987][ 89]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.06.20-11.35.29:987][ 89]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.06.20-11.35.29:989][ 89]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.06.20-11.35.29:989][ 89]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.06.20-11.35.29:989][ 89]LogInit: FAudioDevice initialized with ID 27.
+[2024.06.20-11.35.29:989][ 89]LogAudio: Display: Audio Device (ID: 27) registered with world 'MapasTesteJoao'.
+[2024.06.20-11.35.29:989][ 89]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.06.20-11.35.29:992][ 89]LogLoad: Game class is 'Main_GameMode_C'
+[2024.06.20-11.35.29:994][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-11.35.29:995][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-11.35.29:995][ 89]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-11.35.29:995][ 89]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_2, they are designed to work with AAIControllers!
+[2024.06.20-11.35.29:996][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-11.35.29:996][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-11.35.29:996][ 89]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.20-11.35.29:996][ 89]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemy_C_3, they are designed to work with AAIControllers!
+[2024.06.20-11.35.29:997][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class EnemyGordo_ABP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-11.35.29:997][ 89]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class EnemyGordo_ABP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.20-11.35.29:997][ 89]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.20-11.35.29:998][ 89]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with Bp_AiEnemyGordo_C_1, they are designed to work with AAIControllers!
+[2024.06.20-11.35.29:998][ 89]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapasTesteJoao.MapasTesteJoao up for play (max tick rate 60) at 2024.06.20-12.35.29
+[2024.06.20-11.35.29:999][ 89]LogWorld: Bringing up level for play took: 0.007422
+[2024.06.20-11.35.30:001][ 89]LogBlueprintUserMessages: [Main_GameMode_C_0] GAMEMODE
+
+[2024.06.20-11.35.30:005][ 89]PIE: Server logged in
+[2024.06.20-11.35.30:006][ 89]PIE: Play in editor total start time 0,387 seconds.
+[2024.06.20-11.35.30:007][ 89]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.20-11.35.30:049][ 90]LogBlueprintUserMessages: [EnemyGordo_ABP_C_0] Valid
+[2024.06.20-11.35.31:613][184]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.06.20-11.35.31:613][184]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CapturePermanently_IncludingInitialMouseDown
+[2024.06.20-11.35.31:613][184]LogBlueprintUserMessages: [Rts_Camera_C_0] RTS
+[2024.06.20-11.35.32:548][240]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2024.06.20-11.35.34:490][321]LogBlueprintUserMessages: [Rts_Camera_C_0] Click
+[2024.06.20-11.35.34:490][321]LogBlueprintUserMessages: [Rts_Camera_C_0] Enemy and Walk
+[2024.06.20-11.35.35:854][377]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\studio_api\src\fmod_objectlookup.h(124) - Lookup failed for EventModel: {a20bac4a-c0f8-4259-91e0-3eb267f1493a}
+
+[2024.06.20-11.35.36:287][403]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\studio_api\src\fmod_objectlookup.h(124) - Lookup failed for EventModel: {a20bac4a-c0f8-4259-91e0-3eb267f1493a}
+
+[2024.06.20-11.35.36:821][435]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\studio_api\src\fmod_objectlookup.h(124) - Lookup failed for EventModel: {a20bac4a-c0f8-4259-91e0-3eb267f1493a}
+
+[2024.06.20-11.35.37:254][461]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\studio_api\src\fmod_objectlookup.h(124) - Lookup failed for EventModel: {a20bac4a-c0f8-4259-91e0-3eb267f1493a}
+
+[2024.06.20-11.35.37:787][493]LogFMOD: Warning: C:\buildagent1\work\570ad728b1678096\studio_api\src\fmod_objectlookup.h(124) - Lookup failed for EventModel: {a20bac4a-c0f8-4259-91e0-3eb267f1493a}
+
+[2024.06.20-11.35.37:904][500]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2024.06.20-11.35.42:472][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.20-11.35.42:472][666]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MapasTesteJoao
+[2024.06.20-11.35.42:472][666]LogWorld: UWorld::CleanupWorld for MapasTesteJoao, bSessionEnded=true, bCleanupResources=true
+[2024.06.20-11.35.42:473][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.20-11.35.42:477][666]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.20-11.35.42:518][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.20-11.35.42:530][666]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.20-11.35.42:530][666]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.06.20-11.35.42:530][666]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.20-11.35.42:530][666]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.06.20-11.35.42:532][666]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.06.20-11.35.42:541][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.20-11.35.42:546][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.06.20-11.35.42:659][667]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.06.20-11.43.54:029][846]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Bp/Rts_Camera.Rts_Camera
+[2024.06.20-11.43.54:030][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.20-11.43.54:030][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.20-11.44.28:866][825]BlueprintLog: New page: Compile Rts_Camera
+[2024.06.20-11.44.28:957][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.06.20-11.44.56:690][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.06.20-11.44.56:712][935]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MapasTesteJoao' took 0.037
+[2024.06.20-11.44.56:713][935]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Bp/Rts_Camera] ([2] browsable assets)...
+[2024.06.20-11.44.56:723][935]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bp/Rts_Camera.Rts_Camera]
+[2024.06.20-11.44.56:723][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bp/Rts_Camera]
+[2024.06.20-11.44.56:831][935]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Bp/Rts_Camera_Auto2
+[2024.06.20-11.44.56:831][935]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Rts_Camera_Auto202DC4B864A54BFF79630D4808F374A23.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Autosaves/Game/Bp/Rts_Camera_Auto2.uasset'
+[2024.06.20-11.44.56:833][935]LogFileHelpers: Auto-saving content packages took 0.121
