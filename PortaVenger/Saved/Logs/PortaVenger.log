@@ -2232,3 +2232,157 @@ LogInit: Object subsystem initialized
 [2024.06.24-13.39.16:019][281]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
 [2024.06.24-13.39.16:058][282]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
 [2024.06.24-13.39.16:060][282]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Gordo/SKELMESH/InimigoGordo_SkelMesh.InimigoGordo_SkelMesh
+[2024.06.24-13.40.05:766][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.06.24-13.40.05:909][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.24-13.40.05:938][888]LogAssetEditorSubsystem: Opening Asset editor for World /Game/2ndLevel.2ndLevel
+[2024.06.24-13.40.05:938][888]Cmd: MAP LOAD FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/2ndLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.06.24-13.40.05:938][888]LightingResults: New page: Lighting Build
+[2024.06.24-13.40.05:939][888]LoadErrors: New page: Loading map: 2ndLevel.umap
+[2024.06.24-13.40.05:996][888]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2024.06.24-13.40.05:996][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-13.40.05:996][888]MapCheck: New page: Map Check
+[2024.06.24-13.40.05:996][888]LightingResults: New page: Lighting Build
+[2024.06.24-13.40.06:010][888]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.24-13.40.06:020][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.06.24-13.40.06:032][888]LogWorld: UWorld::CleanupWorld for 2ndLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.24-13.40.06:034][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-13.40.06:052][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.06.24-13.40.06:066][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.24-13.40.06:102][888]LogAudio: Display: Audio Device (ID: 1) registered with world '2ndLevel'.
+[2024.06.24-13.40.06:102][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.24-13.40.06:102][888]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.24-13.40.06:102][888]LogAIModule: Creating AISystem for world 2ndLevel
+[2024.06.24-13.40.06:178][888]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.24-13.40.06:195][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.06.24-13.40.06:209][888]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.24-13.40.06:209][888]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,172ms to complete.
+[2024.06.24-13.40.06:505][891]LogSlate: Took 0.000692 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.06.24-13.44.07:062][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.06.24-13.44.07:795][458]LogSlate: Window 'Save Content' being destroyed
+[2024.06.24-13.44.07:824][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.24-13.44.07:918][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.06.24-13.44.08:085][458]LogSavePackage: Moving output files for package: /Game/2ndLevel
+[2024.06.24-13.44.08:085][458]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/2ndLevelC8067AE14C00434E425BE3B0220D8454.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/2ndLevel.umap'
+[2024.06.24-13.44.08:102][458]LogFileHelpers: Saving map '2ndLevel' took 0.252
+[2024.06.24-13.44.08:108][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 284 ms (total: 2.02 sec)
+[2024.06.24-13.44.08:114][458]AssetCheck: New page: Asset Save: 2ndLevel
+[2024.06.24-13.44.08:114][458]LogContentValidation: Display: Validating /Script/Engine.World /Game/2ndLevel.2ndLevel
+[2024.06.24-13.44.13:714][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.06.24-13.44.13:751][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.24-13.44.13:752][786]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.06.24-13.44.13:752][786]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.06.24-13.44.13:752][786]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.06.24-13.44.13:787][786]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.06.24-13.44.13:787][786]LogWorldPartition: Display: WorldPartition initialize took 34 ms (total: 4.44 sec)
+[2024.06.24-13.44.13:789][786]LogAssetEditorSubsystem: Opening Asset editor for World /Game/1stLevel.1stLevel
+[2024.06.24-13.44.13:789][786]Cmd: MAP LOAD FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/1stLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.06.24-13.44.13:789][786]LightingResults: New page: Lighting Build
+[2024.06.24-13.44.13:790][786]LoadErrors: New page: Loading map: 1stLevel.umap
+[2024.06.24-13.44.13:849][786]LogWorld: UWorld::CleanupWorld for 2ndLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.24-13.44.13:850][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-13.44.13:850][786]MapCheck: New page: Map Check
+[2024.06.24-13.44.13:850][786]LightingResults: New page: Lighting Build
+[2024.06.24-13.44.13:860][786]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.24-13.44.13:872][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.06.24-13.44.13:875][786]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.24-13.44.13:875][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-13.44.13:882][786]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.06.24-13.44.13:899][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.06.24-13.44.13:911][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.06.24-13.44.13:920][786]LogAudio: Display: Audio Device (ID: 1) registered with world '1stLevel'.
+[2024.06.24-13.44.13:920][786]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.24-13.44.13:920][786]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.24-13.44.13:921][786]LogAIModule: Creating AISystem for world 1stLevel
+[2024.06.24-13.44.13:921][786]LogWorldPartition: ULevel::OnLevelLoaded(1stLevel)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.06.24-13.44.13:922][786]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.06.24-13.44.13:922][786]LogWorldPartition: UWorldPartition::Initialize : World = 1stLevel, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.06.24-13.44.15:643][786]LogContentBundle: [1stLevel(Standalone)] Creating new contrainer.
+[2024.06.24-13.44.15:643][786]LogWorldPartition: Display: WorldPartition initialize took 1.72 sec (total: 6.16 sec)
+[2024.06.24-13.44.15:655][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:655][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:655][786]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.24-13.44.15:657][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:657][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:657][786]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.24-13.44.15:668][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:668][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:668][786]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.24-13.44.15:675][786]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Player_X1/SKELMESH/X1_SKELMESH.X1_SKELMESH
+[2024.06.24-13.44.15:694][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:694][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:694][786]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.24-13.44.15:696][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:696][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:696][786]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.24-13.44.15:701][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:701][786]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class IP_AnimBP_C already exists. Remove duplicates from the animation graph for this class.
+[2024.06.24-13.44.15:701][786]LogSkeletalMesh: Error: Overlay material with missing usage flag was applied to skeletal mesh /Game/Inimigos/Pequeno/MESH/InimigoPequeno_SkelMesh.InimigoPequeno_SkelMesh
+[2024.06.24-13.44.15:794][786]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2024.06.24-13.44.15:824][786]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.24-13.44.15:871][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.06.24-13.44.15:885][786]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.24-13.44.15:889][786]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,957ms to complete.
+[2024.06.24-13.44.15:901][786]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.112496s (0.112496s overbudget)
+[2024.06.24-13.44.16:018][787]LogAutomationController: Ignoring very large delta of 2.32 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.24-13.44.50:663][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.06.24-13.44.50:732][521]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.24-13.44.50:754][521]LogAssetEditorSubsystem: Opening Asset editor for World /Game/2ndLevel.2ndLevel
+[2024.06.24-13.44.50:755][521]Cmd: MAP LOAD FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/2ndLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.06.24-13.44.50:755][521]LightingResults: New page: Lighting Build
+[2024.06.24-13.44.50:755][521]LoadErrors: New page: Loading map: 2ndLevel.umap
+[2024.06.24-13.44.50:825][521]LogWorld: UWorld::CleanupWorld for 1stLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.24-13.44.50:825][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-13.44.50:851][521]LogContentBundle: [1stLevel(Standalone)] Deleting container.
+[2024.06.24-13.44.50:852][521]MapCheck: New page: Map Check
+[2024.06.24-13.44.50:852][521]LightingResults: New page: Lighting Build
+[2024.06.24-13.44.50:869][521]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.24-13.44.50:931][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.06.24-13.44.50:941][521]LogWorld: UWorld::CleanupWorld for 2ndLevel, bSessionEnded=true, bCleanupResources=true
+[2024.06.24-13.44.50:943][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.24-13.44.50:961][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.06.24-13.44.50:975][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.24-13.44.51:014][521]LogAudio: Display: Audio Device (ID: 1) registered with world '2ndLevel'.
+[2024.06.24-13.44.51:014][521]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.24-13.44.51:014][521]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.24-13.44.51:014][521]LogAIModule: Creating AISystem for world 2ndLevel
+[2024.06.24-13.44.51:075][521]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.24-13.44.51:097][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.06.24-13.44.51:111][521]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.24-13.44.51:111][521]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,171ms to complete.
+[2024.06.24-13.46.52:537][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.06.24-13.46.53:363][640]LogSlate: Window 'Save Content' being destroyed
+[2024.06.24-13.46.53:387][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.24-13.46.53:481][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.06.24-13.46.53:699][640]LogSavePackage: Moving output files for package: /Game/2ndLevel
+[2024.06.24-13.46.53:700][640]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/2ndLevel29BC4D8540185A0932A81991CD14CC56.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/2ndLevel.umap'
+[2024.06.24-13.46.53:717][640]LogFileHelpers: Saving map '2ndLevel' took 0.304
+[2024.06.24-13.46.53:722][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 335 ms (total: 2.35 sec)
+[2024.06.24-13.46.53:727][640]AssetCheck: New page: Asset Save: 2ndLevel
+[2024.06.24-13.46.53:727][640]LogContentValidation: Display: Validating /Script/Engine.World /Game/2ndLevel.2ndLevel
+[2024.06.24-13.47.55:638][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.06.24-13.47.56:343][266]LogSlate: Window 'Save Content' being destroyed
+[2024.06.24-13.47.56:369][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.24-13.47.56:464][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.06.24-13.47.56:725][266]LogSavePackage: Moving output files for package: /Game/2ndLevel
+[2024.06.24-13.47.56:726][266]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/2ndLevel0ADDCB2C4A2687CBA2E22DA59F483EFE.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/2ndLevel.umap'
+[2024.06.24-13.47.56:743][266]LogFileHelpers: Saving map '2ndLevel' took 0.346
+[2024.06.24-13.47.56:751][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 382 ms (total: 2.73 sec)
+[2024.06.24-13.47.56:755][266]AssetCheck: New page: Asset Save: 2ndLevel
+[2024.06.24-13.47.56:755][266]LogContentValidation: Display: Validating /Script/Engine.World /Game/2ndLevel.2ndLevel
+[2024.06.24-13.48.39:957][768]Cmd: TRANSACTION UNDO
+[2024.06.24-13.48.39:957][768]LogEditorTransaction: Undo Scale Elements
+[2024.06.24-13.49.06:404][300]Cmd: DELETE
+[2024.06.24-13.49.06:405][300]Cmd: ACTOR DELETE
+[2024.06.24-13.49.06:414][300]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.06.24-13.49.06:425][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.06.24-13.49.06:428][300]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2024.06.24-13.49.08:377][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.06.24-13.49.09:008][416]LogSlate: Window 'Save Content' being destroyed
+[2024.06.24-13.49.09:036][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.24-13.49.09:138][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.06.24-13.49.09:400][416]LogSavePackage: Moving output files for package: /Game/2ndLevel
+[2024.06.24-13.49.09:400][416]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/2ndLevel7A06A43D472E0E939BE270987E7F041E.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/2ndLevel.umap'
+[2024.06.24-13.49.09:419][416]LogFileHelpers: Saving map '2ndLevel' took 0.350
+[2024.06.24-13.49.09:423][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 386 ms (total: 3.12 sec)
+[2024.06.24-13.49.09:427][416]AssetCheck: New page: Asset Save: 2ndLevel
+[2024.06.24-13.49.09:427][416]LogContentValidation: Display: Validating /Script/Engine.World /Game/2ndLevel.2ndLevel
