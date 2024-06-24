@@ -3549,3 +3549,38 @@ Script call stack:
 [2024.06.24-22.17.44:099][709]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
 [2024.06.24-22.17.44:163][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
 [2024.06.24-22.17.44:260][710]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.06.24-22.19.33:073][490]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Bp/Bp_CCTV.Bp_CCTV
+[2024.06.24-22.19.33:074][490]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.24-22.19.33:074][490]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.24-22.20.19:222][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.24-22.20.19:918][ 12]LogSlate: Window 'Save Content' being destroyed
+[2024.06.24-22.20.19:929][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.24-22.20.20:023][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Bp_CCTV" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_CCTV.uasset" SILENT=true
+[2024.06.24-22.20.20:106][ 12]LogSavePackage: Moving output files for package: /Game/Bp/Bp_CCTV
+[2024.06.24-22.20.20:107][ 12]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Bp_CCTV96301954444FB501C5B32680174FA379.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_CCTV.uasset'
+[2024.06.24-22.20.20:122][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 1.73 sec)
+[2024.06.24-22.20.20:128][ 12]AssetCheck: New page: Asset Save: Bp_CCTV
+[2024.06.24-22.20.20:128][ 12]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bp/Bp_CCTV.Bp_CCTV
+[2024.06.24-22.20.28:350][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.06.24-22.20.29:047][501]LogSlate: Window 'Save Content' being destroyed
+[2024.06.24-22.20.29:063][501]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.24-22.20.29:087][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Bp_CCTV" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_CCTV.uasset" SILENT=true
+[2024.06.24-22.20.29:181][501]LogSavePackage: Moving output files for package: /Game/Bp/Bp_CCTV
+[2024.06.24-22.20.29:182][501]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Bp_CCTV09F7F4F141711E46C39B93BC2CE546D8.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_CCTV.uasset'
+[2024.06.24-22.20.29:192][501]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 1.85 sec)
+[2024.06.24-22.20.29:197][501]AssetCheck: New page: Asset Save: Bp_CCTV
+[2024.06.24-22.20.29:197][501]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bp/Bp_CCTV.Bp_CCTV
+[2024.06.24-22.20.30:349][569]BlueprintLog: New page: Compile Bp_CCTV
+[2024.06.24-22.20.30:449][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.06.24-22.21.36:769][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.06.24-22.21.37:414][881]LogSlate: Window 'Save Content' being destroyed
+[2024.06.24-22.21.37:448][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.24-22.21.37:502][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bp/Bp_CCTV" FILE="../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_CCTV.uasset" SILENT=true
+[2024.06.24-22.21.37:584][881]LogSavePackage: Moving output files for package: /Game/Bp/Bp_CCTV
+[2024.06.24-22.21.37:585][881]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/Bp_CCTV7F2DFC7445E1644359B1B3AED254A8C5.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/Bp/Bp_CCTV.uasset'
+[2024.06.24-22.21.37:589][881]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/1stLevel/B/3L/IKK52UXYVAZVJCTB0J99KD
+[2024.06.24-22.21.37:590][881]LogSavePackage: Moving '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Saved/IKK52UXYVAZVJCTB0J99KDC60FB0724964B497B27870936ED72FA1.tmp' to '../../../../../../Users/anamj/OneDrive/Documentos/GitHub/PortaVenge-provisorio-/PortaVenger/Content/__ExternalActors__/1stLevel/B/3L/IKK52UXYVAZVJCTB0J99KD.uasset'
+[2024.06.24-22.21.37:601][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 2.01 sec)
+[2024.06.24-22.21.37:611][881]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.24-22.21.37:611][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Bp/Bp_CCTV.Bp_CCTV
+[2024.06.24-22.21.37:611][881]LogContentValidation: Display: Validating /Game/Bps_Teste/VictoryRoyale/BP_VictoryRoyale.BP_VictoryRoyale_C /Game/1stLevel.1stLevel:PersistentLevel.BP_VictoryRoyale_C_UAID_80FA5B84E94649F901_1234800956
