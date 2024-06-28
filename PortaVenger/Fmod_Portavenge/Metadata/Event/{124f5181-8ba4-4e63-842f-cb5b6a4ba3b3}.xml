@@ -5,7 +5,7 @@
 			<value>CoinThrow_X1</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d479301a-7d0c-46c8-a505-6f98d70f939e}</destination>
@@ -90,7 +90,7 @@
 	<object class="MixerBusPanner" id="{74798b4f-9c5e-4d40-ac92-f3b597ea6a84}" />
 	<object class="MultiSound" id="{d92b2a59-cf7f-475e-8580-0ded892ed31f}">
 		<property name="length">
-			<value>3.5</value>
+			<value>0.5</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -98,6 +98,9 @@
 		<relationship name="modulators">
 			<destination>{34962517-973f-41f4-a86a-a0e5d244d488}</destination>
 			<destination>{f274453c-8b6d-43b1-b912-550dbf3b70ee}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{1c504067-675e-4714-9c00-5ee815c226bd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1de94dd6-6c37-47c0-8017-81291a13f513}">
@@ -136,6 +139,11 @@
 		<property name="amount">
 			<value>4</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{1c504067-675e-4714-9c00-5ee815c226bd}">
+		<relationship name="audioFile">
+			<destination>{51faabf0-338f-4785-a166-fabe1d9ccd28}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{f50442cf-23fe-4b10-a47a-e17028f602d5}">
 		<relationship name="effects">
