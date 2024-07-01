@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{49dbb8d4-9a89-460d-96f2-3313521f8e76}">
 		<property name="name">
-			<value>DesconfiaSOM_InimigoIP</value>
+			<value>DesconfiaSOM_IP</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

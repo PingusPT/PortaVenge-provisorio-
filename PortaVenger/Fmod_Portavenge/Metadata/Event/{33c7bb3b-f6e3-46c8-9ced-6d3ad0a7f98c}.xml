@@ -5,7 +5,7 @@
 			<value>Menu_Buttons_Hover_UI</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0e6c5fb1-4282-42d7-acab-c7fe19cdf4e9}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{93153881-964c-4232-a4cc-0c9a2d62a276}">
+		<property name="volume">
+			<value>-30</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{f25ac236-f35d-4396-aa37-bb4f7e148f2c}</destination>
 		</relationship>
@@ -90,7 +93,7 @@
 	<object class="MixerBusPanner" id="{d48908a2-af50-417c-84ed-b361a45e26a7}" />
 	<object class="MultiSound" id="{a70d72bb-d50c-4bed-b1d5-f6a2508502ec}">
 		<property name="length">
-			<value>10.5</value>
+			<value>0.20000000000000001</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -98,6 +101,9 @@
 		<relationship name="modulators">
 			<destination>{786d2607-d123-4856-a691-de28044b5eeb}</destination>
 			<destination>{84e99aa5-5632-40b2-a6b5-4c78d0077f12}</destination>
+		</relationship>
+		<relationship name="sounds">
+			<destination>{c9739026-d041-4e15-9ade-a1436e0b889d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4c9b1ee6-6842-49ed-b471-d59f8f58cad1}">
@@ -136,6 +142,11 @@
 		<property name="amount">
 			<value>2</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{c9739026-d041-4e15-9ade-a1436e0b889d}">
+		<relationship name="audioFile">
+			<destination>{7799df1b-c8b2-4295-a3b0-6e93cbd4691a}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{e6b86083-d441-4e1b-8d0a-079c0b10f8e3}">
 		<relationship name="effects">
