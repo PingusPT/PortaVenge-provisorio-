@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{d4461b3a-98aa-45fc-a3c3-619685cdabd4}">
 		<property name="name">
-			<value>DesconfiaMORTO_Inimigo 3</value>
+			<value>DesconfiaMORTO_IP</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>

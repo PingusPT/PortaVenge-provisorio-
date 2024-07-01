@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{77c9e77d-7b40-4774-ab75-8ddd04984a00}">
+		<property name="assetPath">
+			<value>IP/What the hell happened he 18.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.5786848072562358</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{16f7322b-a257-4631-b7f6-09af5bcefb7e}</destination>
+		</relationship>
+	</object>
+</objects>

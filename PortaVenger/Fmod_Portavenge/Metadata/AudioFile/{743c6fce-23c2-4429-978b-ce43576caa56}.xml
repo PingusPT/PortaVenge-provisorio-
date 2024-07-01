@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{743c6fce-23c2-4429-978b-ce43576caa56}">
+		<property name="assetPath">
+			<value>AMB/203301__mzui__room-tone-office-industrial-ambience-05.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>121.94133786848073</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{16f7322b-a257-4631-b7f6-09af5bcefb7e}</destination>
+		</relationship>
+	</object>
+</objects>
