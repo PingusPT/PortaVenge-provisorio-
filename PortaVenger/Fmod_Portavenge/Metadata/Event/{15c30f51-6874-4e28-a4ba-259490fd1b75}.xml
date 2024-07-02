@@ -266,7 +266,7 @@
 	</object>
 	<object class="SpatialiserEffect" id="{e1bff4cd-5884-428a-ad6b-d0ffe039f6e5}">
 		<property name="maximumDistance">
-			<value>45</value>
+			<value>30</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
