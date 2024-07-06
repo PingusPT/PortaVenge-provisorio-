@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\intermediate\\build\\win64\\unrealgame\\inc\\lineofsight\\uht\\lineofsightcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\intermediate\\build\\win64\\x64\\portavenger\\shipping\\engine\\sharedpch.engine.cpp17.h.pch",
+        "Includes": [
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\lineofsight\\definitions.lineofsight.h",
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\source\\lineofsight\\public\\lineofsightcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\proceduralmeshcomponent\\source\\proceduralmeshcomponent\\public\\proceduralmeshcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\proceduralmeshcomponent\\intermediate\\build\\win64\\unrealgame\\inc\\proceduralmeshcomponent\\uht\\proceduralmeshcomponent.generated.h",
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\intermediate\\build\\win64\\unrealgame\\inc\\lineofsight\\uht\\lineofsightcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\lineofsight\\module.lineofsight.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\intermediate\\build\\win64\\x64\\portavenger\\shipping\\engine\\sharedpch.engine.cpp17.h.pch",
+        "Includes": [
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\lineofsight\\definitions.lineofsight.h",
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\source\\lineofsight\\private\\lineofsight.cpp",
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\source\\lineofsight\\public\\lineofsight.h",
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\source\\lineofsight\\private\\lineofsightcomponent.cpp",
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\source\\lineofsight\\public\\lineofsightcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\proceduralmeshcomponent\\source\\proceduralmeshcomponent\\public\\proceduralmeshcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\proceduralmeshcomponent\\intermediate\\build\\win64\\unrealgame\\inc\\proceduralmeshcomponent\\uht\\proceduralmeshcomponent.generated.h",
+            "c:\\users\\josep\\onedrive\\ambiente de trabalho\\git\\portavenge-provisorio-\\portavenger\\plugins\\lineofsight\\intermediate\\build\\win64\\unrealgame\\inc\\lineofsight\\uht\\lineofsightcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
